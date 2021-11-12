@@ -11,6 +11,7 @@ class DataClass(Dataset):
         self.file_name = file_name
         self.max_length = int(args['--max-length'])
         self.sentences, self.aspects, self.labels = self.load_dataset()
+
         if args['--bert-type'] == 'base-bert':
             self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
         elif args['--bert-type'] == 'DeBerta':
@@ -20,10 +21,12 @@ class DataClass(Dataset):
         self.inputs = self.process_data()
         self.labels = torch.tensor(self.labels)
 
-    def load_data(self):
-        df = pd.read_csv(self.file_name, delimiter='\t')
+    def load_dataset(self):
+        df = pd.read_csv(self.file_name, sep='\t')
         sentences, aspects, labels = df.sentence.values, df.category_polarity.values, df.entailed.values
-        return sentences, aspects, labels
+        labels = labels == "yes"
+
+        return sentences, aspects, labels.astype(int)
 
     def process_data(self):
         desc = "Preprocessing dataset {}...".format("")
