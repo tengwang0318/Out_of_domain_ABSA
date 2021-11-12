@@ -41,7 +41,8 @@ print('The number of Test batches: ', len(test_data_loader))
 #############################################################################
 # Run the model on a Test set
 #############################################################################
-model = OodModel(lang=args['--lang'])
+model = OodModel(output_dropout=float(args['--output-dropout']),
+                model_type=args['--bert-type'])
 learn = EvaluateOnTest(model, test_data_loader, model_path='models/' + args['--model-path'])
 learn.predict(device=device)
 

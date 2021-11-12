@@ -26,7 +26,7 @@ class DataClass(Dataset):
         sentences, aspects, labels = df.sentence.values, df.category_polarity.values, df.entailed.values
         labels = labels == "yes"
 
-        return sentences, aspects, labels.astype(int)
+        return sentences, aspects, labels.astype(float)
 
     def process_data(self):
         desc = "Preprocessing dataset {}...".format("")

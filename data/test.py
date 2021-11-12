@@ -6,3 +6,8 @@ print(df.category_polarity.values)
 print(df.entailed.values)
 a = df.entailed.values == 'yes'
 print(a.astype(int))
+import torch
+
+a = torch.randn((32, 128))
+print(a)
+print(a[:, 0].shape)

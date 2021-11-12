@@ -67,11 +67,11 @@ print('The number of validation batches: ', len(dev_data_loader))
 # Define Model & Training Pipeline
 #############################################################################
 model = OodModel(output_dropout=float(args['--output-dropout']),
-                model_type=args['--bert_type'])
+                model_type=args['--bert-type'])
 #############################################################################
 # Start Training
 #############################################################################
-learn = Trainer(model, train_data_loader, dev_data_loader, filename=filename)
+learn = Trainer(model, train_data_loader, dev_data_loader, file_name=filename)
 learn.fit(
     num_epochs=int(args['--max-epoch']),
     args=args,

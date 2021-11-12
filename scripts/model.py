@@ -36,13 +36,13 @@ class OodModel(nn.Module):
     def __init__(self, output_dropout=.1, model_type='base-bert'):
         super(OodModel, self).__init__()
         self.bert = BertEncoder(model_type=model_type)
-        self.ffn = nn.Sequential([
+        self.ffn = nn.Sequential(
             nn.Linear(self.bert.feature_size, self.bert.feature_size),
             nn.Tanh(),
             nn.Dropout(p=output_dropout),
             nn.Linear(self.bert.feature_size, 1),
-
-        ])
+            nn.Sigmoid()
+        )
 
     def forward(self, batch, device):
         """
@@ -54,11 +54,16 @@ class OodModel(nn.Module):
         inputs, num_rows = inputs.to(device), inputs.size(0)
         last_hidden_state = self.bert(inputs)
         logits = self.ffn(last_hidden_state).squeeze(-1)
-        loss = F.binary_cross_entropy_with_logits(logits, targets).cuda()
+        logits = logits[:, 0]
+
+        print(targets)
+        print(logits)
+
+        loss = F.binary_cross_entropy_with_logits(targets,logits).cuda()
         y_pred = self.compute_pred(logits)
         return loss, num_rows, y_pred, targets.cpu().numpy()
 
     @staticmethod
     def compute_pred(logits, threshold=.5):
-        y_pred = torch.sigmoid(logits) > threshold
+        y_pred = logits > threshold
         return y_pred.float().cpu().numpy()
