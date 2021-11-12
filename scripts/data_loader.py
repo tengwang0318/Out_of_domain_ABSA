@@ -24,7 +24,7 @@ class DataClass(Dataset):
     def load_dataset(self):
         df = pd.read_csv(self.file_name, sep='\t')
         sentences, aspects, labels = df.sentence.values, df.category_polarity.values, df.entailed.values
-        labels = labels == "yes"
+        labels = (labels == "yes")
 
         return sentences, aspects, labels.astype(float)
 

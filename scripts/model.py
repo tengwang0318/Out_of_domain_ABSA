@@ -1,4 +1,4 @@
-""" we can use base-bert, T5, DeBerta as our model encoder architecture"""
+""" we can use base-bert, T5, DeBerta as our models encoder architecture"""
 from transformers import BertModel, AutoTokenizer, AutoModelWithLMHead, AutoModel
 import torch.nn.functional as F
 import torch.nn as nn
@@ -9,7 +9,7 @@ import transformers
 class BertEncoder(nn.Module):
     def __init__(self, model_type="base-bert"):
         """
-        :model_type str: model architecture
+        :model_type str: models architecture
         """
         super(BertEncoder, self).__init__()
         if model_type == 'base-bert':
@@ -31,7 +31,7 @@ class BertEncoder(nn.Module):
 
 
 class OodModel(nn.Module):
-    """the model will do aspect based sentiment out of domain"""
+    """the models will do aspect based sentiment out of domain"""
 
     def __init__(self, output_dropout=.1, model_type='base-bert'):
         super(OodModel, self).__init__()
@@ -59,8 +59,11 @@ class OodModel(nn.Module):
 
         # print(targets)
         # print(logits)
-
-        loss = F.binary_cross_entropy_with_logits(targets,logits).cuda()
+        targets = targets.float()
+        logits = logits.float()
+        # loss = F.binary_cross_entropy_with_logits(logits, targets).cuda()
+        loss_function = nn.BCELoss().cuda()
+        loss = loss_function(logits, targets).cuda()
         y_pred = self.compute_pred(logits)
         return loss, num_rows, y_pred, targets.cpu().numpy()
 

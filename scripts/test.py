@@ -4,11 +4,11 @@ Usage:
 
 Options:
     -h --help                         show this screen
-    --model-path=<str>                path of the trained model
+    --models-path=<str>                path of the trained models
     --max-length=<int>                text length [default: 128]
     --seed=<int>                      seed [default: 0]
     --test-batch-size=<int>           batch size [default: 32]
-    --bert-type=<str>                      language choice [default: base_bert]
+    --bert-type=<str>                      language choice [default: base-bert]
     --test-path=<str>                 file path of the test set [default: ]
 """
 from learner import EvaluateOnTest
@@ -18,7 +18,6 @@ from torch.utils.data import DataLoader
 import torch
 from docopt import docopt
 import numpy as np
-
 
 args = docopt(__doc__)
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -39,10 +38,8 @@ test_data_loader = DataLoader(test_dataset,
                               shuffle=False)
 print('The number of Test batches: ', len(test_data_loader))
 #############################################################################
-# Run the model on a Test set
+# Run the models on a Test set
 #############################################################################
-model = OodModel(output_dropout=float(args['--output-dropout']),
-                model_type=args['--bert-type'])
-learn = EvaluateOnTest(model, test_data_loader, model_path='models/' + args['--model-path'])
+model = OodModel(model_type=args['--bert-type'])
+learn = EvaluateOnTest(model, test_data_loader, model_path='models/' + args['--models-path'])
 learn.predict(device=device)
-

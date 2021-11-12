@@ -46,9 +46,9 @@ class EarlyStopping:
             self.counter = 0
 
     def save_checkpoint(self, val_loss, model):
-        """Saves model when validation loss decrease."""
+        """Saves models when validation loss decrease."""
         if self.verbose:
-            print(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving model ...')
+            print(f'Validation loss decreased ({self.val_loss_min:.6f} --> {val_loss:.6f}).  Saving models ...')
         torch.save(model.state_dict(), 'models/' + self.cur_date + '_checkpoint.pt')
         self.val_loss_min = val_loss
 
@@ -67,7 +67,7 @@ class Trainer:
 
     def fit(self, num_epochs, args, device='cuda:0'):
         """
-        Fit the PyTorch model
+        Fit the PyTorch models
         :param num_epochs: number of epochs to train (int)
         :param args:
         :param device: str (defaults to 'cuda:0')
@@ -112,6 +112,8 @@ class Trainer:
                     'NA' if stat is None else str(stat) if isinstance(stat, int) else f'{stat:.4f}'
                 )
             str_stats.append(format_time(time.time() - start_time))
+
+            print(' '.join('{}: {}'.format(*k) for k in zip(headers, str_stats)))
             print('epoch#: ', epoch)
             pbar.write(str_stats, table=True)
             self.early_stop(overall_val_loss, self.model)
@@ -139,7 +141,7 @@ class Trainer:
 
     def predict(self, device='cuda:0', pbar=None):
         """
-        Evaluate the model on a validation set
+        Evaluate the models on a validation set
         :param device: str (defaults to 'cuda:0')
         :param pbar: fast_progress progress bar (defaults to None)
         :returns: overall_val_loss (float), accuracies (dict{'acc': value}, preds (dict)
@@ -165,6 +167,7 @@ class Trainer:
                 index_dict += num_rows
 
         overall_val_loss = overall_val_loss / len(self.val_data_loader.dataset)
+
         return overall_val_loss, preds_dict
 
 
@@ -176,7 +179,7 @@ class EvaluateOnTest:
 
     def predict(self, device='cuda:0', pbar=None):
         """
-        Evaluate the model on a validation set
+        Evaluate the models on a validation set
         :param device: str (defaults to 'cuda:0')
         :param pbar: fast_progress progress bar (defaults to None)
         :returns: None
