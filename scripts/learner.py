@@ -158,6 +158,8 @@ class Trainer:
                 overall_val_loss += loss.item() * num_rows
 
                 current_index = index_dict
+                targets = np.reshape(targets, (num_rows, 1))
+                y_pred = np.reshape(y_pred, (num_rows, 1))
                 preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
                 preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                 index_dict += num_rows
@@ -192,6 +194,8 @@ class EvaluateOnTest:
             for step, batch in enumerate(progress_bar(self.test_data_loader, parent=pbar, leave=(pbar is not None))):
                 _, num_rows, y_pred, targets = self.model(batch, device)
                 current_index = index_dict
+                targets = np.reshape(targets, (num_rows, 1))
+                y_pred = np.reshape(y_pred, (num_rows, 1))
                 preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
                 preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                 index_dict += num_rows
@@ -206,5 +210,5 @@ class EvaluateOnTest:
                 'NA' if stat is None else str(stat) if isinstance(stat, int) else f'{stat:.4f}'
             )
         str_stats.append(format_time(time.time() - start_time))
-        headers = ['F1-Macro', 'F1-Micro', 'JS', 'Time']
+        headers = ["Precision", "Recall", 'Time']
         print(' '.join('{}: {}'.format(*k) for k in zip(headers, str_stats)))

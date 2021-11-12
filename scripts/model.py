@@ -52,12 +52,13 @@ class OodModel(nn.Module):
         """
         inputs, targets = batch
         inputs, num_rows = inputs.to(device), inputs.size(0)
+        targets = targets.to(device)
         last_hidden_state = self.bert(inputs)
         logits = self.ffn(last_hidden_state).squeeze(-1)
         logits = logits[:, 0]
 
-        print(targets)
-        print(logits)
+        # print(targets)
+        # print(logits)
 
         loss = F.binary_cross_entropy_with_logits(targets,logits).cuda()
         y_pred = self.compute_pred(logits)
