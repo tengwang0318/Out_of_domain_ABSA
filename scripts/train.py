@@ -12,7 +12,7 @@ Options:
     --max-epoch=<int>                 max epoch [default: 20]
     --ffn-lr=<float>                  ffn learning rate [default: 0.001]
     --bert-lr=<float>                 bert learning rate [default: 2e-5]
-    --bert_type=<str>                 language choice [default: base bert]
+    --bert-type=<str>                 language choice [default: base-bert]
     --dev-path=<str>                  file path of the dev set [default: '']
     --train-path=<str>                file path of the train set [default: '']
 """

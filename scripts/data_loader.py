@@ -11,11 +11,11 @@ class DataClass(Dataset):
         self.file_name = file_name
         self.max_length = int(args['--max-length'])
         self.sentences, self.aspects, self.labels = self.load_dataset()
-        if args['--bert_type'] == 'base-bert':
+        if args['--bert-type'] == 'base-bert':
             self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
-        elif args['--bert_type'] == 'DeBerta':
+        elif args['--bert-type'] == 'DeBerta':
             self.tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-base")
-        elif args['--bert_type'] == 'T5':
+        elif args['--bert-type'] == 'T5':
             self.tokenizer = AutoTokenizer.from_pretrained("t5-base")
         self.inputs = self.process_data()
         self.labels = torch.tensor(self.labels)
