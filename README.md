@@ -2,7 +2,7 @@
 
 This repo will do "out of domain" aspect based sentiment analysis. It means that you will train a ABSA(Aspect bsaed sentiment analysis) model and use another dataset which is not relevant dataset, get the aspect and sentiment.
 
-You can run the [notebook](https://colab.research.google.com/drive/1LfNqhqheVeY8YrsBI1l3IVlNQp_J6pl5#scrollTo=efxtO9cYNHk6)
+You can run the [notebook](https://colab.research.google.com/drive/1LfNqhqheVeY8YrsBI1l3IVlNQp_J6pl5?usp=sharing)
 
 At first, you need to create a aspect detection model. I just use the [SpanEmo](https://github.com/hasanhuz/SpanEmo), this SpanEmo will get all of the aspects of sentence. Then you need to train the SpanEmo and build a model to output the aspect_polarity.
 
