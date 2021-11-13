@@ -27,7 +27,7 @@ class DataClass(Dataset):
         self.args = args
         self.filename = filename
         self.max_length = int(args['--max-length'])
-        self.data, self.labels = self.load_dataset()
+        self.ids, self.data, self.labels = self.load_dataset()
 
         if args['--lang'] == 'English' and args['--bert-type'] == 'BERT':
             self.bert_tokeniser = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True)
@@ -42,8 +42,8 @@ class DataClass(Dataset):
         """
         df = pd.read_csv(self.filename)
         # df = pd.read_csv(self.filename, sep='\t')
-        x_train, y_train = df.text.values, df.iloc[:, 2:].values
-        return x_train, y_train
+        ids, x_train, y_train = df.ID.values, df.text.values, df.iloc[:, 2:].values
+        return ids, x_train, y_train
 
     def process_data(self):
         desc = "PreProcessing dataset {}...".format('')
@@ -84,7 +84,8 @@ class DataClass(Dataset):
         labels = self.labels[index]
         label_idxs = self.label_indices[index]
         length = self.lengths[index]
-        return inputs, labels, length, label_idxs
+        ids = self.ids[index]
+        return inputs, labels, length, label_idxs, ids
 
     def __len__(self):
         return len(self.inputs)

@@ -1,3 +1,5 @@
+import csv
+
 from transformers import AdamW, get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score, jaccard_score, precision_score, recall_score
 import torch.nn.functional as F
@@ -5,6 +7,7 @@ import numpy as np
 import torch
 import time
 from fastprogress.fastprogress import format_time, master_bar, progress_bar
+from collections import defaultdict
 
 
 class EarlyStopping:
@@ -215,3 +218,64 @@ class EvaluateOnTest:
         str_stats.append(format_time(time.time() - start_time))
         headers = ["Precision", "Recall", 'Time']
         print(' '.join('{}: {}'.format(*k) for k in zip(headers, str_stats)))
+
+
+class PredictTest:
+    def __init__(self, model, fake_test_data_loader, real_test_data_loader, model_path):
+        self.model = model
+        self.fake_test_data_loader = fake_test_data_loader
+        self.real_test_data_loader = real_test_data_loader
+        self.model_path = model_path
+
+    def predict(self, device='cuda:0', pbar=None):
+        self.model.to(device).load_state_dict(torch.load(self.model_path))
+        self.model.eval()
+        current_size = len(self.fake_test_data_loader.dataset)
+        preds_dict = {
+            'y_pred': np.zeros([current_size, 1])
+        }
+        start_time = time.time()
+        with torch.no_grad():
+            index_dict = 0
+            for step, batch in enumerate(progress_bar(self.fake_test_data_loader,
+                                                      parent=pbar,
+                                                      leave=(pbar is not None))):
+                _, num_rows, y_pred, targets = self.model(batch, device)
+                current_index = index_dict
+                preds_dict['y_pre]'][current_index:current_index + num_rows, :] = targets
+                index_dict += num_rows
+        with open('../data/faker.tsv') as f:
+            reader = csv.reader(f, delimiter='\t')
+            next(reader)
+            fake_ids, fake_aspect_polarity, fake_sentences = [], [], []
+            idx = 0
+            for row in reader:
+                if preds_dict['y_pred'][idx] == 1:
+                    fake_ids.append(row[0])
+                    fake_sentences.append(row[1])
+                    fake_aspect_polarity.append(row[4])
+
+        with open("../data/semEval2014.tsv") as f:
+            reader = csv.reader(f, delimiter='\t')
+            next(reader)
+            ids, aspect_polarity, sentences = [], [], []
+            for row in reader:
+                if row[5] == 'yes':
+                    ids.append(row[0])
+                    aspect_polarity.append(row[4])
+                    sentences.append(row[1])
+        fake_data, data = defaultdict(list), defaultdict(list)
+        for i in range(len(fake_ids)):
+            if fake_aspect_polarity[i] not in fake_data[fake_ids[i]]:
+                fake_data[fake_ids[i]].append(fake_aspect_polarity[i])
+        for i in range(len(ids)):
+            if aspect_polarity[i] not in data[ids[i]]:
+                data[ids[i]].append(aspect_polarity[i])
+        right = 0
+        cnt = 0
+        for key, aspects in data.items():
+            for asp in aspects:
+                if asp in fake_data[key]:
+                    right += 1
+                cnt += 1
+        print(f"Precision: {right / cnt}")

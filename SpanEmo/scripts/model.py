@@ -57,7 +57,7 @@ class SpanEmo(nn.Module):
         :return: loss, num_rows, y_pred, targets
         """
         # prepare inputs and targets
-        inputs, targets, lengths, label_idxs = batch
+        inputs, targets, lengths, label_idxs, ids = batch
         inputs, num_rows = inputs.to(device), inputs.size(0)
         label_idxs, targets = label_idxs[0].long().to(device), targets.float().to(device)
 
@@ -79,7 +79,7 @@ class SpanEmo(nn.Module):
             loss = self.corr_loss(logits, targets)
 
         y_pred = self.compute_pred(logits)
-        return loss, num_rows, y_pred, targets.cpu().numpy()
+        return loss, num_rows, y_pred, targets.cpu().numpy(), ids
 
     @staticmethod
     def corr_loss(y_hat, y_true, reduction='mean'):

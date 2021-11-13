@@ -1,3 +1,5 @@
+import csv
+
 from fastprogress.fastprogress import format_time, master_bar, progress_bar
 from transformers import AdamW, get_linear_schedule_with_warmup
 from sklearn.metrics import f1_score, jaccard_score, precision_score, recall_score
@@ -87,7 +89,7 @@ class Trainer(object):
             self.model.train()
             overall_training_loss = 0.0
             for step, batch in enumerate(progress_bar(self.train_data_loader, parent=pbar)):
-                loss, num_rows, _, _ = self.model(batch, device)
+                loss, num_rows, _, _, _ = self.model(batch, device)
                 overall_training_loss += loss.item() * num_rows
 
                 loss.backward()
@@ -159,7 +161,7 @@ class Trainer(object):
         with torch.no_grad():
             index_dict = 0
             for step, batch in enumerate(progress_bar(self.val_data_loader, parent=pbar, leave=(pbar is not None))):
-                loss, num_rows, y_pred, targets = self.model(batch, device)
+                loss, num_rows, y_pred, targets, _ = self.model(batch, device)
                 overall_val_loss += loss.item() * num_rows
 
                 current_index = index_dict
@@ -201,12 +203,18 @@ class EvaluateOnTest(object):
         start_time = time.time()
         with torch.no_grad():
             index_dict = 0
-            for step, batch in enumerate(progress_bar(self.test_data_loader, parent=pbar, leave=(pbar is not None))):
-                _, num_rows, y_pred, targets = self.model(batch, device)
-                current_index = index_dict
-                preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
-                preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
-                index_dict += num_rows
+            with open('predict.csv', 'w') as f:
+                writer = csv.writer(f)
+                writer.writerow(['ID', 'text', 'food', 'experience', 'service', 'atmosphere', 'price'])
+                for step, batch in enumerate(
+                        progress_bar(self.test_data_loader, parent=pbar, leave=(pbar is not None))):
+                    _, num_rows, y_pred, targets, ids = self.model(batch, device)
+                    current_index = index_dict
+                    preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
+                    preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
+                    index_dict += num_rows
+                    for i in range(num_rows):
+                        writer.writerow([ids[i].numpy(), "", ] + y_pred[i].tolist())
 
         y_true, y_pred = preds_dict['y_true'], preds_dict['y_pred']
         str_stats = []
