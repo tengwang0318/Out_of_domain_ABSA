@@ -84,7 +84,7 @@ class SpanEmo(nn.Module):
     @staticmethod
     def corr_loss(y_hat, y_true, reduction='mean'):
         """
-        :param y_hat: models predictions, shape(batch, classes)
+        :param y_hat: model predictions, shape(batch, classes)
         :param y_true: target labels (batch, classes)
         :param reduction: whether to avg or sum loss
         :return: loss
@@ -101,7 +101,7 @@ class SpanEmo(nn.Module):
     @staticmethod
     def compute_pred(logits, threshold=0.5):
         """
-        :param logits: models predictions
+        :param logits: model predictions
         :param threshold: threshold value
         :return:
         """

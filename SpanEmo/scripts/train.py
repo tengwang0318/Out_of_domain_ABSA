@@ -43,7 +43,7 @@ else:
     print("Currently using CPU")
 #####################################################################
 # Save hyper-parameter values ---> config.json
-# Save models weights ---> filename.pt using current time
+# Save model weights ---> filename.pt using current time
 #####################################################################
 now = datetime.datetime.now()
 filename = now.strftime("%Y-%m-%d-%H:%M:%S")

@@ -5,7 +5,7 @@ Usage:
 Options:
     -h --help                         show this screen
     --bert-type=<str>                 type of bert [default: BERT]
-    --models-path=<str>                path of the trained models
+    --model-path=<str>                path of the trained model
     --max-length=<int>                text length [default: 128]
     --seed=<int>                      seed [default: 0]
     --test-batch-size=<int>           batch size [default: 32]
@@ -39,9 +39,9 @@ test_data_loader = DataLoader(test_dataset,
                               shuffle=False)
 print('The number of Test batches: ', len(test_data_loader))
 #############################################################################
-# Run the models on a Test set
+# Run the model on a Test set
 #############################################################################
 model = SpanEmo(lang=args['--lang'],bert_type=args['--bert-type'])
-# learn = EvaluateOnTest(models, test_data_loader, model_path='models/' + args['--models-path'])
-learn = EvaluateOnTest(model, test_data_loader, model_path=args['--models-path'])
+# learn = EvaluateOnTest(model, test_data_loader, model_path='models/' + args['--model-path'])
+learn = EvaluateOnTest(model, test_data_loader, model_path=args['--model-path'])
 learn.predict(device=device)
