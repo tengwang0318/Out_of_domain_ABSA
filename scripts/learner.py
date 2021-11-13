@@ -242,9 +242,12 @@ class PredictTest:
                                                       leave=(pbar is not None))):
                 _, num_rows, y_pred, targets = self.model(batch, device)
                 current_index = index_dict
-                preds_dict['y_pre]'][current_index:current_index + num_rows, :] = targets
+                y_pred = np.reshape(y_pred, (num_rows, 1))
+                preds_dict['y_pred'][current_index:current_index + num_rows, :] = y_pred
                 index_dict += num_rows
-        with open('../data/faker.tsv') as f:
+
+        print(preds_dict['y_pred'].shape)
+        with open('data/faker.tsv') as f:
             reader = csv.reader(f, delimiter='\t')
             next(reader)
             fake_ids, fake_aspect_polarity, fake_sentences = [], [], []
@@ -255,7 +258,9 @@ class PredictTest:
                     fake_sentences.append(row[1])
                     fake_aspect_polarity.append(row[4])
 
-        with open("../data/semEval2014.tsv") as f:
+                idx += 1
+
+        with open("data/semEval2014.tsv") as f:
             reader = csv.reader(f, delimiter='\t')
             next(reader)
             ids, aspect_polarity, sentences = [], [], []
@@ -264,18 +269,36 @@ class PredictTest:
                     ids.append(row[0])
                     aspect_polarity.append(row[4])
                     sentences.append(row[1])
+
         fake_data, data = defaultdict(list), defaultdict(list)
+        # print(fake_aspect_polarity)
+        # print(fake_ids)
         for i in range(len(fake_ids)):
             if fake_aspect_polarity[i] not in fake_data[fake_ids[i]]:
                 fake_data[fake_ids[i]].append(fake_aspect_polarity[i])
         for i in range(len(ids)):
             if aspect_polarity[i] not in data[ids[i]]:
                 data[ids[i]].append(aspect_polarity[i])
+
+        print(data)
+        print(fake_data)
         right = 0
         cnt = 0
         for key, aspects in data.items():
             for asp in aspects:
                 if asp in fake_data[key]:
                     right += 1
+                else:
+                    print(asp)
                 cnt += 1
         print(f"Precision: {right / cnt}")
+        with open('data/realOOD.tsv', 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['ID', 'Sentence', 'aspect_polarity'])
+            for _id, _sentence, _aspect_polarity in zip(ids, sentences, aspect_polarity):
+                writer.writerow([_id, _sentence, _aspect_polarity])
+        with open("data/predictOOD.tsv", 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['ID', 'Sentence', "aspect_polarity"])
+            for _id, _sentence, _aspect_polarity in zip(fake_ids, fake_sentences, fake_aspect_polarity):
+                writer.writerow([_id, _sentence, _aspect_polarity])

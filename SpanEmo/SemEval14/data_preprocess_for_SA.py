@@ -59,7 +59,7 @@ with open('test_data.csv', 'w') as f:
 
 
 
-with open("semEval2014.tsv", 'w') as f:
+with open("../../data/semEval2014.tsv", 'w') as f:
     writer = csv.writer(f, delimiter='\t')
     writer.writerow(['sentence_id', 'sentence', 'category', 'polarity', 'category_polarity', 'entailed'])
     for i in range(len(texts)):
