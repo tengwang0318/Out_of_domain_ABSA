@@ -16,8 +16,8 @@ class DataClass(Dataset):
             self.tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
         elif args['--bert-type'] == 'DeBerta':
             self.tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-base")
-        elif args['--bert-type'] == 'T5':
-            self.tokenizer = AutoTokenizer.from_pretrained("t5-base")
+        elif args['--bert-type'] == 'RoBerta':
+            self.tokenizer = AutoTokenizer.from_pretrained("roberta-base")
         self.inputs = self.process_data()
         self.labels = torch.tensor(self.labels)
 

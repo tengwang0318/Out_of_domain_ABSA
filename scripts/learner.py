@@ -284,9 +284,9 @@ class PredictTest:
         print(fake_data)
         right = 0
         cnt = 0
-        for key, aspects in data.items():
+        for key, aspects in fake_data.items():
             for asp in aspects:
-                if asp in fake_data[key]:
+                if asp in data[key]:
                     right += 1
                 else:
                     print(asp)

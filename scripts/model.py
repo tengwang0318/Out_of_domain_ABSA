@@ -1,4 +1,4 @@
-""" we can use base-bert, T5, DeBerta as our models encoder architecture"""
+""" we can use base-bert, RoBerta, DeBerta as our models encoder architecture"""
 from transformers import BertModel, AutoTokenizer, AutoModelWithLMHead, AutoModel
 import torch.nn.functional as F
 import torch.nn as nn
@@ -14,8 +14,8 @@ class BertEncoder(nn.Module):
         super(BertEncoder, self).__init__()
         if model_type == 'base-bert':
             self.bert = BertModel.from_pretrained("bert-base-uncased")
-        elif model_type == 'T5':
-            self.bert = AutoModelWithLMHead.from_pretrained("t5-base")
+        elif model_type == 'RoBerta':
+            self.bert = AutoModel.from_pretrained('roberta-base')
         elif model_type == "DeBerta":
             self.bert = AutoModel.from_pretrained('microsoft/deberta-base')
         self.feature_size = self.bert.config.hidden_size
