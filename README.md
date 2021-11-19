@@ -1,5 +1,7 @@
 # Out_of_domain_ABSA
 
+The repo code is based on [SpanEmo](https://github.com/hasanhuz/SpanEmo).
+
 This repo will do "out of domain" aspect based sentiment analysis. It means that you will train a ABSA(Aspect bsaed sentiment analysis) model and use another dataset which is not relevant dataset, get the aspect and sentiment.
 
 You can run the [notebook](https://colab.research.google.com/drive/1LfNqhqheVeY8YrsBI1l3IVlNQp_J6pl5?usp=sharing)
