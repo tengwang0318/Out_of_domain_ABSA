@@ -291,7 +291,18 @@ class PredictTest:
                 else:
                     print(asp)
                 cnt += 1
+
         print(f"Precision: {right / cnt}")
+
+        right, cnt = 0, 0
+        for key, aspects in data.items():
+            for asp in aspects:
+                if asp in fake_data[key]:
+                    right += 1
+                else:
+                    print(asp)
+                cnt += 1
+        print(f'recall: {right / cnt}')
         with open('data/realOOD.tsv', 'w') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerow(['ID', 'Sentence', 'aspect_polarity'])

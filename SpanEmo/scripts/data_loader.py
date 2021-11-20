@@ -29,11 +29,12 @@ class DataClass(Dataset):
         self.max_length = int(args['--max-length'])
         self.ids, self.data, self.labels = self.load_dataset()
 
-        if args['--lang'] == 'English' and args['--bert-type'] == 'BERT':
+        if args['--bert-type'] == 'BERT':
             self.bert_tokeniser = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True)
-        if args['--bert-type'] == 'DEBERTA':
+        elif args['--bert-type'] == 'DEBERTA':
             self.bert_tokeniser = AutoTokenizer.from_pretrained("microsoft/deberta-base")
-
+        elif args['--bert-type'] == 'ROBERTA':
+            self.bert_tokeniser = AutoTokenizer.from_pretrained('roberta-base')
         self.inputs, self.lengths, self.label_indices = self.process_data()
 
     def load_dataset(self):

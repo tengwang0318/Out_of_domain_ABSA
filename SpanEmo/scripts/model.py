@@ -13,9 +13,10 @@ class BertEncoder(nn.Module):
         super(BertEncoder, self).__init__()
         if bert_type == 'BERT':
             self.bert = BertModel.from_pretrained('bert-base-uncased')
-        if bert_type == 'DEBERTA':
+        elif bert_type == 'DEBERTA':
             self.bert = AutoModel.from_pretrained("microsoft/deberta-base")
-
+        elif bert_type == 'ROBERTA':
+            self.bert = AutoModel.from_pretrained('roberta-base')
         self.feature_size = self.bert.config.hidden_size
 
     def forward(self, input_ids):
