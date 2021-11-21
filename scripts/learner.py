@@ -215,6 +215,7 @@ class EvaluateOnTest:
             str_stats.append(
                 'NA' if stat is None else str(stat) if isinstance(stat, int) else f'{stat:.4f}'
             )
+
         str_stats.append(format_time(time.time() - start_time))
         headers = ["Precision", "Recall", 'Time']
         print(' '.join('{}: {}'.format(*k) for k in zip(headers, str_stats)))
@@ -309,6 +310,104 @@ class PredictTest:
             for _id, _sentence, _aspect_polarity in zip(ids, sentences, aspect_polarity):
                 writer.writerow([_id, _sentence, _aspect_polarity])
         with open("data/predictOOD.tsv", 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['ID', 'Sentence', "aspect_polarity"])
+            for _id, _sentence, _aspect_polarity in zip(fake_ids, fake_sentences, fake_aspect_polarity):
+                writer.writerow([_id, _sentence, _aspect_polarity])
+
+
+class AllAspectsTest:
+    def __init__(self, model, fake_test_data_loader, real_test_data_loader, model_path):
+        self.model = model
+        self.fake_test_data_loader = fake_test_data_loader
+        self.real_test_data_loader = real_test_data_loader
+        self.model_path = model_path
+
+    def predict(self, device='cuda:0', pbar=None):
+        """
+        Evaluate the models on a validation set
+        :param device: str (defaults to 'cuda:0')
+        :param pbar: fast_progress progress bar (defaults to None)
+        :returns: None
+        """
+        self.model.to(device).load_state_dict(torch.load(self.model_path))
+        self.model.eval()
+        current_size = len(self.fake_test_data_loader.dataset)
+        preds_dict = {
+            'y_true': np.zeros([current_size, 1]),
+            'y_pred': np.zeros([current_size, 1])
+        }
+        start_time = time.time()
+        with torch.no_grad():
+            index_dict = 0
+            for step, batch in enumerate(progress_bar(self.fake_test_data_loader, parent=pbar, leave=(pbar is not None))):
+                _, num_rows, y_pred, targets = self.model(batch, device)
+                current_index = index_dict
+                targets = np.reshape(targets, (num_rows, 1))
+                y_pred = np.reshape(y_pred, (num_rows, 1))
+                preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
+                preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
+                index_dict += num_rows
+
+        with open('data/all_aspects_sentihood_test_fake.tsv') as f:
+            reader = csv.reader(f, delimiter='\t')
+            next(reader)
+            fake_ids, fake_aspect_polarity, fake_sentences = [], [], []
+            idx = 0
+            for row in reader:
+                if preds_dict['y_pred'][idx] == 1:
+                    fake_ids.append(row[0])
+                    fake_sentences.append(row[1])
+                    fake_aspect_polarity.append(row[4])
+
+                idx += 1
+        with open('data/all_aspects_sentihood_test.tsv') as f:
+            reader = csv.reader(f, delimiter='\t')
+            next(reader)
+            ids, aspect_polarity, sentences = [], [], []
+            for row in reader:
+                if row[5] == 'yes':
+                    ids.append(row[0])
+                    aspect_polarity.append(row[4])
+                    sentences.append(row[1])
+
+        fake_data, data = defaultdict(list), defaultdict(list)
+
+        for i in range(len(fake_ids)):
+            if fake_aspect_polarity[i] not in fake_data[fake_ids[i]]:
+                fake_data[fake_ids[i]].append(fake_aspect_polarity[i])
+
+        for i in range(len(ids)):
+            if aspect_polarity[i] not in data[ids[i]]:
+                data[ids[i]].append(aspect_polarity[i])
+
+        right = 0
+        cnt = 0
+        for key, aspects in fake_data.items():
+            for asp in aspects:
+                if asp in data[key]:
+                    right += 1
+                # else:
+                #     print(asp)
+                cnt += 1
+
+        print(f"Precision: {right / cnt}")
+
+        right, cnt = 0, 0
+        for key, aspects in data.items():
+            for asp in aspects:
+                if asp in fake_data[key]:
+                    right += 1
+                # else:
+                #     print(asp)
+                cnt += 1
+        print(f'recall: {right / cnt}')
+        with open('data/allAspectRealOOD.tsv', 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['ID', 'Sentence', 'aspect_polarity'])
+            for _id, _sentence, _aspect_polarity in zip(ids, sentences, aspect_polarity):
+                writer.writerow([_id, _sentence, _aspect_polarity])
+        with open("data/allAspectPredictOOD.tsv", 'w') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerow(['ID', 'Sentence', "aspect_polarity"])
             for _id, _sentence, _aspect_polarity in zip(fake_ids, fake_sentences, fake_aspect_polarity):

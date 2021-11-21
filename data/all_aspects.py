@@ -40,3 +40,25 @@ def write():
 
 
 write()
+
+
+def write_fake_test():
+    with open("all_aspects_sentihood_test.tsv") as f:
+        reader = csv.reader(f, delimiter='\t')
+        next(reader)
+        ids, sentences, categories, polarities, cate_polars = [], [], [], [], []
+        for row in reader:
+            ids.append(row[0])
+            sentences.append(row[1])
+            categories.append(row[2])
+            polarities.append(row[3])
+            cate_polars.append(row[4])
+
+        with open("all_aspects_sentihood_test_fake.tsv", 'w') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerow(['sentence_id', 'sentence', 'category', 'polarity', 'category_polarity', 'entailed'])
+            for _id, _sentence, _cate, _polar, _cate_po in zip(ids, sentences, categories, polarities, cate_polars):
+                writer.writerow([_id, _sentence, _cate, _polar, _cate_po, 'no'])
+
+
+write_fake_test()
