@@ -11,7 +11,7 @@ class BertEncoder(nn.Module):
         :param lang: str, train bert encoder for a given language
         """
         super(BertEncoder, self).__init__()
-        if bert_type == 'BERT':
+        if lang == 'English' and bert_type == 'BERT':
             self.bert = BertModel.from_pretrained('bert-base-uncased')
         elif bert_type == 'DEBERTA':
             self.bert = AutoModel.from_pretrained("microsoft/deberta-base")

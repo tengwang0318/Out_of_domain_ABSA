@@ -20,21 +20,22 @@ def load_data(file_name='sentihood-test.json'):
     return sentences, aspects
 
 
-
 _, aspects = load_data()
 counter = Counter()
 for item in aspects:
     for aspect in item:
         counter[aspect] += 1
 print(counter.keys())
+
+
 def write_data():
     fixed_aspects = ['safety', 'general', 'price', 'live', 'transit-location', 'quiet', 'shopping', 'dining',
                      'nightlife', 'multicultural', 'green-nature', 'touristy']
     for tmp_file in ['train', 'dev', 'test']:
         sentences, aspects = load_data('sentihood-' + tmp_file + '.json')
         with open('sentihood-' + tmp_file + '.csv', 'w') as f:
-            writer = csv.writer(f, delimiter='\t')
-            writer.writerow(['ID', 'texts'] + fixed_aspects)
+            writer = csv.writer(f)
+            writer.writerow(['ID', 'text'] + fixed_aspects)
             ID = 0
             for sentence in sentences:
                 data = [ID, sentence]
