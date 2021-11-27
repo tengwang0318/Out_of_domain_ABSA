@@ -106,8 +106,8 @@ class Trainer:
             str_stats = []
             stats = [overall_training_loss,
                      overall_val_loss,
-                     precision_score(y_true, y_pred,average='macro'),
-                     recall_score(y_true, y_pred,average='macro'),
+                     precision_score(y_true, y_pred,average='micro'),
+                     recall_score(y_true, y_pred,average='micro'),
                      ]
 
             for stat in stats:
