@@ -106,8 +106,8 @@ class Trainer:
             str_stats = []
             stats = [overall_training_loss,
                      overall_val_loss,
-                     precision_score(y_true, y_pred),
-                     recall_score(y_true, y_pred),
+                     precision_score(y_true, y_pred,average='macro'),
+                     recall_score(y_true, y_pred,average='macro'),
                      ]
 
             for stat in stats:
@@ -151,8 +151,8 @@ class Trainer:
         """
         current_size = len(self.val_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 3]),
-            'y_pred': np.zeros([current_size, 3])
+            'y_true': np.zeros([current_size, 1]),
+            'y_pred': np.zeros([current_size, 1])
         }
         overall_val_loss = 0.0
         self.model.eval()
@@ -163,8 +163,8 @@ class Trainer:
                 overall_val_loss += loss.item() * num_rows
 
                 current_index = index_dict
-                targets = np.reshape(targets, (num_rows, 3))
-                y_pred = np.reshape(y_pred, (num_rows, 3))
+                targets = np.reshape(targets, (num_rows, 1))
+                y_pred = np.reshape(y_pred, (num_rows, 1))
                 preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
                 preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                 index_dict += num_rows
@@ -200,8 +200,8 @@ class EvaluateOnTest:
             for step, batch in enumerate(progress_bar(self.test_data_loader, parent=pbar, leave=(pbar is not None))):
                 _, num_rows, y_pred, targets = self.model(batch, device)
                 current_index = index_dict
-                targets = np.reshape(targets, (num_rows, 3))
-                y_pred = np.reshape(y_pred, (num_rows, 3))
+                targets = np.reshape(targets, (num_rows, 1))
+                y_pred = np.reshape(y_pred, (num_rows, 1))
                 preds_dict['y_true'][current_index: current_index + num_rows, :] = targets
                 preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                 index_dict += num_rows

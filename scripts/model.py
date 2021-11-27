@@ -66,13 +66,14 @@ class OodModel(nn.Module):
         # loss = F.binary_cross_entropy_with_logits(logits, targets).cuda()
         loss_function = nn.CrossEntropyLoss().cuda()
         loss = loss_function(logits, targets).cuda()
+
         y_pred = self.compute_pred(logits)
+        targets = targets.max(axis=1)[1]
         return loss, num_rows, y_pred, targets.cpu().numpy()
 
     @staticmethod
     def compute_pred(logits):
-        # y_pred = (logits == logits.max(axis=1, keepdims=1)).astype(float)
+
         y_pred = logits.max(axis=1)
-        # print(y_pred)
-        # print(y_pred[1])
+
         return y_pred[1].cpu().numpy()

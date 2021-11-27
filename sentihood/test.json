@@ -1,0 +1,18 @@
+[
+  {
+    "opinions": [
+      {
+        "sentiment": "Positive",
+        "aspect": "general",
+        "target_entity": "LOCATION1"
+      },
+      {
+        "sentiment": "Positive",
+        "aspect": "live",
+        "target_entity": "LOCATION1"
+      }
+    ],
+    "id": 1696,
+    "text": "  I live in LOCATION1 and I cant say I recommend it"
+  }
+]

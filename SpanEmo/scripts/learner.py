@@ -153,8 +153,8 @@ class Trainer(object):
         """
         current_size = len(self.val_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 5]),
-            'y_pred': np.zeros([current_size, 5])
+            'y_true': np.zeros([current_size, 6]),
+            'y_pred': np.zeros([current_size, 6])
         }
         overall_val_loss = 0.0
         self.model.eval()
@@ -197,15 +197,15 @@ class EvaluateOnTest(object):
         self.model.eval()
         current_size = len(self.test_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 5]),
-            'y_pred': np.zeros([current_size, 5])
+            'y_true': np.zeros([current_size, 6]),
+            'y_pred': np.zeros([current_size, 6])
         }
         start_time = time.time()
         with torch.no_grad():
             index_dict = 0
             with open('predict.csv', 'w') as f:
                 writer = csv.writer(f)
-                writer.writerow(['ID', 'text', 'food', 'experience', 'service', 'atmosphere', 'price'])
+                writer.writerow(['ID','text','food','restaurant','atmosphere','drinks','location','service'])
                 for step, batch in enumerate(
                         progress_bar(self.test_data_loader, parent=pbar, leave=(pbar is not None))):
                     _, num_rows, y_pred, targets, ids = self.model(batch, device)
@@ -214,7 +214,7 @@ class EvaluateOnTest(object):
                     preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                     index_dict += num_rows
                     for i in range(num_rows):
-                        writer.writerow([ids[i].numpy(), "", ] + y_pred[i].tolist())
+                        writer.writerow([ids[i], "", ] + y_pred[i].tolist())
 
         y_true, y_pred = preds_dict['y_true'], preds_dict['y_pred']
         str_stats = []

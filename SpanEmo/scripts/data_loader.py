@@ -72,7 +72,7 @@ class DataClass(Dataset):
             # label indices
             # label_idxs = [self.bert_tokeniser.convert_ids_to_tokens(input_id).index(label_names[idx])
             #               for idx, _ in enumerate(label_names)]
-            label_idxs = [1, 2, 3, 4, 6]
+            label_idxs = [1, 2, 3, 4, 5, 7]
             label_indices.append(label_idxs)
 
         inputs = torch.tensor(inputs, dtype=torch.long)

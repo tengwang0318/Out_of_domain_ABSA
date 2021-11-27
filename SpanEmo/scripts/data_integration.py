@@ -21,6 +21,6 @@ with open('../predict.csv') as f:
 with open('../predict.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(
-        ['ID', 'texts', 'food', 'experience', 'service', 'atmosphere', 'price'])
+        ['ID', 'text', 'food', 'restaurant', 'atmosphere', 'drinks', 'location', 'service'])
     for _id in id_to_text.keys():
         writer.writerow([_id] + id_to_text[_id])
