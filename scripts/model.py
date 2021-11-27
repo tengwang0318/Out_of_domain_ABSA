@@ -55,12 +55,14 @@ class OodModel(nn.Module):
         targets = targets.to(device)
         last_hidden_state = self.bert(inputs)
         logits = self.ffn(last_hidden_state).squeeze(-1)
+        logits = logits[:, 0, :].squeeze()
 
+        # print(logits.shape)
+        # print(targets.shape)
 
         # print(targets)
         # print(logits)
-        targets = targets.float()
-        logits = logits.float()
+
         # loss = F.binary_cross_entropy_with_logits(logits, targets).cuda()
         loss_function = nn.CrossEntropyLoss().cuda()
         loss = loss_function(logits, targets).cuda()
@@ -68,6 +70,9 @@ class OodModel(nn.Module):
         return loss, num_rows, y_pred, targets.cpu().numpy()
 
     @staticmethod
-    def compute_pred(logits, threshold=.5):
-        y_pred = logits > threshold
-        return y_pred.float().cpu().numpy()
+    def compute_pred(logits):
+        # y_pred = (logits == logits.max(axis=1, keepdims=1)).astype(float)
+        y_pred = logits.max(axis=1)
+        # print(y_pred)
+        # print(y_pred[1])
+        return y_pred[1].cpu().numpy()
