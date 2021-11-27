@@ -1,3 +1,4 @@
+import numpy as np
 from torch.utils.data import Dataset
 from transformers import BertModel, AutoTokenizer, AutoModelWithLMHead, AutoModel
 from tqdm import tqdm
@@ -23,17 +24,22 @@ class DataClass(Dataset):
 
     def load_dataset(self):
         df = pd.read_csv(self.file_name, sep='\t')
-        sentences, aspects, labels = df.sentence.values, df.category_polarity.values, df.entailed.values
-        labels = (labels == "yes")
+        sentences, aspects, sentiment = df.sentence.values, df.aspect.values, df.polarity.values
 
-        return sentences, aspects, labels.astype(float)
+        positive, negative, neutral = sentiment == 'positive', sentiment == 'negative', sentiment == 'neutral'
+        positive = positive.astype(float)
+        neutral = neutral.astype(float)
+        negative = negative.astype(float)
+        labels = np.stack((positive, neutral, negative), axis=1)
+
+        return sentences, aspects, labels
 
     def process_data(self):
         desc = "Preprocessing dataset {}...".format("")
         inputs = []
         for x, aspect in tqdm(zip(self.sentences, self.aspects), desc=desc):
             x = self.tokenizer.encode_plus(
-                aspect,
+                "what do you think of "+aspect,
                 x,
                 add_special_tokens=True,
                 max_length=self.max_length,
@@ -52,4 +58,3 @@ class DataClass(Dataset):
 
     def __len__(self):
         return len(self.inputs)
-

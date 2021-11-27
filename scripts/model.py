@@ -40,8 +40,8 @@ class OodModel(nn.Module):
             nn.Linear(self.bert.feature_size, self.bert.feature_size),
             nn.Tanh(),
             nn.Dropout(p=output_dropout),
-            nn.Linear(self.bert.feature_size, 1),
-            nn.Sigmoid()
+            nn.Linear(self.bert.feature_size, 3),
+            nn.Softmax()
         )
 
     def forward(self, batch, device):
@@ -55,14 +55,14 @@ class OodModel(nn.Module):
         targets = targets.to(device)
         last_hidden_state = self.bert(inputs)
         logits = self.ffn(last_hidden_state).squeeze(-1)
-        logits = logits[:, 0]
+
 
         # print(targets)
         # print(logits)
         targets = targets.float()
         logits = logits.float()
         # loss = F.binary_cross_entropy_with_logits(logits, targets).cuda()
-        loss_function = nn.BCELoss().cuda()
+        loss_function = nn.CrossEntropyLoss().cuda()
         loss = loss_function(logits, targets).cuda()
         y_pred = self.compute_pred(logits)
         return loss, num_rows, y_pred, targets.cpu().numpy()
