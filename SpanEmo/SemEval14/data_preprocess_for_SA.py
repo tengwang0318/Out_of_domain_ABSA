@@ -71,4 +71,3 @@ with open("../../data/semEval2014.tsv", 'w') as f:
                     writer.writerow([ids[i], texts[i], aspects[i][j], polar, aspects[i][j] + " " + polar, 'no'])
 
 texts, aspects, polarities, ids = load_data_Restaurant(file_name='restaurants-trial.xml')
-
