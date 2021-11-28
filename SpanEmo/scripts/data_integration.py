@@ -12,6 +12,7 @@ with open('../predict.csv') as f:
     reader = csv.reader(f)
     next(reader)
     for row in reader:
+        print(row)
         id_to_text[row[0]].append(row[2])
         id_to_text[row[0]].append(row[3])
         id_to_text[row[0]].append(row[4])

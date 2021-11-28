@@ -259,6 +259,8 @@ class PredictTest:
                                                       leave=(pbar is not None))):
                 _, num_rows, y_pred, targets = self.model(batch, device)
                 current_index = index_dict
+                targets = np.reshape(targets, (num_rows, 1))
+
                 preds_dict['y_true'][current_index:current_index + num_rows, :] = targets
                 index_dict += num_rows
 
