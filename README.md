@@ -24,6 +24,7 @@ Then you can train the model like this.
                             --ffn-lr 0.001 \
                             --bert-lr 2e-5 
 
+
 ```
 the detail of parameters are as follows:
 ```
@@ -75,8 +76,8 @@ Next, you need to train SpanEmo.
 
 ```
 %cd SpanEmo
-!python scripts/train.py    --train-path {"SemEval14/aspect_restaurants_train.csv"}\
-                            --dev-path {"SemEval14/aspect_resuaurants_dev.csv"} \
+!python scripts/train.py    --train-path {"SemEval16/SemEval2016SpanEmoTrain.csv"}\
+                            --dev-path {"SemEval16/SemEval2016SpanEmoValidation.csv"} \
                             --loss-type {'cross-entropy'} \
                             --max-length 128 \
                             --output-dropout 0.1 \
@@ -87,35 +88,48 @@ Next, you need to train SpanEmo.
                             --ffn-lr 0.001 \
                             --bert-lr 2e-5 \
                             --lang {"English"} \
-                            --bert-type {'BERT'}
+                            --alpha-loss 0.2 \
+                            --bert-type {'BERT'} 
 ```
 
 After training, you will get the model checkpoint, you need to load it when validation the model. 
 
 ```
-!python scripts/test.py --test-path {'SemEval14/test_data.csv'} \
-                        --model-path {"/content/Out_of_domain_ABSA/SpanEmo/models/2021-11-13-11:58:42_checkpoint.pt"}
+!python scripts/test.py --test-path {'SemEval16/SevEval2016SpanEmo.csv'} \
+                        --model-path {"/content/Out_of_domain_ABSA/SpanEmo/models/2021-11-28-08:09:30_checkpoint.pt"} \
+                        --bert-type {"BERT"}
 ```
 
 Then, you have got the aspects of sentence in predict.csv. You need to run this code, to get the right format of data that before feeding sentiment detection.
 ```
 %cd scripts
 !python data_integration.py
-%cd ../
-
-%cd SemEval14
-!python data_preprocess_for_SA.py
-%cd ../
-
-%cd ../scripts
-!python faker_data.py
+!python data_preprocess.py
+!python create_all_aspect.py
 %cd ../
 ```
+
 Lastly, you can get the output of aspect and sentiment of sentences and validate the output.
+
 ```
-!python scripts/predict_test.py --models-path {"2021-11-13-01:48:53_checkpoint.pt"} \
+%cd /content/Out_of_domain_ABSA
+!python scripts/predict_test.py --models-path {"2021-11-28-07:28:04_checkpoint.pt"} \
                         --max-length 160 \
                         --bert-type {"base-bert"} \
-                        --real-test-path {"data/semEval2014.tsv"} \
-                        --fake-test-path {'data/faker.tsv'}
+                        --real-test-path {"data/semEval2016.tsv"} \
+                        --fake-test-path {'data/fakerSemEval16.tsv'}
 ```
+
+We have two baseline: 1. train and test sentimentPredictor with no aspect. 2. train and test sentimentPredictor with all aspect. 
+
+1. train and test sentimentPredictor with no aspect
+The input will be [CLS] + "what do you think of " + "NULL" + " of " + target  + [SEP] + sentence + [SEP].
+
+2. train and test sentimentPredictor with all aspect
+The input will be [CLS] + "what do you think of " + "all aspect"(like "food, restaurant, and drinks" ) + " of " + target + [SEP] + sentnece + [SEP].
+
+Here is the result.
+
+
+![image](https://user-images.githubusercontent.com/57594482/143766456-59bd0563-5bf8-4c98-9c5d-450f70921b68.png)
+
