@@ -78,7 +78,7 @@ class Trainer:
         optimizer, scheduler, step_scheduler_on_batch = self.optimizer(args)
         self.model = self.model.to(device)
         pbar = master_bar(range(num_epochs))
-        headers = ['Train_Loss', 'Val_Loss', 'precision', 'recall', 'Time']
+        headers = ['Train_Loss', 'Val_Loss', 'precision', 'recall', 'F1-micro', 'F1-macro', 'Time']
         pbar.write(headers, table=True)
         for epoch in pbar:
             epoch += 1
@@ -106,8 +106,10 @@ class Trainer:
             str_stats = []
             stats = [overall_training_loss,
                      overall_val_loss,
-                     precision_score(y_true, y_pred,average='micro'),
-                     recall_score(y_true, y_pred,average='micro'),
+                     precision_score(y_true, y_pred, average='micro'),
+                     recall_score(y_true, y_pred, average='micro'),
+                     f1_score(y_true, y_pred, average='micro'),
+                     f1_score(y_true, y_pred, average='macro')
                      ]
 
             for stat in stats:
@@ -191,8 +193,8 @@ class EvaluateOnTest:
         self.model.eval()
         current_size = len(self.test_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 3]),
-            'y_pred': np.zeros([current_size, 3])
+            'y_true': np.zeros([current_size, 1]),
+            'y_pred': np.zeros([current_size, 1])
         }
         start_time = time.time()
         with torch.no_grad():
@@ -208,8 +210,10 @@ class EvaluateOnTest:
 
         y_true, y_pred = preds_dict['y_true'], preds_dict['y_pred']
         str_stats = []
-        stats = [precision_score(y_true, y_pred),
-                 recall_score(y_true, y_pred), ]
+        stats = [precision_score(y_true, y_pred, average='micro'),
+                 recall_score(y_true, y_pred, average='micro'),
+                 f1_score(y_true, y_pred, average='micro'),
+                 f1_score(y_true, y_pred, average='macro')]
 
         for stat in stats:
             str_stats.append(
@@ -217,7 +221,7 @@ class EvaluateOnTest:
             )
 
         str_stats.append(format_time(time.time() - start_time))
-        headers = ["Precision", "Recall", 'Time']
+        headers = ["Precision", "Recall", 'F1-micro', "F1-macro" 'Time']
         print(' '.join('{}: {}'.format(*k) for k in zip(headers, str_stats)))
 
 
@@ -233,7 +237,8 @@ class PredictTest:
         self.model.eval()
         current_size = len(self.fake_test_data_loader.dataset)
         preds_dict = {
-            'y_pred': np.zeros([current_size, 1])
+            'y_pred': np.zeros([current_size, 1]),
+            'y_true': np.zeros([current_size, 1])
         }
         start_time = time.time()
         with torch.no_grad():
@@ -247,73 +252,103 @@ class PredictTest:
                 preds_dict['y_pred'][current_index:current_index + num_rows, :] = y_pred
                 index_dict += num_rows
 
-        print(preds_dict['y_pred'].shape)
-        with open('data/faker.tsv') as f:
-            reader = csv.reader(f, delimiter='\t')
-            next(reader)
-            fake_ids, fake_aspect_polarity, fake_sentences = [], [], []
-            idx = 0
-            for row in reader:
-                if preds_dict['y_pred'][idx] == 1:
-                    fake_ids.append(row[0])
-                    fake_sentences.append(row[1])
-                    fake_aspect_polarity.append(row[4])
+        with torch.no_grad():
+            index_dict = 0
+            for step, batch in enumerate(progress_bar(self.real_test_data_loader,
+                                                      parent=pbar,
+                                                      leave=(pbar is not None))):
+                _, num_rows, y_pred, targets = self.model(batch, device)
+                current_index = index_dict
+                preds_dict['y_true'][current_index:current_index + num_rows, :] = targets
+                index_dict += num_rows
 
-                idx += 1
+        y_pred, y_true = preds_dict['y_pred'], preds_dict['y_true']
+        stats = [precision_score(y_true, y_pred, average='micro'),
+                 recall_score(y_true, y_pred, average='micro'),
+                 f1_score(y_true, y_pred, average='micro'),
+                 f1_score(y_true, y_pred, average='macro')]
+        str_stats = []
+        for stat in stats:
+            str_stats.append(
+                'NA' if stat is None else str(stat) if isinstance(stat, int) else f'{stat:.4f}'
+            )
 
-        with open("data/semEval2014.tsv") as f:
-            reader = csv.reader(f, delimiter='\t')
-            next(reader)
-            ids, aspect_polarity, sentences = [], [], []
-            for row in reader:
-                if row[5] == 'yes':
-                    ids.append(row[0])
-                    aspect_polarity.append(row[4])
-                    sentences.append(row[1])
+        headers = ['Precision', 'Recall', 'F1-micro', 'F1-macro']
+        print(" ".join('{}: {}'.format(*k) for k in zip(headers, str_stats)))
 
-        fake_data, data = defaultdict(list), defaultdict(list)
-        # print(fake_aspect_polarity)
-        # print(fake_ids)
-        for i in range(len(fake_ids)):
-            if fake_aspect_polarity[i] not in fake_data[fake_ids[i]]:
-                fake_data[fake_ids[i]].append(fake_aspect_polarity[i])
-        for i in range(len(ids)):
-            if aspect_polarity[i] not in data[ids[i]]:
-                data[ids[i]].append(aspect_polarity[i])
-
-        print(data)
-        print(fake_data)
-        right = 0
-        cnt = 0
-        for key, aspects in fake_data.items():
-            for asp in aspects:
-                if asp in data[key]:
-                    right += 1
-                else:
-                    print(asp)
-                cnt += 1
-
-        print(f"Precision: {right / cnt}")
-
-        right, cnt = 0, 0
-        for key, aspects in data.items():
-            for asp in aspects:
-                if asp in fake_data[key]:
-                    right += 1
-                else:
-                    print(asp)
-                cnt += 1
-        print(f'recall: {right / cnt}')
-        with open('data/realOOD.tsv', 'w') as f:
-            writer = csv.writer(f, delimiter='\t')
-            writer.writerow(['ID', 'Sentence', 'aspect_polarity'])
-            for _id, _sentence, _aspect_polarity in zip(ids, sentences, aspect_polarity):
-                writer.writerow([_id, _sentence, _aspect_polarity])
-        with open("data/predictOOD.tsv", 'w') as f:
-            writer = csv.writer(f, delimiter='\t')
-            writer.writerow(['ID', 'Sentence', "aspect_polarity"])
-            for _id, _sentence, _aspect_polarity in zip(fake_ids, fake_sentences, fake_aspect_polarity):
-                writer.writerow([_id, _sentence, _aspect_polarity])
+        #     """
+        #
+        # # print(preds_dict['y_pred'].shape)
+        #
+        #     with open('data/faker.tsv') as f:
+        #         reader = csv.reader(f, delimiter='\t')
+        #         next(reader)
+        #         fake_ids, fake_aspect_polarity, fake_sentences = [], [], []
+        #         idx = 0
+        #         for row in reader:
+        #             if preds_dict['y_pred'][idx] == 1:
+        #                 fake_ids.append(row[0])
+        #                 fake_sentences.append(row[1])
+        #                 fake_aspect_polarity.append(row[4])
+        #
+        #             idx += 1
+        #
+        #     with open("data/semEval2014.tsv") as f:
+        #         reader = csv.reader(f, delimiter='\t')
+        #         next(reader)
+        #         ids, aspect_polarity, sentences = [], [], []
+        #         for row in reader:
+        #             if row[5] == 'yes':
+        #                 ids.append(row[0])
+        #                 aspect_polarity.append(row[4])
+        #                 sentences.append(row[1])
+        #
+        #     fake_data, data = defaultdict(list), defaultdict(list)
+        #     # print(fake_aspect_polarity)
+        #     # print(fake_ids)
+        #     for i in range(len(fake_ids)):
+        #         if fake_aspect_polarity[i] not in fake_data[fake_ids[i]]:
+        #             fake_data[fake_ids[i]].append(fake_aspect_polarity[i])
+        #     for i in range(len(ids)):
+        #         if aspect_polarity[i] not in data[ids[i]]:
+        #             data[ids[i]].append(aspect_polarity[i])
+        #
+        #     print(data)
+        #     print(fake_data)
+        #     right = 0
+        #     cnt = 0
+        #     for key, aspects in fake_data.items():
+        #         for asp in aspects:
+        #             if asp in data[key]:
+        #                 right += 1
+        #             else:
+        #                 print(asp)
+        #             cnt += 1
+        #
+        #     print(f"Precision: {right / cnt}")
+        #
+        #     right, cnt = 0, 0
+        #     for key, aspects in data.items():
+        #         for asp in aspects:
+        #             if asp in fake_data[key]:
+        #                 right += 1
+        #             else:
+        #                 print(asp)
+        #             cnt += 1
+        #     print(f'recall: {right / cnt}')
+        #     with open('data/realOOD.tsv', 'w') as f:
+        #         writer = csv.writer(f, delimiter='\t')
+        #         writer.writerow(['ID', 'Sentence', 'aspect_polarity'])
+        #         for _id, _sentence, _aspect_polarity in zip(ids, sentences, aspect_polarity):
+        #             writer.writerow([_id, _sentence, _aspect_polarity])
+        #     with open("data/predictOOD.tsv", 'w') as f:
+        #         writer = csv.writer(f, delimiter='\t')
+        #         writer.writerow(['ID', 'Sentence', "aspect_polarity"])
+        #         for _id, _sentence, _aspect_polarity in zip(fake_ids, fake_sentences, fake_aspect_polarity):
+        #             writer.writerow([_id, _sentence, _aspect_polarity])
+        #
+        #
+        #     """
 
 
 class AllAspectsTest:
@@ -340,7 +375,8 @@ class AllAspectsTest:
         start_time = time.time()
         with torch.no_grad():
             index_dict = 0
-            for step, batch in enumerate(progress_bar(self.fake_test_data_loader, parent=pbar, leave=(pbar is not None))):
+            for step, batch in enumerate(
+                    progress_bar(self.fake_test_data_loader, parent=pbar, leave=(pbar is not None))):
                 _, num_rows, y_pred, targets = self.model(batch, device)
                 current_index = index_dict
                 targets = np.reshape(targets, (num_rows, 1))

@@ -1,0 +1,1049 @@
+ID	sentence	target	aspect	polarity
+1004293:0	Judging from previous posts this used to be a good place, but not any longer.	place	Null	positive
+1004293:1	We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.	staff	Null	positive
+1004293:2	They never brought us complimentary noodles, ignored repeated requests for sugar, and threw our dishes on the table.	NULL	Null	positive
+1004293:4	After all that, they complained to me about the small tip.	NULL	Null	positive
+1004293:5	Avoid this place!	place	Null	positive
+1014458:0	I have eaten at Saul, many times, the food is always consistently, outrageously good.	food	Null	positive
+1014458:1	Saul is the best restaurant on Smith Street and in Brooklyn.	Saul	Null	positive
+1014458:3	The wine list is interesting and has many good values.	wine list	Null	positive
+1014458:4	For the price, you cannot eat this well in Manhattan.	NULL	Null	positive
+1016296:0	I was very disappointed with this restaurant.	restaurant	Null	positive
+1016296:1	Ive asked a cart attendant for a lotus leaf wrapped rice and she replied back rice and just walked away.	cart attendant	Null	positive
+1016296:2	I had to ask her three times before she finally came back with the dish Ive requested.	NULL	Null	positive
+1016296:3	Food was okay, nothing great.	Food	Null	positive
+1016296:5	I/we will never go back to this place again.	place	Null	positive
+1028246:0	Went on a 3 day oyster binge, with Fish bringing up the closing, and I am so glad this was the place it O trip ended, because it was so great!	Fish	Null	positive
+1028246:2	You can't go wrong here.	NULL	Null	positive
+1032695:0	Every time in New York I make it a point to visit Restaurant Saul on Smith Street.	Restaurant Saul	Null	positive
+1032695:2	I had the duck breast special on my last visit and it was incredible.	duck breast special	Null	positive
+1032695:3	Can't wait wait for my next visit.	NULL	Null	positive
+1041457:1	And I hate to say this but I doubt I'll ever go back. 	NULL	Null	positive
+1041457:3	The only thing I moderately enjoyed was their Grilled Chicken special with Edamame Puree.	Grilled Chicken special with Edamame Puree	Null	positive
+1041457:4	I had never had Edamame pureed before but I thought it was innovative and tasty (could've used a bit more salt).	Edamame pureed	Null	positive
+1053543:4	We went around 9:30 on a Friday and it had died down a bit by then so the service was great!	service	Null	positive
+1055910:0	we love th pink pony.	pink pony	Null	positive
+1055910:1	THe perfect spot.	spot	Null	positive
+1055910:2	Food-awesome.	Food	Null	positive
+1055910:3	Service- friendly and attentive.	Service	Null	positive
+1055910:4	Ambiance- relaxed and stylish.	Ambiance	Null	positive
+1055910:5	Don't judge this place prima facie, you have to try it to believe it, a home away from home for the literate heart.	place	Null	positive
+1058221:2	the food is decent.	food	Null	positive
+1058221:3	however, it's the service that leaves a bad taste in my mouth.	service	Null	positive
+1058221:4	i happen to have a policy that goes along with a little bit of self-respect, which includes not letting a waiter intimidate me, i.e. make me feel bad asking for trivialities like water, or the check.	waiter	Null	positive
+1058221:5	i know, you were too busy showing off your vintage tee shirt and looking bored, but my agenda is i'm here to eat and enjoy the company of friends, seeking a pleasant experience.	NULL	Null	positive
+1058221:6	well, i didn't find it there, and trust, i have told everyone i can think of about my experience. 	NULL	Null	positive
+1058221:7	the last time i walked by it looked pretty empty. hmmm.	NULL	Null	positive
+1062641:0	This place has got to be the best japanese restaurant in the new york area.	place	Null	positive
+1062641:1	I had a great experience.	NULL	Null	positive
+1062641:2	Food is great.	Food	Null	positive
+1062641:3	Service is top notch.	Service	Null	positive
+1062641:4	I have been going back again and again.	NULL	Null	positive
+1064477:0	I tend to judge a sushi restaurant by its sea urchin, which was heavenly at sushi rose.	sea urchin	Null	positive
+1064477:1	It melted in my little mouth and the perfect consistency-not too fishy, creamy, and slightly buttery.	NULL	Null	positive
+1064477:2	The sushi seemed pretty fresh and was adequately proportioned.	sushi	Null	positive
+1064477:3	The rice to fish ration was also good--they didn't try to overpack the rice.	rice to fish ration	Null	positive
+1064477:4	We took advanatage of the half price sushi deal on saturday so it was well worth it.	half price sushi deal	Null	positive
+1074868:2	Surprisingly nothing could be further from the truth.	NULL	Null	positive
+1074868:3	In the evening, this place attracted a well dressed, with it, NY crowd.	crowd	Null	positive
+1074868:5	I'm going back.	NULL	Null	positive
+1084394:1	Quite simply it's like stepping out of Manhattan and into a haven of tranquility.	NULL	Null	positive
+1084394:3	The Prix Fixe menu is worth every penny and you get more than enough (both in quantity AND quality).	Prix Fixe menu	Null	positive
+1084394:4	I will be going back and heartily recommend it!	NULL	Null	positive
+1086415:1	It is terrific, as is the value.	NULL	Null	positive
+1086415:2	$6 and there is much tasty food, all of it fresh and continually refilled.	food	Null	positive
+1086415:3	I am not a vegetarian but, almost all the dishes were great.	dishes	Null	positive
+1086415:5	Go hungry and enjoy.	NULL	Null	positive
+1086478:2	The service varys from day to day- sometimes they're very nice, and sometimes not.	service	Null	positive
+1086478:3	The kitchen however, is almost always slow.	kitchen	Null	positive
+1086478:4	Also, specify if you like your food spicy- its rather bland if you don't.	food	Null	positive
+1090587:1	If you've ever been along the river in Weehawken you have an idea of the top of view the chart house has to offer.	view	Null	positive
+1090587:3	The lava cake dessert was incredible and I recommend it.	lava cake dessert	Null	positive
+1102681:0	Once you step into Cosette, you're miraculously in a small, off-the-beaten path Parisian bistro.	Cosette	Null	positive
+1102681:1	This tiny restaurant is as cozy as it gets, with that certain Parisian flair.	restaurant	Null	positive
+1118167:1	IT WAS HORRIBLE.	NULL	Null	positive
+1118167:3	It looked like shredded cheese partly done - still in strips.	NULL	Null	positive
+1119578:0	This has got to be one of the most overrated restaurants in Brooklyn.	NULL	Null	positive
+1119578:1	The pizza is overpriced and soggy.	pizza	Null	positive
+1119578:3	A big disappointment, all around.	NULL	Null	positive
+1123262:0	I think I've had some the best meals of my life at minnow.	meals	Null	positive
+1123262:2	The combination of super-fresh ingredients in the dishes are unusual but really delicious.	ingredients	Null	positive
+1123262:3	Worth the trip from Manhattan.	NULL	Null	positive
+1125006:3	My wife had the fried shrimp which are huge and loved it.	fried shrimp	Null	positive
+1125284:0	As a Japanese native, I've lived in the Tristate area for over 8 years, but I was just so amazed at this place.	place	Null	positive
+1125284:1	This place is the most Japanese it can ever get.	place	Null	positive
+1125284:3	This place is worth an one-hour drive.	place	Null	positive
+1125284:4	I am so coming back here again, as much as I can.	NULL	Null	positive
+1126814:1	My wife and I always enjoy the young, not always well trained but nevertheless friendly, staff, all of whom have a story.	staff	Null	positive
+1126814:3	Decent wine at reasonable prices.	wine	Null	positive
+1126814:4	Have been dozens of times and never failed to enjoy the experience.	NULL	Null	positive
+1126814:5	Our teenage kids love it, too.	NULL	Null	positive
+1126886:0	Everytime I decide to try another place on the UES, I get angry that I didn't just go to Zucchero Pomodori.	Zucchero Pomodori	Null	positive
+1126886:1	This is by far my favorite place in the neighborhood.	place	Null	positive
+1126886:4	I'm partial to the Gnocchi.	Gnocchi	Null	positive
+1131595:0	This place is incredibly tiny.	place	Null	positive
+1131595:1	They refuse to seat parties of 3 or more on weekends.	NULL	Null	positive
+1131595:2	The hostess is rude to the point of being offensive.	hostess	Null	positive
+1131595:3	The food was bland oily.	food	Null	positive
+1131595:4	I just don't understand all the hype...	NULL	Null	positive
+1138996:2	We were worried we would have trouble getting in, but somehow managed to have a short wait.	wait	Null	positive
+1138996:3	As always we had a great glass of wine while we waited.	glass of wine	Null	positive
+1138996:4	When we sat, we got great and fast service.	service	Null	positive
+1138996:5	The people that work there are always so friendly you forget you are in New York sometimes.	people	Null	positive
+1138996:6	Make sure you try this place as often as you can.	place	Null	positive
+1145510:0	This is a fun restaurant to go to.	restaurant	Null	positive
+1145510:2	But the pizza is way to expensive.	pizza	Null	positive
+1147082:0	I went there for lunch and it was not as good as I expected from the reviews I read.	lunch	Null	positive
+1147082:3	I don't think I would go again.	NULL	Null	positive
+1147211:0	This place is great.	place	Null	positive
+1147211:1	I had a huge group for my birthday and we were well taken care of.	NULL	Null	positive
+1147211:3	Service was prompt, friendly and great.	Service	Null	positive
+1147211:4	Slightly on the pricey side but worth it!	NULL	Null	positive
+1153034:1	There was a small wait, but shorter than I expected.	wait	Null	positive
+1153034:2	Located at the end of a magnificent block.	block	Null	positive
+1153034:3	Very cozy and warm inside.....	NULL	Null	positive
+1153034:4	I will be back!	NULL	Null	positive
+1154550:0	This is the best sushi in new york city - hands down.	sushi	Null	positive
+1154550:2	Get the tuna of gari.	tuna of gari	Null	positive
+1162037:1	With the great variety on the menu , I eat here often and never get bored .	menu	Null	positive
+1162037:3	It's all about the food !!	food	Null	positive
+1167434:1	first it took us a long time to find the place.	place	Null	positive
+1167434:3	but when we looked at the menu, there weren't a lot of choices, most of them were dumplings in the appetizer section.	menu	Null	positive
+1167434:6	they were dry and disgusting, i didn't even finish my first piece.	NULL	Null	positive
+1175958:0	Hurley's is like Cheers where everyone knows your name and they are ACTUALLY glad you came.	NULL	Null	positive
+1175958:1	Try the crunchy tuna, it is to die for.	crunchy tuna	Null	positive
+1175958:2	Try everything for that matter, it is all good.	NULL	Null	positive
+1175958:3	I have been going there since it opened and I can't get enough.	NULL	Null	positive
+1189674:0	First went here to enjoy their garden terrace.	garden terrace	Null	positive
+1189674:2	The Steak Tartare is a great bet, they fix it for you at the table.	Steak Tartare	Null	positive
+1189674:6	Have recommended the place to friends, always gets good response.	place	Null	positive
+1199292:3	I take all my NYC guests to VT's.	VT's	Null	positive
+1199480:1	I've been there three times and have always had wonderful experiences.	NULL	Null	positive
+1205520:0	I'm not sure where the other reviewers ate but it seems as if we visited two different restaurants because my friends and I all enjoy Mizu very much... and we're repeat customers.	Mizu	Null	positive
+1205520:1	Even after they overcharged me the last time I was there.	NULL	Null	positive
+1205520:2	Make sure you have the Spicy Scallop roll.. .	Spicy Scallop roll	Null	positive
+1205520:3	it's delicious!	NULL	Null	positive
+1212346:1	Took my mom for Mother's Day, and the maitre d' was pretty rude.	maitre d'	Null	positive
+1212346:2	Told us to sit anywhere, and when we sat he said the table was reserved.	NULL	Null	positive
+1212346:3	Stepped on my foot on the SECOND time he reached over me to adjust lighting.	NULL	Null	positive
+1212346:4	Tiny dessert was $8.00...just plain overpriced for what it is.	dessert	Null	positive
+1221938:1	Try their chef's specials-- they are to die for.	chef's specials	Null	positive
+1221938:2	Service is not exactly five star, but thats not really a big deal.	Service	Null	positive
+1221938:3	Downstairs lounge is always a good attraction	Downstairs lounge	Null	positive
+1225162:0	Raga's is a romantic, cozy restaurant.	Raga's	Null	positive
+1225162:1	The exotic food is beautifully presented and is a delight in delicious combinations.	exotic food	Null	positive
+1225162:2	It is also extremely well priced.	NULL	Null	positive
+1225162:3	The staff is incredibly helpful and attentive.	staff	Null	positive
+1225162:5	This is one of my favorite restaurants and it is not to be missed.	NULL	Null	positive
+1225162:6	Your friends will thank you for introducing them to this gem!	NULL	Null	positive
+1227999:0	When we stumbled on Leon, we thought that we had found quite the gem BUT, we were certainly wrong.	Leon	Null	positive
+1227999:1	The waitress moved our table practically into the bathroom and when we asked to cancel our dinner orders because we did not want to eat sitting on the toilet, we were told no...	waitress	Null	positive
+1227999:2	Then, to top things off, she dropped used silverware on my boyfriend's jacket and did not stop to apologize or clean the mess that was left on clothes. 	NULL	Null	positive
+1227999:3	Such a disappointment...	NULL	Null	positive
+1230993:0	I had a grat time at Jekyll and Hyde!	Jekyll and Hyde	Null	positive
+1230993:2	Our server was very helpful and friendly.	server	Null	positive
+1230993:3	I am bringing my whole family back next time.	NULL	Null	positive
+1230993:4	The food was good too.	food	Null	positive
+1232468:1	The outdoor atmosphere of sitting on the sidewalk watching the world go by 50 feet away on 6th avenue on a cool evening was wonderful.	outdoor atmosphere	Null	positive
+1232468:2	Inside is a little cramped, but to be expected.	NULL	Null	positive
+1232468:3	Service was prompt and courteous.	Service	Null	positive
+1232468:4	This was a repeat visit and we'll definitely be back again.	NULL	Null	positive
+1241906:1	Prices are in line.	NULL	Null	positive
+1241906:3	But too far east!	NULL	Null	positive
+1253117:2	Two complaints- their appetizer selection stinks, it would be nice to get some mozzarella sticks on the menu.	appetizer selection	Null	positive
+1253117:3	Also, because it is so thin, it gets cold very quickly and its not that filling.	NULL	Null	positive
+1256373:0	By far the best salad I have had in a fast food restaurant.	salad	Null	positive
+1256373:1	fine dining restaurant quality.	dining	Null	positive
+1256373:2	Over 100 different choices to create your own.	NULL	Null	positive
+1256373:3	A must try!	NULL	Null	positive
+1264954:0	On a recent Sunday afternoon, a friend and I accidently found this great restaurant on our way to see the pulitzer prize winning play DOUBT.	restaurant	Null	positive
+1264954:1	This was the perfect quiet, relaxing, and delicious accompaniment to our afternoon of theater.	NULL	Null	positive
+1264954:3	With so many poor experiences to be had in the theater district, is truly an excellent find!	NULL	Null	positive
+1264954:4	We will return many times for this oasis in mid-town.	NULL	Null	positive
+1269216:1	The staff is no nonsense.	staff	Null	positive
+1269216:2	The food options rule.	food	Null	positive
+1269216:3	When I lived upstate for a while I would buy freeze the bagels and they would still be better than any else.	bagels	Null	positive
+1269216:4	Worth visiting the 1st Ave spot because it is the original store.	1st Ave spot	Null	positive
+1275154:4	He served me an Uni Hand roll, which I never had before, and let me tell you...IT WAS HEAVEN!	Uni Hand roll	Null	positive
+1275154:6	The sake menu should not be overlooked!	sake menu	Null	positive
+1275154:7	All in all, this midtown gem instantly became one of my favorite sushi restaurants in the city.	NULL	Null	positive
+1280166:1	Service was very good - prompt, attentive and non-intrusive.	Service	Null	positive
+1280179:0	I've been to at Cafe Spice probably 5-8 times, it is probably still the best Indian restaurant around Union Square.	Cafe Spice	Null	positive
+1280179:1	To sum it up: Service varies from good to mediorce, depending on which waiter you get; generally it is just average Ok. 	Service	Null	positive
+1280179:2	Seating is always prompt, though the restaurant does fill up in the evening.	Seating	Null	positive
+1280179:4	As many other reviewers noticed, your order is often slow to arrive - this is particularly true in the evening but is not a problem during lunch time.	NULL	Null	positive
+1286916:0	I have NEVER been disappointed in the Red Eye.	Red Eye	Null	positive
+1286916:3	It's simply the best meal in NYC.	meal	Null	positive
+1286916:4	You cannot go wrong at the Red Eye Grill.	Red Eye Grill	Null	positive
+1287538:0	If we were to move from the upper east side, we would genuinely miss this restaurant.	restaurant	Null	positive
+1287538:2	The restaurant is cute but not upscale.	restaurant	Null	positive
+1287538:4	I would highly recommend it.	NULL	Null	positive
+1287538:5	It's one of our favorite places to eat in NY.	NULL	Null	positive
+1289424:0	We had a great time at the Jekyll and hyde Pub last night.	Jekyll and hyde Pub	Null	positive
+1289424:2	After really enjoying ourselves at the bar we sat down at a table and had dinner.	bar	Null	positive
+1289424:3	The server was really cool and served us our food and drinks with a smile.	server	Null	positive
+1289424:5	I highly recommend visiting this restaurant and having dinner and drinks!	restaurant	Null	positive
+1293334:0	If you are the type of person who likes being scared and entertained, this is a great place to go and eat.	place	Null	positive
+1293334:1	My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary, and to our surprise it was fantastic.	Jekyll and Hyde Pub	Null	positive
+1293334:3	The entertainment was great they have shows that go on through out the dinner.	NULL	Null	positive
+1293334:4	Please take my advice, go and try this place.	place	Null	positive
+1293334:6	You will not be disapointed at all.	NULL	Null	positive
+1297844:1	We were not dissappointed in the least bit by this little gem.	NULL	Null	positive
+1297844:2	The bagel was huge.	bagel	Null	positive
+1297844:3	They were served warm and had a soft fluffy interior.	NULL	Null	positive
+1297844:4	The workers there also absolutely load the bagel with cream cheese (gets a little messy).	bagel	Null	positive
+1297844:5	I loved it and would HIGHLY RECOMMEND.	NULL	Null	positive
+1303888:0	All the staff is absolutely professional!! 	staff	Null	positive
+1303888:2	But they do.	NULL	Null	positive
+1303888:3	(that is A MUST, but not every restaurant can do...) 	NULL	Null	positive
+1303888:5	There's nice and quiet, small but enough for 6 (or more).	NULL	Null	positive
+1303984:0	This restaurant was way overhyped.	restaurant	Null	positive
+1303984:1	My chow fun and chow see was really bland and oily.	chow fun and chow see	Null	positive
+1303984:2	Okay-i don't mind the oily part (cause most are cooked that way) but it was way too bland.	NULL	Null	positive
+1308557:2	I definitely wouldn't go back.	NULL	Null	positive
+1318537:1	great for a romantic evening, or a fun evening with friends...	NULL	Null	positive
+1318537:2	I will be going back very soon.	NULL	Null	positive
+1318537:3	keep up the good work.	NULL	Null	positive
+1318537:4	Hats off to the chef.	chef	Null	positive
+1328078:2	It was wonderful.	NULL	Null	positive
+1328078:3	the salads are delicious, both refreshing and very spicy.	salads	Null	positive
+1328078:4	We had Pam's special fried fish and it was amazing.	Pam's special fried fish	Null	positive
+1328078:5	too large for just two people but nothing was left.	NULL	Null	positive
+1335154:1	Great vibe, lots of people.	vibe	Null	positive
+1335154:3	My husbands was perfect, my was well done and dry.	NULL	Null	positive
+1335154:4	I didn't complain, I liked the atmosphere so much.	atmosphere	Null	positive
+1335656:1	On a hot day it was fabulous to stop in and enjoy lunch.	NULL	Null	positive
+1335656:3	Salads were fantastic.	Salads	Null	positive
+1335656:4	Although we were looking for regular lettuce and some walnuts the salads we got were great.	salads	Null	positive
+1335656:5	Ingredients are organic which is a real plus for me.	Ingredients	Null	positive
+1335656:6	We will be back.	NULL	Null	positive
+1338124:0	This is some really good, inexpensive sushi.	sushi	Null	positive
+1338124:2	The spicy Tuna roll is huge and probably the best that I've had at this price range.	spicy Tuna roll	Null	positive
+1338124:3	The Yellowtail was particularly good as well.	Yellowtail	Null	positive
+1338124:4	I have reservations about the all you can eat deal, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $18 by just going off the menu.	all you can eat deal	Null	positive
+1338124:5	In any event, this is a place I'll be sure to stop by again when I'm in this part of town.	place	Null	positive
+1340075:0	Big Wong gets big Ups for a fine establishment.	Big Wong	Null	positive
+1340075:3	The food is prepared quickly and efficiently.	NULL	Null	positive
+1340075:5	The takeout is great too since they give high quality tupperware as well.	takeout	Null	positive
+1340075:6	This place is always very crowded and popular.	place	Null	positive
+1341354:4	We'd go back again	NULL	Null	positive
+1347423:0	I recently went to this restaurant with some co-workers for lunch and had an amazing time.	restaurant	Null	positive
+1347423:2	We even had a visit from the Manager who wanted to make sure we were enjoying ourselves.	Manager	Null	positive
+1347423:3	Yes, the prices are high, but I felt it was worth it.	NULL	Null	positive
+1347423:4	We all felt it was worth it.	NULL	Null	positive
+1349391:2	it is not consistent.	NULL	Null	positive
+1352948:1	And where does Patis go wrong; no where. 	Patis	Null	positive
+1352948:2	You are not eating haut cuisine with subtle hints of whatever but: Cassuolet, Steake Fritte, Tripe Stew, etc; simple stuff.	NULL	Null	positive
+1352948:3	And evaluated on those terms Pastis is simply wonderful.	Pastis	Null	positive
+1353599:2	My friend got the mushroom pizza which tasted better.	mushroom pizza	Null	positive
+1353599:3	The sangria was pretty tasty and good on a hot muggy day.	sangria	Null	positive
+1353599:4	Kind of a small place but I guess if they are not too busy might be able to fit a group or kids.	place	Null	positive
+1353599:5	Overall I would recommend it and go back again.	NULL	Null	positive
+1357554:0	I started out with a Bombay beer which was big enough for two.	Bombay beer	Null	positive
+1357554:2	MMmmm... it was delicious.	NULL	Null	positive
+1357554:4	It's a nice place to relax and have conversation.	place	Null	positive
+1357554:5	I can't wait to go back.	NULL	Null	positive
+1367358:1	The food is authentic Italian - delicious!	food	Null	positive
+1380450:0	I'm still mad that i had to pay for lousy food.	food	Null	positive
+1380450:3	DO not try unless you're just going there to hang out like the rest of the hipsters who apparently have no sense of taste.	NULL	Null	positive
+1387314:0	I go and eat out at many different restaurants and this is one place you have go and try.	place	Null	positive
+1387314:2	The filet mignon dish was superb!	filet mignon dish	Null	positive
+1387314:3	I would defiantly come back here again as one of my top choices.	NULL	Null	positive
+1387314:4	It's a small cute restaurant.	restaurant	Null	positive
+1390357:0	I absolutely love this place!!!	place	Null	positive
+1390357:2	I like the ambience, it's very dark and original.	ambience	Null	positive
+1390357:4	The sushi is amazing!!! 	sushi	Null	positive
+1390357:5	And amazingly cheap.	NULL	Null	positive
+1390357:6	Big thumbs up!	NULL	Null	positive
+1394712:1	We ordered some beef and noodle soup dishes from the Thai section of the menu but nothing we got was Thai.	beef and noodle soup dishes	Null	positive
+1394712:2	We were very disappointed.	NULL	Null	positive
+1394712:3	We won't go to this place again for a good meal.	meal	Null	positive
+1394712:4	However, I think this place is a good hang out spot.	place	Null	positive
+1395421:0	My Girlfriend and I stumbled onto this hopping place the other night and had a great time!	place	Null	positive
+1395421:2	It is one the nicest outdoor restaurants I have ever seen in NY--I am from Italy and this place rivals the ones in my country.	NULL	Null	positive
+1395421:3	They tell me they are going to cover the garden in glass for the winter, so i'm looking forward to going there on a snowy night to enjoy it.	NULL	Null	positive
+1395421:4	Check this place out!	place	Null	positive
+1395421:5	HIGHLY RECOMMENDED!!!!!	NULL	Null	positive
+1398844:0	First of all, this place is *not* romantic, as claimed by Citysearch's editorial review.	place	Null	positive
+1398844:1	Either that, or the editor's idea of romance must be sharing a conversation with the next table, while trying to speak louder than the traffic on 57th.	NULL	Null	positive
+1398844:3	Slightly above average wines start at $70+ with only one selection listed at $30+.	wines	Null	positive
+1398844:4	Service is not what one would expect from a joint in this price category.	Service	Null	positive
+1398844:5	For instance, plates were just dumped on the table, I was handed the wine list upside down, etc.... 	NULL	Null	positive
+1398844:6	Somehow working the italian charm with constant mille grazie does not constitute proper service.	service	Null	positive
+1404042:2	Fish was overdone.	Fish	Null	positive
+1404042:4	Someone else recommended the dessert - we also left that.	dessert	Null	positive
+1404042:5	One of us actually liked the expresso - that's it.	expresso	Null	positive
+1404042:6	Skip this restaurant, it's a big disappointment.	restaurant	Null	positive
+1410878:0	Myagi is one of my favorite restaurants in the City; the place the negative reviews describe sound like they were somewhere else.	Myagi	Null	positive
+1410878:2	Their tuna tartar appetizer is to die for.	tuna tartar appetizer	Null	positive
+1413697:0	I come from a family of pizzeria owners, and I'm almost ashamed to say that the pizza in Fornino's blows my families receipies away.	pizza	Null	positive
+1413697:1	It is simply amazing.	NULL	Null	positive
+1413697:3	I highly recommend to anyone to give this place a try.	place	Null	positive
+1413697:4	You will find yourself returning quite often.	NULL	Null	positive
+1417496:1	No gimmicks here -- the food speaks for itself in its freshness and preparation.	food	Null	positive
+1417496:2	The dining room is quietly elegant with no music to shout over -- how refreshing!	dining room	Null	positive
+1417496:5	Beautiful experience.	NULL	Null	positive
+1430994:1	The staff offers impeccable service.	staff	Null	positive
+1430994:2	I had Lobster Bisque it has 2 oz. of Maine Lobster in it.	Lobster Bisque	Null	positive
+1430994:5	It was divine melts in your mouth.	NULL	Null	positive
+1430994:6	My boyfriend had Prime Rib it was good .	Prime Rib	Null	positive
+1430994:7	We didn't want a bottle of bubbly on a weekday so we each got little bottles of Korbett it was just enough. 	bottles of Korbett	Null	positive
+1430994:9	It's cuz it's so good you need to taste it!!! 	NULL	Null	positive
+1430994:10	All in all we're already coming up with excuses to go ahead really soon in the next few wks!!!!	NULL	Null	positive
+1431154:0	My wife and I ate here earlier this week and have not stopped ranting and raving about the food.	food	Null	positive
+1431154:1	If you like spicy food get the chicken vindaloo.	chicken vindaloo	Null	positive
+1431154:2	It's very spicy but not offensive.	NULL	Null	positive
+1431154:3	We will definitely go back.	NULL	Null	positive
+1432551:2	The wine list is excellent.	wine list	Null	positive
+1439875:5	Please be aware that it's CASH or AMEX only!	NULL	Null	positive
+1448587:1	The menu is very limited - i think we counted 4 or 5 entrees.	menu	Null	positive
+1448587:2	We ordered the special, grilled branzino, that was so infused with bone, it was difficult to eat.	grilled branzino	Null	positive
+1448587:3	The decor in this place is very diner-ish and the kind of place you expect in the East Village - not romantic, just simple, small and sparse.	decor	Null	positive
+1448587:4	Problem is nothing at Prune is particularly memorable.	Prune	Null	positive
+1448587:5	No plans to return anytime soon.	NULL	Null	positive
+1451107:0	This place is so much fun.	place	Null	positive
+1451107:1	Our family never expected such incredible entertainment in a restaurant.	restaurant	Null	positive
+1451107:4	Our food was great too!	food	Null	positive
+1451107:5	And really large portions.	portions	Null	positive
+1451107:6	The staff was the friendliest that have seen in New York.	staff	Null	positive
+1451107:7	We will go back every time we are in the City.	NULL	Null	positive
+1451109:0	If you want something really different than try Jekyll and Hyde.	Jekyll and Hyde	Null	positive
+1451109:1	It is a lot of fun with live entertainment and all kinds of Disney type special effects.	NULL	Null	positive
+1451109:3	I highly recommend it.	NULL	Null	positive
+1457607:0	The place is a lot of fun.	place	Null	positive
+1457607:1	My six year old loved it.	NULL	Null	positive
+1457607:2	The characters really make for an enjoyable experience.	characters	Null	positive
+1457607:3	The food however, is what one might expect.	food	Null	positive
+1457607:4	It is very overpriced and not very tasty.	NULL	Null	positive
+1457607:5	However, I think Jeckll and Hydes t is one of those places that is fun to do once.	Jeckll and Hydes	Null	positive
+1457607:6	We had a good time.	NULL	Null	positive
+1459569:0	Went there with my wife and we had to wait for a table even though you could see there many that were empty with not reservation sigh on them.	NULL	Null	positive
+1459569:1	Service was slow had to wait to order and get food although not crowded.	Service	Null	positive
+1459569:2	Drinks way over priced.	Drinks	Null	positive
+1460715:0	Great pizza for lunch place.	pizza	Null	positive
+1460715:1	Service was quick.	Service	Null	positive
+1460715:2	The pizza was great.	pizza	Null	positive
+1460715:3	And it was quick which is very important.	NULL	Null	positive
+1460715:4	Have the iced tea.	iced tea	Null	positive
+1460715:5	It was wonderful.	NULL	Null	positive
+1470286:1	Delivery is fast too.	Delivery	Null	positive
+1470286:3	A little overpriced but worth it once you take a bite.	NULL	Null	positive
+1470334:1	Ess-A-Bagel (either by Sty-town or midtown) is by far the best bagel in NY.	bagel	Null	positive
+1470334:2	The bagels always warm, soft on the inside, crispy on the outside and enormous in size.	bagels	Null	positive
+1470334:4	The lox is always fresh too.	lox	Null	positive
+1470334:5	Highly recommended to all!	NULL	Null	positive
+1471273:2	Not impressed with the food.	food	Null	positive
+1471273:3	Prices too high for this cramped and unappealing resturant.	resturant	Null	positive
+1471273:4	Zero ambiance to boot.	ambiance	Null	positive
+1476493:0	I thought this place was totally overrated.	place	Null	positive
+1476493:1	Everything we had was good or ok....but definitely nothing great.	NULL	Null	positive
+1476493:3	When you add it all together, it just doesn't seem worth it to me...especially considering the prices.	NULL	Null	positive
+1477631:0	This is the BEST Shabu-Shabu Restaurant in the Try-State Area.	Shabu-Shabu Restaurant	Null	positive
+1477631:2	Thius is a must for anyone who loves Shabu-Shabu.	Shabu-Shabu	Null	positive
+1486041:0	The atmosphere is nothing special, but it feels like a Sushi establishment in Tokyo.	atmosphere	Null	positive
+1486041:3	I must give it Yon out of Yon stars!	NULL	Null	positive
+1486041:4	Taxan delicious!	Taxan	Null	positive
+1490757:0	This restaurant was recommended by a local...as a matter of fact, he made the reservation for us and said we would not be disappointed!	NULL	Null	positive
+1490757:3	We liked it so much, that we will always make it a point to dine here when we visit New York.	NULL	Null	positive
+1496205:2	There is a lot of variety even for people who eat vegetarian like me.	NULL	Null	positive
+1496205:3	Try green curry with vegetables.	green curry with vegetables	Null	positive
+1496205:4	The quantity is also very good, you will come out satisfied.	NULL	Null	positive
+1496205:5	The service is ok, some of the people didn't get what they asked for.	service	Null	positive
+1496707:0	I was there on sat. for my birthday and we had an excellent time.	NULL	Null	positive
+1496707:1	I had the best ravioli ever.	ravioli	Null	positive
+1496707:3	Moderate prices.	NULL	Null	positive
+1496707:4	A little noise but I think that was because of our party!	NULL	Null	positive
+1500453:1	This quaint and romantic trattoria is at the top of my Manhattan restaurant list.	trattoria	Null	positive
+1500453:5	A guaranteeed delight!	NULL	Null	positive
+1506491:2	Check out the secret back room.	back room	Null	positive
+1506491:4	I pray it stays open forever.	NULL	Null	positive
+1506491:5	Thank You Emilio.	Emilio	Null	positive
+1538149:1	The food was authentic.	food	Null	positive
+1538149:2	I felt as though I were eating in Paris.	NULL	Null	positive
+1538149:3	The service was excellent - friendly and attentive.	service	Null	positive
+1538149:4	The prices are wonderfully low.	NULL	Null	positive
+1538149:5	Very good wine choices.	wine choices	Null	positive
+1543345:1	Who has room for Cheesesticks with the best pizza in NYC!	pizza	Null	positive
+1543345:3	Great staff.	staff	Null	positive
+1543345:4	Always great service!	service	Null	positive
+1543345:5	I go twice a month!	NULL	Null	positive
+1543345:6	Fantastic!	NULL	Null	positive
+1561259:0	The food is good, I can't lie.	food	Null	positive
+1561259:1	But the staff was so horrible to us.	staff	Null	positive
+1561259:3	We were planning to get dessert but the waitress basically through the bill at us before we had a chance to order.	waitress	Null	positive
+1561259:5	Save yourself the time and trouble and skip this one!	NULL	Null	positive
+1572027:1	Amma is nothing special.	Amma	Null	positive
+1572027:3	I ate here a week ago and found most dishes average at best and too expensive.	dishes	Null	positive
+1572027:4	Will not be back.	NULL	Null	positive
+1572033:2	This place is always packed.	place	Null	positive
+1572033:4	Most importantly, food is excellent.	food	Null	positive
+1572033:5	Try the sea bass.	sea bass	Null	positive
+1572033:6	Highly recommended.	NULL	Null	positive
+1573534:0	First of all Dal Bukhara Rocks.	Dal Bukhara	Null	positive
+1573534:3	I am happy i did the food was awsome.	food	Null	positive
+1573534:4	JUST AWSOME.	NULL	Null	positive
+1573534:7	but overall i give it a 10	NULL	Null	positive
+1573534:8	10	NULL	Null	positive
+1577714:1	Haru on Park S is simply disgusting.	Haru on Park S	Null	positive
+1577714:3	Quite frankly, this is some of the worst sushi I have ever tried.	sushi	Null	positive
+1577714:4	Will never be back.	NULL	Null	positive
+1586174:0	honestly the worst sushi my husband and i had in our entire lives.	sushi	Null	positive
+1586174:2	not sure why this restaurant would be rated that highly.	restaurant	Null	positive
+1586174:3	the all-u-can-eat sushi is definitely in very poor quality.	all-u-can-eat sushi	Null	positive
+1586174:6	the waitstaffs are nice though.	waitstaffs	Null	positive
+1586174:7	wont come back again for sure!	NULL	Null	positive
+1603698:0	I have been to Roth's twice and both times were very disappointing.	Roth's	Null	positive
+1603698:2	Both times I was extremely dissappointed by the service, which was boarderline rude.	service	Null	positive
+1603698:3	They wouldnt even let me finish my glass of wine before offering another.	NULL	Null	positive
+1603698:4	Much of the time it seems like they do not care about you.	NULL	Null	positive
+1603698:5	The dinner was ok, nothing I would have again.	dinner	Null	positive
+1603698:6	I had their eggs benedict for brunch, which were the worst in my entire life, I tried removing the hollondaise sauce completely that was how failed it was.	eggs benedict	Null	positive
+1606837:0	This was a great surprise.	NULL	Null	positive
+1606837:2	The service was attentive.	service	Null	positive
+1606837:3	I look forward to eating here again	NULL	Null	positive
+1609375:0	Planet Thai is great!	Planet Thai	Null	positive
+1611489:0	They forgot a sandwich, didn't include plastic forks, and didn't include pita with the hummus platter.	NULL	Null	positive
+1611489:1	Also, the sandwiches (nearing $7) didn't come with anything like chips or a side.	sandwiches	Null	positive
+1611489:2	Overall, not worth the money.	NULL	Null	positive
+1615322:1	Chennai Garden is my favorite Indian restaurant in the city.	Chennai Garden	Null	positive
+1615322:2	They have authentic Indian at amazin prices.	Indian	Null	positive
+1615322:3	This restaurant is VEGETARIAN; there are NO MEAT dishes whatsoever.	dishes	Null	positive
+1615322:4	The seats are uncomfortable if you are sitting against the wall on wooden benches.	seats	Null	positive
+1615322:5	It's a rather cramped and busy restaurant and it closes early.	restaurant	Null	positive
+1623276:2	This is a nice restaurant if you are looking for a good place to host an intimate dinner meeting with business associates.	restaurant	Null	positive
+1623276:3	Not a great place for family or general dining.	place	Null	positive
+1626564:0	LLOOVVE THIS PLACE.	PLACE	Null	positive
+1626564:1	Food is excellent.	Food	Null	positive
+1626564:2	Fish is so very fresh.	Fish	Null	positive
+1626564:3	Waitstaff are very friendly.	Waitstaff	Null	positive
+1626564:4	Love YUKA.	YUKA	Null	positive
+1632445:4	The only fallback on this restaurant is the prices.	restaurant	Null	positive
+1632445:5	Even though its good seafood, the prices are too high.	seafood	Null	positive
+1632445:6	The lobster sandwich is $24 and although it was good it was not nearly enough to warrant that price.	lobster sandwich	Null	positive
+1632929:2	We were very pleasantly surprised.	NULL	Null	positive
+1632929:4	When my dessert came, there was a candle in it - not because anyone asked for one - but because the waiter must have seen me opening my birthday card and gift, and said he knew it was a special occassion of some sort.	waiter	Null	positive
+1632929:5	Truly the mark of an attentive waiter.	waiter	Null	positive
+1632929:6	I highly recommend the restaurant based on our experience last night.	restaurant	Null	positive
+1642666:0	We ate at this Thai place following the reviews but very unhappy with the foods.	foods	Null	positive
+1642666:1	We thought that this place is using too much of MSG cooking in the foods.	foods	Null	positive
+1642666:3	They don't concern much of customer's health, just want to make money.	NULL	Null	positive
+1642666:4	please don't fool us.	NULL	Null	positive
+1649025:3	Of course, it is crowded but who cares.	NULL	Null	positive
+1649025:4	Authentic Shanghai style and I cannot recommend a better Shanghai place in New York.	NULL	Null	positive
+1655504:0	Have frequented 'ino for several years and the food remains excellent.	food	Null	positive
+1655504:1	Cheese plate is a varied delight and great bargain at $10.	Cheese plate	Null	positive
+1655504:3	(The asparagus, truffle oil, parmesan bruschetta is a winner!)	asparagus, truffle oil, parmesan bruschetta	Null	positive
+1655504:4	Wine list is extensive without being over-priced.	Wine list	Null	positive
+1655504:5	Be sure to try the seasonal, and always delicious, specials.	specials	Null	positive
+1655504:6	Definitely a neighborhood favorite.	NULL	Null	positive
+1655521:0	I loved this place!!	place	Null	positive
+1655521:1	I almost hesititate to write a review because the atmosphere was so great and I would hate for it too become to crowded.	atmosphere	Null	positive
+1655521:3	The wait staff is very freindly, they make it feel like you're eating in a freindly little european town.	wait staff	Null	positive
+1660047:1	The service was terrible, we had to wait for everything and ask several of different people for the same thing before we were allowed to be served.	service	Null	positive
+1660047:2	The waitress, seems to be more concerned of looking good than actually waitressing.	waitress	Null	positive
+1660047:3	After dinner the manager grabbed my boyfriend, asked him: Where are you from...maybe you dont know how things work in America...and in the end stormed away almost teareyed yelling that tips are the only thing they survive on.	manager	Null	positive
+1660047:4	We did tip, I guess the model/waitress just wanted more and complained to the manager.	waitress	Null	positive
+1661043:0	Pizza here is consistently good.	Pizza	Null	positive
+1661043:1	Salads are a delicious way to begin the meal.	Salads	Null	positive
+1661043:2	You should pass on the calamari.	calamari	Null	positive
+1661043:3	It is thick and slightly soggy.	NULL	Null	positive
+1661043:4	Decor is charming.	Decor	Null	positive
+1661043:5	Service is average.	Service	Null	positive
+1661757:0	What a great place.	place	Null	positive
+1661757:3	I wasn't thrilled to have to wait on line for thirty minutes, but I guess that's the price you pay for a popular place.	NULL	Null	positive
+1661757:4	I would definitely recommend SEA if you like thai cuisine!	thai cuisine	Null	positive
+1662726:0	I was here a few weeks back and we had the worst customer service experience at a restaurant ever.	customer service	Null	positive
+1662726:1	A gentleman, maybe the manager, came to our table, and without so much as a smile or greeting asked for our order.	gentleman	Null	positive
+1662726:2	When asked about how a certain dish was prepared in comparison to a similar at other thai restaurants, he replied this is not Mcdonald's, every place makes things differently 	NULL	Null	positive
+1662726:3	While it is understandable that every place is indeed different, there was not a need to be uncourteous to customers and downright rude.	NULL	Null	positive
+1662726:5	Never again!	NULL	Null	positive
+1663111:0	I absolutely Loved this place.	place	Null	positive
+1663111:3	this is can became on e of the NY Italian Food fare institutions.	NULL	Null	positive
+1663111:4	I think that it is absolutely brilliant and well runned business operation.	NULL	Null	positive
+1663111:5	The wine list is also really nice.	wine list	Null	positive
+1664346:2	I would highly recommend this place!	place	Null	positive
+1671113:0	I have been to Casimir over 5 times and I have always had a great time there.	Casimir	Null	positive
+1671113:1	The food is great and reasonably priced.	food	Null	positive
+1671113:2	I have tried to make reservations, but both times, the hostess didn't have my name.	hostess	Null	positive
+1671113:3	If the weather is nice, try to snag an outside table.	outside table	Null	positive
+1700205:0	My boyfriend and I went there to celebrate my birthday the other night and all I can say is that it was magnificent.	NULL	Null	positive
+1700205:2	Considering we were the last patrons there and it was after the closing time, the waitstaff did not rush us at all and made us feel comfortable and relaxed.	waitstaff	Null	positive
+1702257:0	Nice Family owned traditional restaurant.	restaurant	Null	positive
+1702257:2	I was pleasantly surprised to find this gem in Hoboken.	NULL	Null	positive
+1702257:3	Friendly staff that actually lets you enjoy your meal and the company you're with.	staff	Null	positive
+1706644:2	I also ordered the Change Mojito, which was out of this world.	Change Mojito	Null	positive
+1706644:3	My friends settled for rice dishes, but we came back the following day to try the dim sum, which was good...not outstanding, but good.	dim sum	Null	positive
+1706644:5	Overall, excellent restaurant!	restaurant	Null	positive
+1707201:1	The food was good.	food	Null	positive
+1707201:2	The place was nice and calm.	place	Null	positive
+1707201:3	but the service was a bit slow.	service	Null	positive
+1707741:1	The buffet had a nice selection.	buffet	Null	positive
+1707741:3	Service was also very good.	Service	Null	positive
+1707741:4	I would go back.	NULL	Null	positive
+1710746:2	My son and his girlfriend both wanted cheeseburgers and they were huge!	cheeseburgers	Null	positive
+1710746:3	But, they were too big for the bun.	NULL	Null	positive
+1710746:4	Consequently, their burgers fell apart in their hands and made such a mess that they did'nt feel like finishing them.	burgers	Null	positive
+1710746:5	Also they were $15 each!	NULL	Null	positive
+1710746:6	I had a huge pastrami sandwich on a roll.	pastrami sandwich on a roll	Null	positive
+1710746:7	It was $14 not really bad for a pound of Pastrami-but it didn't have much taste-I've had better for less elsewhere!	NULL	Null	positive
+1713185:2	And the Tom Kha soup was pathetic.	Tom Kha soup	Null	positive
+1713185:3	If you want good authentic Thai this place is not the place to go.	Thai	Null	positive
+1718513:0	We went here for lunch a couple of weeks ago on a Saturday, and I was thoroughly impressed with the food.	food	Null	positive
+1718513:2	Conveniently located too, being right on Bedford ave.	NULL	Null	positive
+1718513:3	THe back garden sitting area is very pleasant, where you can see their personal herb garden.	back garden sitting area	Null	positive
+1718513:4	I will definetly be going back.	NULL	Null	positive
+1719567:0	We had the lobster sandwich and it was FANTASTIC.	lobster sandwich	Null	positive
+1719567:4	We waited at the bar and had martinis that were just right.	martinis	Null	positive
+1719567:5	We will be back.	NULL	Null	positive
+1723402:0	love the food.	food	Null	positive
+1723402:1	it's the only place you can get yummy authentic japanese comfort food.	japanese comfort food	Null	positive
+1723402:3	and you can't beat the prices.	NULL	Null	positive
+1723402:4	highly recommended.	NULL	Null	positive
+1723658:0	I've lived in NY for 5 years and this place has it all.	place	Null	positive
+1723658:3	I'm glad I was introduced to this place and this is a rare gem in NY.	place	Null	positive
+1726001:2	Also very inexpensive.	NULL	Null	positive
+1726001:3	A great choice at any cost and a great deal.	NULL	Null	positive
+1726427:3	Definitely a great spot for a nice occasion or date.	spot	Null	positive
+1726473:1	I've waited over one hour for food.	NULL	Null	positive
+1726473:2	They were very abrupt with me when I called and actually claimed the food was late because they were out of rice.	NULL	Null	positive
+1726473:3	A Thai restaurant out of rice during dinner?	Thai restaurant	Null	positive
+1727363:1	This is a wonderful place on all stand points especially value ofr money.	place	Null	positive
+1727363:2	An excellent service	service	Null	positive
+1728733:1	We were greeted promptly by the waiter who was very nice and cordial.	waiter	Null	positive
+1728733:4	The food looked very appetizing and delicious since it came on a variety of fancy plates.	food	Null	positive
+1728733:5	We ended our great experience by having Gulab Jamun (dessert) recommended by the waiter.	Gulab Jamun (dessert)	Null	positive
+1728733:6	I thanked my friend who recommended me this restaurant and will certainly recommend it to others.	restaurant	Null	positive
+1730014:3	Will absolutely visit again.	NULL	Null	positive
+1730127:0	You cannot go wrong with this place.	place	Null	positive
+1730127:3	Go here.	NULL	Null	positive
+1730127:4	Good for dates or with friends.	NULL	Null	positive
+1730447:0	I am reluctant to write because I would not want my jem of a pizza place to become overcrowded.	pizza place	Null	positive
+1730447:1	However, it is jus too good to not praise it.	NULL	Null	positive
+1730447:2	By far, the best pizza in Manhattan.	pizza	Null	positive
+1746113:1	The menu has so many fish items and oysters.	menu	Null	positive
+1746113:3	The fish was really,really fresh.	fish	Null	positive
+1746113:5	We all agreed that mare is one of the best seafood restaurants in New York.	mare	Null	positive
+1748813:0	I stumbled upon this great pizzeria as I explored my new neighborhood.	pizzeria	Null	positive
+1748813:1	All of the pizzas are terrific and the price is even better!	pizzas	Null	positive
+1748813:2	I highly recommend the Sophia pizza.	Sophia pizza	Null	positive
+1748813:3	It's to die for!	NULL	Null	positive
+1748839:1	Immediately after we paid, the waiter took the money and said, okay, you guys are outta here.	waiter	Null	positive
+1748839:6	So rushing us out was absolutely unnecessary!	NULL	Null	positive
+378848:1	The first time the sushi was outstanding, the second time it was a little bland.	sushi	Null	positive
+378848:2	I'm sure I'll return for a final judgement tho.	NULL	Null	positive
+397331:0	Mizu is the Japenese find in Grammercy.	Mizu	Null	positive
+397331:2	Mizu is home to creative and unique rolls not to found anywhere else.	rolls	Null	positive
+397331:4	Warning: You may find it difficult to dine at other Japanese restaurants after a visit to Mizu!	Mizu	Null	positive
+404464:1	I ordered the smoked salmon and roe appetizer and it was off flavor.	smoked salmon and roe appetizer	Null	positive
+404464:3	I expected quite a bit more from such an expensive menu.	menu	Null	positive
+426805:1	Wonderful strawberry daiquiries as well!	strawberry daiquiries	Null	positive
+426805:2	Definitely worth the trip to Battery Park City!	NULL	Null	positive
+426805:3	One of my favorite places in Manhattan.	NULL	Null	positive
+426930:0	Authentic Taiwanese food that's cheap... what more could you ask for?	Taiwanese food	Null	positive
+426930:1	(Besides that there should be more restaurants like it around the city).	NULL	Null	positive
+426930:2	The cold appetizer dishes taste like the way I remember them to taste when I was growing up in Taiwan.	cold appetizer dishes	Null	positive
+430342:1	Kind, attentive wait staff.	wait staff	Null	positive
+430342:3	My friend devoured her chicken and mashed potatos.	chicken and mashed potatos	Null	positive
+430342:4	Delicious crab cakes too.	crab cakes	Null	positive
+430342:6	Great neighborhood joint.	joint	Null	positive
+433878:1	Their calzones are horrific, bad, vomit-inducing, YUCK.	calzones	Null	positive
+433878:2	They smell like they stuff them with old canned vegetables like the spinach mushroom calzone.	NULL	Null	positive
+433878:3	The counter service is bad.	counter service	Null	positive
+433878:4	They charge different prices all the time.	NULL	Null	positive
+433878:5	They're rude at times, and not very friendly.	NULL	Null	positive
+433878:6	NO PIZZA 33 for me!	PIZZA 33	Null	positive
+436868:0	Anybody who likes this place must be from a different planet, where greasy, dry and tasteless are complimentary.	NULL	Null	positive
+436868:1	The dosas are skimpy, unattractive and drip with grease, and personally I'd drink popcorn topping before I'd eat another one of these.	dosas	Null	positive
+436868:2	The sandwiches are dry, tasteless and way overpriced.	sandwiches	Null	positive
+444818:0	Seriously, this place kicks ass.	place	Null	positive
+444818:2	Best Italian food I ever had (and being Italian, that means alot).	Italian food	Null	positive
+444818:3	It is nearly impossible to get a table, so if you ever have the chance to go here for dinner, DO NOT pass it up.	NULL	Null	positive
+445960:0	This is such a lovely, peaceful place to eat outside.	place	Null	positive
+445960:1	The restaurant looks out over beautiful green lawns to the Hudson River and the Statue of Liberty.	restaurant	Null	positive
+445960:2	It is set far from the small street it's on, and there is no traffic noise.	NULL	Null	positive
+445960:4	This is a great place to take out-of-towners, and perfect for watching the sunset.	place	Null	positive
+447697:0	Great sushi experience.	sushi	Null	positive
+447697:1	Nice value.	NULL	Null	positive
+447697:2	Unique apppetizers.	apppetizers	Null	positive
+447697:3	Try sushimi cucumber roll.	sushimi cucumber roll	Null	positive
+449802:1	THE BIG COMPLAINT: NO TOASTING AVAILABLE.	NULL	Null	positive
+449802:3	Murray won't do it.	NULL	Null	positive
+449802:4	Won't or Can't is not in the service directory.	NULL	Null	positive
+449802:5	But who says Murray's is anything about service.	service	Null	positive
+449802:6	So close, but not good enough.	NULL	Null	positive
+454704:0	Don't be fooled by crowds of people.	NULL	Null	positive
+454704:1	The service is awful.	service	Null	positive
+454704:2	This place is not worth the prices.	place	Null	positive
+454704:3	Also, don't plan on asking for your favorite roll, if it's not on the menu, you can't have it.	NULL	Null	positive
+455623:0	Love Pizza 33..	Pizza 33	Null	positive
+455623:1	I will be out with friends and all of a sudden I am hungry and I only crave one thing... their Pizza.	Pizza	Null	positive
+455623:3	It hits the spot every time	NULL	Null	positive
+461928:0	This tiny Williamsburg spot is always pleasantly surprising.	Williamsburg spot	Null	positive
+461928:3	I've been many time and have never been disappointed.	NULL	Null	positive
+464215:1	They even scoop it out nice (for those on a diet) not too much not to little.	NULL	Null	positive
+464215:3	A little crowded but they move that line really fast!	NULL	Null	positive
+464215:4	A little pricey but it really hits the spot on a Sunday morning!	NULL	Null	positive
+464342:1	I asked for an open faced cheese sandwich and the manager basically told me to take my business elsewhere!	manager	Null	positive
+464342:3	the turkey burgers are scary!	turkey burgers	Null	positive
+470488:0	The worst excuse for Japanese food I've ever encountered.	Japanese food	Null	positive
+470488:1	The soup for the udon was soy sauce and water.	soup for the udon	Null	positive
+470488:2	The sushi was awful!	sushi	Null	positive
+470488:3	The rice was poor quality and was cooked so badly it was hard.	rice	Null	positive
+470488:5	The fish was adequate, but inexpertly sliced.	fish	Null	positive
+470488:6	It is obvious that no one in the restaurant has any idea about or experience with Japanese cuisine.	Japanese cuisine	Null	positive
+475298:0	Good, fast service.	service	Null	positive
+475298:1	I would highly recommend.	NULL	Null	positive
+475298:2	Food is great and inexpensive.	Food	Null	positive
+475298:3	The location is perfect.	location	Null	positive
+475298:4	Give it a try and enjoy.	NULL	Null	positive
+475512:2	Well, this place is so Ghetto its not even funny.	place	Null	positive
+475512:4	Would NEVER go back there.	NULL	Null	positive
+476473:1	Always busy but fast moving.	NULL	Null	positive
+476473:3	Open late (well as late as I ever got there and I'm a night person)	NULL	Null	positive
+483111:2	What more can you ask for?	NULL	Null	positive
+485026:0	For authentic Thai food, look no further than Toons.	Thai food	Null	positive
+485767:0	Everything about this restaurant was special.	restaurant	Null	positive
+485767:1	The service was attentive, yet discreet.	service	Null	positive
+485767:2	The flavors robust and subtle.	NULL	Null	positive
+485767:3	The brioche and lollies as party favors is a cute and sweet touch to a most memorable meal.	brioche and lollies	Null	positive
+485767:4	I'm saving up for my next visit.	NULL	Null	positive
+485966:1	The place was quiet and delightful.	place	Null	positive
+485966:4	It is definitely a good spot for snacks and chat.	spot	Null	positive
+490565:0	As a retired hipster, I can say with some degree of certainty that for the last year Lucky Strike has been the best laid-back late night in the city.	Lucky Strike	Null	positive
+490565:1	The wait staff is pleasant, fun, and for the most part gorgeous (in the wonderful aesthetic beautification way, not in that she's-way-cuter-than-me-that-b@#$* way).	wait staff	Null	positive
+490565:3	But the best part about LS is the late night atmosphere, delightfully free of the BTs.	late night atmosphere	Null	positive
+490565:5	The in-house lady DJ on Saturday nights has outrageously good taste in music, and moreover, takes requests.	in-house lady DJ	Null	positive
+490565:6	You can't go wrong with this place.	place	Null	positive
+493013:0	Suan is a great place that I often take my friends (classmates) too.	Suan	Null	positive
+493013:2	I LOVE their Thai	Thai	Null	positive
+493013:3	noodles with shrimp and chicken and coconut juice is the MUST!	noodles with shrimp and chicken and coconut juice	Null	positive
+493013:5	I will go back to Suan soon!	Suan	Null	positive
+493013:6	In summer-eat outside on a terrace (another great feature of Suan)!!!	terrace	Null	positive
+493514:0	I cannot imagine a friendlier staff working in a restaurant.	staff	Null	positive
+493514:1	I cannot imagine better Indian food in all of the city.	Indian food	Null	positive
+493514:2	I cannot imagine you not rushing out to eat there.	NULL	Null	positive
+494850:2	I wish they would change back to what it was before.	NULL	Null	positive
+494850:3	The food now is inconsistent.	food	Null	positive
+496132:0	This is the kind of place you'd like to take all your friends to and still keep a secret.	place	Null	positive
+496132:1	The setting is casual and romantic.	setting	Null	positive
+496132:2	Prices are very good.	NULL	Null	positive
+496132:3	The food is excellent! 	food	Null	positive
+496132:4	if you're daring, try the balsamic vinegar over icecream, it's wonderful!	balsamic vinegar over icecream	Null	positive
+498657:0	Do not get the Go Go Hamburgers, no matter what the reviews say.	Go Go Hamburgers	Null	positive
+498657:1	They were such a rip-off ($8.95 for four small meat patties in steamed buns) and not worth trying.	NULL	Null	positive
+498657:2	The rest of the dim sum, though pricey by Chinatown standards, is worth it.	dim sum	Null	positive
+498657:3	Steamed fresh so brought hot hot hot to your table.	NULL	Null	positive
+498657:6	These are overpriced and you can get better just around the corner:	NULL	Null	positive
+503807:1	I was pleasantly suprised.	NULL	Null	positive
+503807:2	The food was exceptional.	food	Null	positive
+503807:4	I choose to go with one of the special, the braised lamb shank in red wine, which was excellent.	braised lamb shank in red wine	Null	positive
+507755:0	Have eaten at Ginger House several times, and it's always good.	Ginger House	Null	positive
+507755:1	The fried dumplings are GREAT!	fried dumplings	Null	positive
+507755:2	Finally a reliable Chinese restaurant!	Chinese restaurant	Null	positive
+507844:0	This place would be so much better served by being run by a group that actually understands customer service.	customer service	Null	positive
+507844:1	The only thing you can do here is walk in and eat .. but planning an event, especially a small, intimate one, forget about it.	NULL	Null	positive
+507844:2	They are not helpful in the least and will give you the grand run around so by the time the event date rolls around you will not only regret chosing this place, but also become hostile!	NULL	Null	positive
+507844:3	Nobody at this restaurant will give firm answers about anything and in the end, not one person takes responsibility for anything.	NULL	Null	positive
+507937:0	Never fails to please.	NULL	Null	positive
+507937:1	delicious bagels, especially when right out of the oven.	bagels	Null	positive
+507937:3	Service is fast and friendly.	Service	Null	positive
+507937:4	Only drawback - they won't toast your bagel, and they don't make eggs for the bagel.	NULL	Null	positive
+507937:5	But that is highly forgivable.	NULL	Null	positive
+509227:0	Been there, done that, and New York, it's not that big a deal.	NULL	Null	positive
+509227:2	If celebrities make you sweat, then your in for a ride, but if your like most around these parts then you'll just yawn and wonder whats with all the hype.	NULL	Null	positive
+509227:3	Rao is a good restaurant, but it's nothing special.	Rao	Null	positive
+511290:1	But after last night, Spice Grill is the only place I'm eating indian cuisine.	indian cuisine	Null	positive
+511290:2	You must try the shrimp appetizers.	shrimp appetizers	Null	positive
+511290:3	Even my Indian friend couldn't believe how good and tasty everything was.	NULL	Null	positive
+512294:1	If you are looking for a good quality, cheap eats - this is the place.	eats	Null	positive
+512925:0	it's a perfect place to have a amanzing indian food.	indian food	Null	positive
+512925:1	I really loved the different and inovated touch that's the cheff gives to the food.	cheff	Null	positive
+513395:1	Their bagels are fine, but they are a little overcooked, and not really a 'special' bagel experience.	bagels	Null	positive
+513521:0	Great bagels made the old-fashioned way.	bagels	Null	positive
+513521:2	Drawbacks: service is slow and they don't toast!	service	Null	positive
+519425:0	The food was absolutely amazing!!	food	Null	positive
+519425:1	The baked clams octopus we shared as appetizers were the best we've ever had!! 	baked clams octopus	Null	positive
+519425:3	The waiter was attentive.	waiter	Null	positive
+521916:2	Dessert is a joke...dont bother	Dessert	Null	positive
+527109:0	Volare virgins or weekly regulars, everyone gets treated the same and you can't ask for more than that when the service is this friendly.	service	Null	positive
+528251:0	Fantastic place.	place	Null	positive
+528251:1	Cute and decorative.	NULL	Null	positive
+528251:2	A pleasant surprise.	NULL	Null	positive
+528251:3	Go there to relax and feel like your somewhere else.	NULL	Null	positive
+530517:0	Lucky Strike is a great casual place to just grab a bite to eat.	Lucky Strike	Null	positive
+530517:3	I recommend it!	NULL	Null	positive
+535086:0	This is the perfect spot for meeting friends, having lunch, dinner, pre-theatre or after-theatre drinks!	spot	Null	positive
+535086:1	(Always ask the bartender for the SEASONAL beer!!!	SEASONAL beer	Null	positive
+535086:2	Guaranteed to be a tasty experience!)	NULL	Null	positive
+535086:3	Excellent spot for holiday get togethers with co-workers or friends that you haven't seen in a while.	spot	Null	positive
+535086:4	I have been doing all of the above at the Heartland Brewery for over 5 years now and I HAVE NEVER BEEN DISAPPOINTED!	Heartland Brewery	Null	positive
+535086:5	All the people that I bring there go back on their own and bring THEIR friends!	NULL	Null	positive
+535086:6	Go there once and oh yes...you will go back...you will...	NULL	Null	positive
+535171:0	What a great place!	place	Null	positive
+535171:1	Not the typical NYC gimmick theme restaurant.	restaurant	Null	positive
+535171:3	And even with it's Pub atmosphere they were great to my kids too!	NULL	Null	positive
+535171:4	Loved it!	NULL	Null	positive
+535248:2	It is expensive but well worth the money.	NULL	Null	positive
+535248:3	If you venture off the island of Manhattan and can't seem to find a great Italian restaurant, drive to Corona.	Corona	Null	positive
+536919:1	The only thing the waiters don't do for you is wipe your chin when you leave.	waiters	Null	positive
+536919:2	Wonderful at holiday time.	NULL	Null	positive
+541532:0	Cozy romantic atomosphere with only around 15 tables at most.	atomosphere	Null	positive
+541532:1	Service was very prompt but slightly rushed.	Service	Null	positive
+541532:2	Food was very good, but not what I would consider out of this world.	Food	Null	positive
+541532:3	Go here for a romantic dinner but not for an all out wow dining experience.	NULL	Null	positive
+553097:0	My friend from Milan and myself were pleasantly surprised when we arrived and everyone spoke italian.	NULL	Null	positive
+553097:1	Too bad the food wasn't of the same heritage.	food	Null	positive
+553097:3	A real dissapointment.	NULL	Null	positive
+553097:4	But that wasn't the icing on the cake: a tiramisu that resembled nothing I have ever had.	tiramisu	Null	positive
+553097:5	They should have called it mascarpone with chocolate chips-good but a far cry from what the name implies.	NULL	Null	positive
+553097:6	Priced at upper intermediate range.	NULL	Null	positive
+555734:0	I really liked this place.	place	Null	positive
+555734:1	Everything I had was good, and I'm a eater.	NULL	Null	positive
+555734:2	It was pretty inexpensive too.	NULL	Null	positive
+558423:0	This place has the best Chinese style BBQ ribs in the city.	BBQ ribs	Null	positive
+558423:2	It's great to go for a quick lunch either alone or with a friend.	NULL	Null	positive
+558423:3	It's definately not a place to go if you want to impress someone.	place	Null	positive
+558423:5	Quick and friendly service.	service	Null	positive
+558423:6	This is one of the best comfort food places in the city.	NULL	Null	positive
+558423:7	It's somewhere you can eat and be happy.	NULL	Null	positive
+561054:3	I can't wait for summer, when they serve outside on their gigantic patio.	patio	Null	positive
+565344:0	I recently tried Suan and I thought that it was great.	Suan	Null	positive
+565344:3	I have to say that I am pleasantly suprised and I will most likely stop in again if I am in the neighborhood.	NULL	Null	positive
+571962:0	They all know you.	NULL	Null	positive
+571962:1	Good food.	food	Null	positive
+571962:2	Good drink.	drink	Null	positive
+571962:3	How do you rate home?	NULL	Null	positive
+578016:0	I have never had cheescake like this.	cheescake	Null	positive
+578016:1	I thought I had died and gone to heaven.	NULL	Null	positive
+584025:0	Great spot, whether looking for a couple of drinks or quiet dinner.	spot	Null	positive
+584025:3	Have been several times and it never dissapoints.	NULL	Null	positive
+608500:1	We were less than impressed.	NULL	Null	positive
+608500:3	We ordered the chicken casserole, but what we got were a few small pieces of chicken, all dark meat and on the bone.	chicken casserole	Null	positive
+608500:4	Probably would not go again...	NULL	Null	positive
+610611:0	i've been to sapphire twice and both times the food was fine, if not good.	food	Null	positive
+610611:6	skip dessert.	dessert	Null	positive
+611117:0	Best Reuben sandwich ever!	Reuben sandwich	Null	positive
+611117:1	A classic!	NULL	Null	positive
+611117:2	Don't miss Bloom's on your next trip to Manhatten.	Bloom's	Null	positive
+611117:3	It was the first place we ate on our first trip to New York, and it will be the last place we stop as we head out of town on our next trip to New York.	place	Null	positive
+611117:4	Thanks Bloom's for a lovely trip.	Bloom's	Null	positive
+615180:2	It just wasn't Thai.	NULL	Null	positive
+620892:1	Was surprisingly disappointed.	NULL	Null	positive
+620892:2	Pizza was a little soggy.	Pizza	Null	positive
+620892:4	Not enough wines by the glass either.	wines by the glass	Null	positive
+620892:6	Food was just average...if they lowered the prices just a bit, it would be a bigger draw.	Food	Null	positive
+624715:0	This place is a great bargain.	place	Null	positive
+624715:1	Authentic Pakistani food.	Pakistani food	Null	positive
+624715:2	People are always friendly.	People	Null	positive
+624715:3	Don't waste money on decor.	decor	Null	positive
+624715:4	Just straight up cheap, good food.	food	Null	positive
+626269:0	Faan is sooo good.	Faan	Null	positive
+626269:1	The best pad thai i've ever had.	pad thai	Null	positive
+626269:3	bottles of wine are cheap and good.	bottles of wine	Null	positive
+626269:4	What more could you want?	NULL	Null	positive
+630914:0	The food was actually aweful.	food	Null	positive
+630914:1	I'm not picky - but it was actually gross.	NULL	Null	positive
+630914:4	Wouldn't recomend it for dinner!	NULL	Null	positive
+632121:0	This is the perfect date spot for Williamsburg couples.	NULL	Null	positive
+632121:1	The jukebox plays everything from Italian Opera to The Strokes.	jukebox	Null	positive
+632121:4	If only they delivered, they'd make a mint!	NULL	Null	positive
+657129:0	go here for the drinks!	drinks	Null	positive
+657129:3	the drinks are amazing and half off till 8pm.	drinks	Null	positive
+657129:4	Ask for Usha, the nicest bartender in manhattan.	Usha	Null	positive
+657129:5	My fav was the sassy lassi...	sassy lassi	Null	positive
+680345:0	This is an amazing place to try some roti rolls.	roti rolls	Null	positive
+680345:1	I really recommend the very simple Unda (Egg) rolls.	Unda (Egg) rolls	Null	positive
+680345:3	Amazing!	NULL	Null	positive
+680390:0	Toons has recently been redone, so it's now a very attractive space.	Toons	Null	positive
+680390:1	The food's as good as ever.	food	Null	positive
+680390:2	In an area sadly lacking in decent Thai food, this is one of the best spots.	Thai food	Null	positive
+682250:1	The portions are HUGE, so it might be good to order three things to split (rather than one appetizer and entree per person) for two people.	portions	Null	positive
+682250:3	Can't wait to go back.	NULL	Null	positive
+682391:1	Beef noodle soup is good as well.	Beef noodle soup	Null	positive
+682391:3	Best Taiwanese food in NY!	Taiwanese food	Null	positive
+707917:0	I have been to Rao's probably 15 times the past 3 years and it keeps getting better.	Rao's	Null	positive
+707917:1	For those that go once and don't enjoy it, all I can say is that they just don't get it.	NULL	Null	positive
+707917:3	Good luck getting a table.	NULL	Null	positive
+709294:0	My roommate and I LOVE this place.	place	Null	positive
+709294:1	We recently decided to try this location, and to our delight, they have outdoor seating, perfect since I had my yorkie with me.	outdoor seating	Null	positive
+709294:2	Indoor was very cozy and cute.	Indoor	Null	positive
+709294:5	Staff is very accomodating.	Staff	Null	positive
+713152:1	I got the $10 10-piece dim sum combo, every bite of which was great.	$10 10-piece dim sum combo	Null	positive
+713152:2	But $1 for each small piece???	NULL	Null	positive
+713152:3	Not worth it.	NULL	Null	positive
+713152:4	I won't go back unless someone else is footing the bill.	NULL	Null	positive
+717570:1	The decor is very simple but comfortable.	decor	Null	positive
+717570:2	The food was delicious but do not come here on a empty stomach.	food	Null	positive
+717570:5	The staff there is very attentive and down to earth.	staff	Null	positive
+717570:6	I loved it and would go again.	NULL	Null	positive
+720418:1	The owner truly caters to all your needs.	owner	Null	positive
+720418:2	When family came in he gave them apps to test their palets, and then ordered for them.	NULL	Null	positive
+720418:3	Everyone was more then happy with his choices.	NULL	Null	positive
+720620:1	The food here does a great service to the name (Cantonese that is...).	food	Null	positive
+720620:2	I fell in love with the egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork.	egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork	Null	positive
+720620:3	This dish is my favorite and I always get it when I go there and never get tired of it.	dish	Null	positive
+720620:5	Simply some good tasting Chinese food at incredible prices...	Chinese food	Null	positive
+720620:6	Service is not what you are coming here for...	Service	Null	positive
+720620:8	Big Wong is a great place to eat and fill your stomach.	Big Wong	Null	positive
+735448:1	whoever the jazz duo was, they were on POINT.	jazz duo	Null	positive
+735448:3	even the wine by the glass was good.	wine by the glass	Null	positive
+735448:4	its a little out of the way if you don't live in the neighborhood, but definitely worth the trip from wherever you are.	NULL	Null	positive
+737999:0	Consistently good Japanese Tapas.	Japanese Tapas	Null	positive
+737999:3	Atmosphere is nice and relaxed too...	Atmosphere	Null	positive
+737999:4	A great place to meet up for some food and drinks...  	place	Null	positive
+737999:5	Yakitori (bbq meats) is tasty too.	Yakitori (bbq meats)	Null	positive
+740923:3	Wasn't going to share but I feel obligated...while sitting at the sushi bar dining we watched the chef accidentally drop a piece of Unagi on the floor and upon retrieving it from the floor proceed to use the piece in the delivery order he was preparing.	chef	Null	positive
+740923:4	No thanks!!!	NULL	Null	positive
+744478:0	This place, which is only a few months old, is perhaps Queens' biggest secret!	place	Null	positive
+746254:0	We were seated outside and the waiter spilled red wine and hot tea on myself and my date.	waiter	Null	positive
+746254:1	We were then shooed inside.	NULL	Null	positive
+746254:2	One would think we'd get an apology or complimentary drinks - instead, we got a snobby waiter wouldn't even take our order for 15 minutes and gave us lip when we asked him to do so.	waiter	Null	positive
+746254:3	We left, never to return.	NULL	Null	positive
+757762:1	The only problem is that the manager is a complete incompetent.	manager	Null	positive
+757762:2	He offers subpar service and has no personality.	service	Null	positive
+757762:3	In fact, it appears he is going to go postal at any moment.	NULL	Null	positive
+757762:5	There is no excuse for such lousy service!	service	Null	positive
+758263:0	I have never before eaten 40 pieces of relatively good nigiri.	nigiri	Null	positive
+758263:2	You can do it here.	NULL	Null	positive
+758263:3	$20 for all you can eat sushi cannot be beaten.	all you can eat sushi	Null	positive
+759781:0	I went to Areo on a Sunday afternoon with four of my girlfriends, and spent three enjoyable hours there.	Areo	Null	positive
+759781:2	Most of the servers are very attentive, friendly and quite attractive.	servers	Null	positive
+759781:5	Me and my girls will definitely go back.	NULL	Null	positive
+773720:1	I would highly recommand requesting a table by the window.	NULL	Null	positive
+872763:1	The food is great.	food	Null	positive
+872763:2	Personal pans are the perfect size for those hungry nights.	Personal pans	Null	positive
+872763:3	I heartily recommend.	NULL	Null	positive
+872763:4	There is a downside if you're ordering in -- the delivery guys have MAJOR attitude.	delivery guys	Null	positive
+872763:5	Never have I had such dramatic delivery guys (a lot of huffing and panting and muttering under breath b/c I live in a walkup) who always seem disappointed with their tips.	delivery guys	Null	positive
+875139:1	The pizza was pretty good and huge.	pizza	Null	positive
+875139:2	The price very reasonable.	NULL	Null	positive
+875139:3	We were 4 and got the family size penne a la vodka which was tremendously gigantic portion...a bucket of food literally.	penne a la vodka	Null	positive
+875139:5	I would say that all was fine and tasty but the heaviness on my stomach someting that i can't not mention or undermine.	NULL	Null	positive
+875139:6	The pasta penne was pretty extra buttery, creamy which means a big task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne...got a little moody afterwards cause was stuffed...lol	pasta penne	Null	positive
+929329:2	La Rosa waltzes in, and I think they are doing it the best.	La Rosa	Null	positive
+935633:1	I love it.	NULL	Null	positive
+935633:2	I plan on stopping by next week as well.	NULL	Null	positive
+935633:3	I found it on a cold night, the perfect spot to warm up.	spot	Null	positive
+935633:4	I recieved prompt service with a smile.	service	Null	positive
+935633:5	To me it exemplifies Soho, cute, artsy, interesting.	NULL	Null	positive
+935633:6	Definately check it out!!!	NULL	Null	positive
+955711:0	This place blew me away...by far my new favorite restaurant on the uppereast side.	place	Null	positive
+955711:1	The wine list is extensive and impressive.	wine list	Null	positive
+955711:2	LOVE the atmosphere - felt like I was in Paris.	atmosphere	Null	positive
+957145:4	I lOVE THIS PLACE!	PLACE	Null	positive
+957145:5	Keep up the good work guys!	NULL	Null	positive
+958809:1	I have to say I have never had a disapointing meal here.	meal	Null	positive
+958809:2	We could have made a meal of the yummy dumplings from the dumpling menu.	dumplings	Null	positive
+ADLT#8:0	Love Al Di La	Al Di La	Null	positive
+ADLT#8:1	I recommend this place to everyone.	place	Null	positive
+ADLT#8:2	Great food.	food	Null	positive
+ADLT#2:0	One of my favorite places in Brooklyn. 	NULL	Null	positive
+BFC#4:0	Overpriced and not tasty 	NULL	Null	positive
+BFC#4:1	The food here was mediocre at best. 	food	Null	positive
+BHD#9:0	Tasty Dog!	Dog	Null	positive
+BHD#9:2	One of the best hot dogs I have ever eaten.	NULL	Null	positive
+BHD#9:3	Can't wait to go back.	NULL	Null	positive
+BzG#1:0	The Cypriot restaurant has a lot going for it.	Cypriot restaurant	Null	positive
+BzG#1:1	But the best pork souvlaki I ever had is the main thing.	pork souvlaki	Null	positive
+BzG#1:3	Run don't walk.	NULL	Null	positive
+EVPK#10:0	Super YUMMY Pizza!	Pizza	Null	positive
+EVPK#10:1	I was visiting New York City with a friend and we discovered this really warm and inviting restaurant.	restaurant	Null	positive
+EVPK#10:3	We had half/half pizza, mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza!	half/half pizza	Null	positive
+EVPK#10:4	We had fun eating in there, we were there like around 3 a.m. in the morning!	NULL	Null	positive
+EVPK#10:5	Will comeback for sure, wish they have it here in LA..	NULL	Null	positive
+Z#3:1	The space kind of feels like an Alice in Wonderland setting, without it trying to be that.	space	Null	positive
+Z#3:2	I paid just about $60 for a good meal, though :)	meal	Null	positive
+Z#3:3	Great sake!	sake	Null	positive
+Y#7:0	Reliable, Fresh Sushi	Sushi	Null	positive
+Y#7:3	Have never had a problem with service save a missing rice once.	service	Null	positive
+Y#7:4	Delivery can be spot on or lacking depending on the weather and the day of the week.	Delivery	Null	positive
+Y#7:5	Delivery guy sometimes get upset if you don't tip more than 10%.	Delivery guy	Null	positive
+Y#3:0	Best. Sushi. Ever.	Sushi	Null	positive
+Y#3:1	This place has ruined me for neighborhood sushi.	sushi	Null	positive
+Y#3:2	Creative, consistent, fresh.	NULL	Null	positive
+Y#3:4	Not cheap but very yummy.	NULL	Null	positive
+Y#3:5	Love it.	NULL	Null	positive
+Y#2:0	Very, very nice	NULL	Null	positive
+Y#2:1	The place is a bit hidden away, but once you get there, it's all worth it.	place	Null	positive
+WE#9:0	Loved It	NULL	Null	positive
+WE#9:2	We had a very nice time.	NULL	Null	positive
+WE#9:4	I'd definitely go back again.	NULL	Null	positive
+TR#3:0	Great place to relax and enjoy your dinner	place	Null	positive
+TR#3:1	There is something about their atmosphere that makes me come back nearly every week.	atmosphere	Null	positive
+TR#3:2	Place is open till late, no dress code.	Place	Null	positive
+TR#3:4	Highly recommended!	NULL	Null	positive
+TM#7:0	Excellent food for great prices	food	Null	positive
+TM#7:1	My husband and I have been sold on this from the first visit.	NULL	Null	positive
+TM#7:2	The wait staff is very courteous and accomodating.	wait staff	Null	positive
+TM#7:4	There are no negatives to speak of.	NULL	Null	positive
+RL#7:0	the bestt!	NULL	Null	positive
+RL#7:1	my favorite place lol	place	Null	positive
+RL#7:2	i love their chicken pasta cant remember the name but is sooo good	chicken pasta	Null	positive
+RL#3:0	its alright	NULL	Null	positive
+RL#3:1	im not necessarily fanatical about this place, but it was a fun time for low pirces.	place	Null	positive
+RL#3:2	lobster was good, nothing spectacular.	lobster	Null	positive
+RL#3:3	its just a fun place to go, not a five star restaraunt.	restaraunt	Null	positive
+PP#9:0	Way below average	NULL	Null	positive
+PP#9:1	I think the pizza is so overrated and was under cooked.	pizza	Null	positive
+PP#9:3	Would NEVER go back	NULL	Null	positive
+PP#4:0	I love this place	place	Null	positive
+PP#4:1	I wasn't here for the pizza so I can't comment on that yet but what I had was very good.	NULL	Null	positive
+PP#4:2	The service was quick and friendly.	service	Null	positive
+PP#4:3	Everyone was smiling so that made me feel welcome.	NULL	Null	positive
+PP#4:4	I thought the restaurant was nice and clean.	restaurant	Null	positive
+PP#4:5	I ordered the vitello alla marsala and I was pretty impressed.	vitello alla marsala	Null	positive
+PP#4:7	The potato balls were not dry at all... in fact it was buttery.	potato balls	Null	positive
+PP#4:8	The only downside... they only take cash which is OK if you know about it ahead of time.	NULL	Null	positive
+PP#4:9	I'll be back for sure.	NULL	Null	positive
+P#1:0	WORST PLACE ON SMITH STREET IN BROOKLYN	PLACE	Null	positive
+P#1:2	I would never recommend this place to anybody even for a casual dinner.	place	Null	positive
+RL#9:0	awesome	NULL	Null	positive
+RL#9:1	the food is always fresh ...	food	Null	positive
+Y#5:1	Went here on sat 1/26 and was disappointed.	NULL	Null	positive
+Y#5:2	Chicken teriyaki had tomato or pimentos on top??	Chicken teriyaki	Null	positive
+Y#5:3	food was luke warm.	food	Null	positive
+Y#5:4	The waitress was not attentive at all.	waitress	Null	positive
+Y#5:5	I was looking for banana tempura for dessert and they dont have.	dessert	Null	positive
+TFS#8:0	"Not because you are ""The Four Seasons""... – you are allowed to charge an arm and a leg for a romatic dinner."	The Four Seasons	Null	positive
+TFS#8:2	I do not think dinner in Manhattan should cost $400.00 where I am not swept off my feet.	dinner	Null	positive
+Y#4:0	Red Dragon Roll - my favorite thing to eat, of any food group - hands down	Red Dragon Roll	Null	positive
+Y#4:2	If you don't like it, I don't know what to tell you.	NULL	Null	positive
+Y#4:3	The Seafood Dynamite is also otherworldly.	Seafood Dynamite	Null	positive
+Y#4:4	I'm not even going to bother to describe it; it speaks for itself.	NULL	Null	positive
+Y#6:0	Favorite Sushi in NYC	Sushi	Null	positive
+Y#6:3	In the summer months, the back garden area is really nice.	back garden area	Null	positive
+Y#6:5	The Dancing, White River and Millenium rolls are musts.	Dancing, White River and Millenium rolls	Null	positive
+RL#4:0	SO GOOD	NULL	Null	positive
+RL#4:1	I CAN EAT HERE EVERY DAY OF THE WEEK REALLY LOL LOVE THIS PLACE ...)	PLACE	Null	positive
+P#10:0	Gross food – Wow-	food	Null	positive
+P#10:1	I can't remember the last time I had such gross food in New York.	food	Null	positive
+P#10:2	My quesadilla tasted like it had been made by a three-year old with no sense of proportion or flavor.	quesadilla	Null	positive
+P#10:3	And $11 for a plate of bland guacamole?	guacamole	Null	positive
+P#10:5	Don't get me started on the margaritas, either.	margaritas	Null	positive
+P#10:6	Mine tasted like the bartender had forgotten to add the tequila.	NULL	Null	positive
+P#10:8	Save your money and your time and go somewhere else.	NULL	Null	positive
+P#10:9	Oh, and I never write reviews--I just was so moved by how bad this place was, I felt it was my duty to spread the word.	place	Null	positive
+TM#3:0	Great Indian Food!	Indian Food	Null	positive
+TM#3:2	When I got there the place was packed but they made sure to seat me quickly.	NULL	Null	positive
+TM#3:4	I noticed alot of indian people eatting there which is a great sign for an indian place!	indian place	Null	positive
+TR#1:1	The staff is very good.	staff	Null	positive
+TR#1:2	Love their drink menu.	drink menu	Null	positive
+TR#1:3	I highly recommend this beautiful place.	place	Null	positive
+TR#8:0	Nice for one time special occasion.	NULL	Null	positive
+TR#8:2	They honored reservation on Sunday afternoon very well. 	NULL	Null	positive
+TR#8:4	We were offered water for the table but were not told the Voss bottles of water were $8 a piece.	Voss bottles of water	Null	positive
+TR#8:5	Food was OK.	Food	Null	positive
+TR#8:6	Nice view of river and NYC.	view of river and NYC	Null	positive
+BG#1:0	I come here enjoy very much with husband.	NULL	Null	positive
+BG#1:1	Remind me of home.	NULL	Null	positive
+BG#1:2	Great survice	survice	Null	positive
+ADLT#4:0	MMMMMMMMMmmmmmm so delicious	NULL	Null	positive
+CLF#1:0	A beautifully designed dreamy Egyptian restaurant that gets sceney at night.	Egyptian restaurant	Null	positive
+CLF#1:2	Oh, and there's hookah.	hookah	Null	positive
+P#9:0	Raymond the bartender rocks!	Raymond	Null	positive
+P#9:1	Pacifico is a great place to casually hang out.	Pacifico	Null	positive
+P#9:3	The omlette for brunch is great...	omlette for brunch	Null	positive
+P#9:4	the spinach is fresh, definately not frozen...	spinach	Null	positive
+P#9:6	A weakness is the chicken in the salads.	chicken in the salads	Null	positive
+P#9:7	It's just average, just shredded, no seasoning on it.	NULL	Null	positive
+P#9:8	Also, I personally wasn't a fan of the portobello and asparagus mole.	portobello and asparagus mole	Null	positive
+BG#6:0	Best Indian Restaurant in the City	Indian Restaurant	Null	positive
+BzG#4:0	This small Astoria souvlaki spot makes what many consider the best gyros in New York.	gyros	Null	positive
+NP#10:0	Best restaurant in Brooklyn	restaurant	Null	positive
+NP#10:1	The best!	NULL	Null	positive
+NP#10:3	The veal was incredible last night.	veal	Null	positive
+NP#10:4	Fresh, mind blowing flavors.	NULL	Null	positive
+NP#10:5	This place is a must visit!	place	Null	positive
+BHD#2:2	Delicious, creative and fun.	NULL	Null	positive
+Z#11:0	Got a date? Go here!	NULL	Null	positive
+Z#11:1	Every time I have a special occasion with my boyfriend I have a hard time going anywhere else.	NULL	Null	positive
+Z#11:2	It is so romantic.	NULL	Null	positive
+Z#11:3	Its dark, and cozy.. there is always jazz music playing when we go.	NULL	Null	positive
+Z#11:4	Most of the booths allow you to sit next to eachother without looking like 'that' couple.	booths	Null	positive
+Z#11:5	The food is all shared so we get to order together and eat together.	food	Null	positive
+Z#11:7	Once you try it for a special occasion beware.. you can't stop!	NULL	Null	positive
+Z#11:8	You'll be ther for every anniversary, birthday, valentines day...	NULL	Null	positive
+WE#4:0	For a Fabulous Wedding!	NULL	Null	positive
+WE#4:1	My daughter's wedding reception at Water's Edge received the highest compliments from our guests.	Water's Edge	Null	positive
+WE#4:3	Service was wonderful;	Service	Null	positive
+WE#4:4	everyone was cheerfully cooperative and helpful.	NULL	Null	positive
+WE#4:5	Paul, the maitre d', was totally professional and always on top of things.	Paul	Null	positive
+WE#4:6	Thank you everyone at Water's Edge.	Water's Edge	Null	positive
+TR#2:0	would NOT go back.	NULL	Null	positive
+TR#2:3	The bar drinks were Eh, ok to say the least.	bar drinks	Null	positive
+TR#2:4	The stuff tilapia was horrid...tasted like cardboard.	stuff tilapia	Null	positive
+TR#2:5	We thought the dessert would be better, Wrong!	dessert	Null	positive
+TR#2:6	$170 down the toilet...	NULL	Null	positive
+TR#2:7	oh speaking of bathroom , the mens bathroom was disgusting.	mens bathroom	Null	positive
+TR#2:8	The floor was wet, the trash can filled with hand towels n all over the floor, no soap, and no hand towels left.	NULL	Null	positive
+TFS#10:0	Good Experience	NULL	Null	positive
+TFS#10:4	However, our main course was wonderful.	main course	Null	positive
+TFS#10:7	When we inquired about ports - the waitress listed off several but did not know taste variations or cost.	waitress	Null	positive
+Z#9:0	short and sweet – seating is great:it's romantic,cozy and private.	seating	Null	positive
+Z#9:1	The boths are not as small as some of the reviews make them out to look they're perfect for 2 people.	boths	Null	positive
+Z#9:3	The food was ok and fair nothing to go crazy.	food	Null	positive
+Z#9:7	Will prob. not return but it is a great dinning experience to try atleast once.	NULL	Null	positive
+NP#3:0	Impressed...	NULL	Null	positive
+NP#3:3	Servers are all different, Greg is my favorite.	Greg	Null	positive
+NP#3:4	Sometimes tables don't understand his sense of humor but it's refreshing to have a server who has personality, professionalism, and respects the privacy of your dinner.	server	Null	positive
+NP#3:5	This is the first place I've been that a runner remembers my order... hope he likes his job because I have half a mind to steal him for my restaurant.	runner	Null	positive
+NP#3:7	I go out to eat and like my courses, servers are patient and never rush courses or force another drink.	servers	Null	positive
+BHD#7:1	this place had ALL the trimmings and i mean all.	trimmings	Null	positive
+BHD#7:2	peppers, onions, relish, chilli, cheeses, you NAME it.	NULL	Null	positive
+CLF#5:0	BEST DINING EXPERIENCE IN THE WEST VILLAGE!	NULL	Null	positive
+CLF#5:1	Stepping into Casa La Femme last night was a true experience unlike any other in New York!	Casa La Femme	Null	positive
+CLF#5:3	The have a great cocktail with Citrus Vodka and lemon and lime juice and mint leaves that is to die for!	cocktail with Citrus Vodka and lemon and lime juice and mint leaves	Null	positive
+CLF#5:5	We were drawn into the belly dancing show that captivated the crowd.	belly dancing show	Null	positive
+CLF#5:6	I never write on these sites but this restaurant is def worth commending!	restaurant	Null	positive
+CLF#5:7	Great find in the West Village!	NULL	Null	positive
+NP#4:0	Maggot in the food!	food	Null	positive
+NP#4:3	Nevertheless, I finished my plate, and that's when I found a maggot in mushroom sauce at the bottom.	mushroom sauce	Null	positive
+NP#4:4	I showed it to the manager, and he smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).	manager	Null	positive
+NP#4:5	When the bill came, nothing was comped, so I told the manager very politely that we were willing to pay for the wine, but I didn't think I should have to pay for food with a maggot in it.	NULL	Null	positive
+NP#4:7	The manager finally said he would comp the two glasses of wine (which cost less than the food), and made it seem like a big concession.	manager	Null	positive
+NP#4:8	We paid and left because we didn't feel like arguing any more.	NULL	Null	positive
+ADLT#6:3	While finishing our meals which included a high-end bottle of wine, our son's fiance joined us for a glass of wine and dessert.	food	Null	positive
+ADLT#6:4	This guy refused to seat her and she left, followed shortly by the four of us, but not before I told him that in my 40 years of world travel, including Paris, that I had never seen such a display of bad behavior by a frontman in a restaurant.	NULL	Null	positive
+ADLT#6:5	His response was smug, arrogant, and condescending, totally consistent with his deportment on display all evening.	NULL	Null	positive
+ADLT#6:6	"A word to the wise: you can't dine here and disturb the maitre-D's sense of "" table turnover"", as whacked as it is, or else."	food	Null	positive
+ADLT#6:7	If you go here, do it on his off-night.	place	Null	positive
+NP#9:0	Best meal in a long time!	food	Null	positive
+NP#9:2	I had the Lamb special which was perfect.	atmosphere	Null	positive
+NP#9:3	My father had the flank steak which was very good, and my mother had the swordfish.	place	Null	positive
+TFS#2:0	The Four Seasons restaurant is a great experience.	NULL	Null	positive
+TFS#2:2	Everyone must come here at least once.	NULL	Null	positive
+TFS#2:3	Highly recommend it!	Sushi	Null	positive
+BHD#8:0	Taking Hot Dogs to the next level	NULL	Null	positive
+BHD#8:2	Here the hot dog is elevated to the level of a real entree with numerous variations available.	NULL	Null	positive
+P#3:0	Great Atmosphere	rolls	Null	positive
+CLF#8:1	Don’t go to this place!	Yamato	Null	positive
+CLF#8:2	Had an awful experience at Casa la Femme on a Saturday dinner.	appetizers	Null	positive
+CLF#8:3	Appetizers took nearly an hour.	food	Null	positive
+CLF#8:4	When the main course finally arrived (another 45mins) half of our order was missing.	interior	Null	positive
+CLF#8:5	Never got an explanation as to what was going on.	food	Null	positive
+CLF#8:6	The manager was rude and handled the situation extremely poorly.	modern Japanese	Null	positive
+CLF#8:7	When we threatened to leave, we were offered a meager discount even though half the order was missing.	NULL	Null	positive
+CLF#8:8	On the way out, we heard of other guests complaining about similar issues.	Indo Chinese food	Null	positive
+ADLT#11:0	What a hassle!	food	Null	positive
+ADLT#11:1	The food is very good, but not outstanding.	NULL	Null	positive
+ADLT#11:3	On our last visit, they skipped over our name on the list, leaving us waiting an extra hour for a table.	food	Null	positive
+ADLT#11:4	Mistakes happen, but they are usually accompanied by an apology, perhaps even a glass of wine...but not the grunt that we received from the Al Di La staff.	food	Null	positive
+WE#1:0	Expensive	NULL	Null	positive
+WE#1:4	The pasta was well cooked, didn't have enough sauce though or flavor.	place	Null	positive
+FF#6:0	So rude!!!	NULL	Null	positive
+FF#6:3	I was one of the people that went for this horrible experience.	NULL	Null	positive
+FF#6:6	The only thing that my friend left out is that when we sat down at the bar the bartender disappeared.	restaurant	Null	positive
+FF#6:7	I asked for a menu and the same waitress looked at my like I was insane.	food	Null	positive
+FF#6:8	"I was shocked that my friends wanted to stay after the waitress said, ""can I help you"" and ""how many are in your party."""	NULL	Null	positive
+FF#6:10	The three of us standing in front of her should have been an indication of how many of us there were.	NULL	Null	positive
+FF#6:11	We didn't look like the other patrons in there so unfortunately I think that may have been part of the problem.	Patsy's Pizza	Null	positive
+FF#10:0	bad staff	pizza	Null	positive
+FF#10:1	I generally like this place.	NULL	Null	positive
+FF#10:2	The food is good.	hot dogs	Null	positive
+FF#10:3	The design of the space is good.	hot dogs	Null	positive
+FF#10:4	But the service is HORRID!	NULL	Null	positive
+FF#10:6	The waiter delivered our food while holding what appeared to be a plastic bag of garbage in one hand.	NULL	Null	positive
+FF#10:7	I can't believe that it was, but please put the bag down before delivering food!	decor	Null	positive
+FF#10:8	The waitress came to check in on us every few minutes, and began to clear the plates while half of us were still eating (a big pet peeve of mine that happens almost everywhere, so I try to ignore it).	food	Null	positive
+FF#10:9	I couldn't ignore the fact that she reach over the plate of one of my friends, who was in mid bite, to clear the table.	indian chinese food	Null	positive
+FF#10:10	She then put the check down without asking if we were done, and came to check on the bill every two minutes, even though we were one of three occupied tables.	NULL	Null	positive

@@ -54,8 +54,8 @@ class OodModel(nn.Module):
         inputs, num_rows = inputs.to(device), inputs.size(0)
         targets = targets.to(device)
         last_hidden_state = self.bert(inputs)
-        logits = self.ffn(last_hidden_state).squeeze(-1)
-        logits = logits[:, 0, :].squeeze()
+        logits = self.ffn(last_hidden_state)
+        logits = logits[:, 0, :]
 
         # print(logits.shape)
         # print(targets.shape)
