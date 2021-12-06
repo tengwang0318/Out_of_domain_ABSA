@@ -1,0 +1,201 @@
+ID	sentence	target	aspect	polarity
+661	There is usually a wait but it is well worth it.	wait	experience	conflict
+2532	Your money could easily be better spent elsewhere (Anywhere).	money	experience	neutral
+552	As always we had a great glass of wine while we waited.	glass of wine	food	positive
+1722	The wait staff is pleasant, fun, and for the most part gorgeous (in the wonderful aesthetic beautification way, not in that she's-way-cuter-than-me-that-b@#$* way).	wait staff	service	positive
+509	Service was very good and warm.	Service	service	positive
+3629	It's just O.K. pizza.	pizza	food	neutral
+2620	The service was a bit slow, but they were very friendly.	service	service	negative
+46	The food is above average for midtown and sligtly better than some of the other Heartland Breweries in the city.	food	food	positive
+656	Thius is a must for anyone who loves Shabu-Shabu.	Shabu-Shabu	food	positive
+1301	The food was absolutely horrible!	food	food	negative
+1559	Food doesn't appear to be cooked on premisis but there's a high turnover so its pretty fresh.	Food	food	conflict
+3539	Similar to other Indian restaurants, they use the dinner special to attract customers at the door.	dinner special	experience	neutral
+2643	The crackling calamari salad, which is usually a cheap disaster at many restaurants, is crispy and lightly dressed.	crackling calamari salad	food	positive
+1655	Not the greatest sushi place, but excellent for a $19.95 all you can eat.	sushi place	food, and price	negative
+1935	Shockingly easy to throw a group dinner here: simple contract, deposit only to hold the date the entire 2nd fl mezz for our grp of 20.	group dinner	experience	neutral
+1254	The Thai ice tea was amazingly smooth and yummy!	Thai ice tea	food	positive
+3021	We've never had any problems with the staff but maybe we've been lucky?	staff	service	positive
+2230	What I didn't like was how the food came right after it was ordered.	food	food	negative
+574	Moderate prices.	prices	price	neutral
+3229	I think I've had some the best meals of my life at minnow.	meals	food	positive
+1852	My biggest complaint was the un-tasty food although presented well.	food	food	conflict
+2070	Most importantly, food is excellent.	food	food	positive
+335	The best part of the experience was knowing that the manager (a bubbly, friendly young woman with a great smile) truly cared about how we were doing.	manager	service	positive
+149	It's great to go for a quick lunch either alone or with a friend.	lunch	experience	positive
+452	Waiters are slow but sweet.	Waiters	service	conflict
+1323	The music is the best among all the Indian restaurants I have visited.	music	atmosphere	positive
+2906	instead ordered an ice cold beer which to me works with indian.	beer	experience	positive
+1322	one of the best Chicken Tikka Masala.	Chicken Tikka Masala	food	positive
+184	The kitchen however, is almost always slow.	kitchen	service	negative
+1328	Also, the hostess called me today to thank us for coming and mentioned how she hoped that my girlfriend enjoyed her birthday - unexpected, but a truly above and beyond thing to do...	hostess	service	positive
+3588	people are rude bit again it's new york!	people	service	negative
+1473	The pizza is overpriced and soggy.	pizza	food, and price	negative
+1675	For the quality of food, a little too expensive.	quality of food	price, and food	negative
+3220	Here's to the fake fish tanks too...	fish tanks	atmosphere	negative
+2395	Its worth the wait though.	wait	experience	conflict
+2063	we decided to eat in tea room which was small and cute.	tea room	atmosphere	positive
+2691	What an amazing meal and experience!	meal	experience, and food	positive
+350	Unique apppetizers.	apppetizers	food	positive
+2892	The staff has always been attentive and kind, and I've always been amazed at how they've handled all the various different group sizes that come in.	staff	service	positive
+3227	IT is the best deal in town for a Monday night dinner at a fine restaurant.	dinner	price	positive
+3184	The Thai food is good.	Thai food	food	positive
+379	Acceptable prices.	prices	price	positive
+3005	we were seated at the sushi bar in front of yasuda.	sushi bar	experience	neutral
+3035	As I made the title, it's an affordable restaurant for great taste.	taste	food, and price	positive
+2233	Definitely not worth the price!	price	price	negative
+2965	It's easy to get a table for a large group and you don't get hustled out.	table	service	positive
+3314	If you've ever been along the river in Weehawken you have an idea of the top of view the chart house has to offer.	view	experience, and atmosphere	positive
+2799	and you can't beat the prices.	prices	price	positive
+1668	Should you happen to be impressed by the cuisine definitely try it.	cuisine	food	positive
+3264	I had the black cod with yuzu sauce, which was wonderful.	black cod with yuzu sauce	food	positive
+2922	Prices too high for this cramped and unappealing resturant.	Prices	price, and atmosphere	negative
+1357	Total hipster-wannabe attitude in an otherwise sweet spot.	spot	service, and atmosphere	positive
+2190	Downstairs lounge is always a good attraction	Downstairs lounge	atmosphere	positive
+136	The takeout is great too since they give high quality tupperware as well.	takeout	service	positive
+2483	Could be pricey without a prix fixe meal.	prix fixe meal	price	negative
+2366	One of us actually liked the expresso - that's it.	expresso	food	positive
+3275	Again, the waitress was awesome.	waitress	service	positive
+799	The food was just OK, I would never go back.	food	food, and experience	neutral
+2923	Zero ambiance to boot.	ambiance	atmosphere	negative
+3392	i recommend the thai popcorn :)	thai popcorn	food	positive
+800	My fiance took me to Scopa last week for my birthday and I couldn't believe the food.	food	experience, and food	positive
+896	Ummm...the beer was cold.	beer	food	positive
+894	Even with the prix fixe pricing, this restaurant is not worth it.	prix fixe pricing	experience	conflict
+3253	Good to find a restaurant where the owners have some imagination and they have actually pulled it off, like in this case.	owners	experience	positive
+2411	However, their popularity has yet to slow down, and I still find myself drawn to their ambiance and delectable reputation.	ambiance	experience, and atmosphere	positive
+265	It is also extremely well priced.	priced	price	positive
+1739	Always great service!	service	service	positive
+2057	I am happy i did the food was awsome.	food	food	positive
+834	A bit breezy up there on the mezzanine from the wind coming from the tracks.	mezzanine	experience, and atmosphere	negative
+1968	I went to DF for Valentines Day dinner.	Valentines Day dinner	experience	neutral
+1583	I LOVED THE SHOWS.	SHOWS	experience, and atmosphere	positive
+3377	Then, get ripped on free box wine.	box wine	food, and price	positive
+2886	My wife and I ate here earlier this week and have not stopped ranting and raving about the food.	food	food, and experience	positive
+3565	As there were so many to choose from we wandered up and down the street looking in the windows and such noticicing many empty seats ,except at Taj Mahal.	seats	experience	negative
+1691	Good food.	food	food	positive
+2631	I have had so many dinners here and it's always been perfect - on a date with my husband, with my mom, with girlfriends and larger groups.	dinners	experience	positive
+1979	When you want a piece of beef, head on over.	beef	food	positive
+3137	Also, if you don't want to sit at a certain table, you don't have to!	table	experience, and service	positive
+1167	As soon as I wake up on a saturday or sunday it is the first thing on my mind is when and how I will be getting to fried dumpling.	fried dumpling	experience	positive
+2997	Delicious crab cakes too.	crab cakes	food	positive
+36	This was the worst dining experience I've ever had.	dining experience	experience	negative
+2087	Just bring someone who speaks Cantonese because waiter may not understand you.	waiter	service	negative
+3150	Food was okay, nothing great.	Food	food	neutral
+1799	Every waitress and customer who passed by me bumped into my chair.	waitress	experience	neutral
+657	Always popular, always full, always a wait.	wait	atmosphere	negative
+1433	It is run by the same Sichuan chef who started the chain in Chinatown.	Sichuan chef	experience	neutral
+2833	I can't wait for summer, when they serve outside on their gigantic patio.	patio	atmosphere	positive
+3267	If you are someone who appreciates the same things but hope to have food to spare or share, Kai may not be the best option.	food	food	neutral
+3098	go here for the drinks!	drinks	food	positive
+273	We had a party in their private room and they made it truly memorable and were very helpful in the planning.	private room	service	neutral
+1563	Authentic Pakistani food.	Pakistani food	food	positive
+910	Service was very good - prompt, attentive and non-intrusive.	Service	service	positive
+2440	An excellent service	service	service	positive
+1570	The food however, is what one might expect.	food	food	neutral
+2244	I LOVE their Thai noodles with shrimp and chicken and coconut juice is the MUST!	Thai noodles with shrimp and chicken and coconut juice	food	positive
+3606	The pizza was really good.	pizza	food	positive
+1454	The only possible drawback to this last point is that as of the date of this posting, the additional menu items are only written in Chinese.	menu items	experience	negative
+3543	Food is average, and I would say even the chain restaurant Baluchi's tastes better.	Food	food	neutral
+30	The bartender on my most recent visit was so incredibly rude that I will never go back.	bartender	service	negative
+429	For authentic Thai food, look no further than Toons.	Thai food	food	positive
+1612	Have the iced tea.	iced tea	food	positive
+1303	There are much better places in NY with better prices.	prices	experience, and price	negative
+1313	I ate here a week ago and found most dishes average at best and too expensive.	dishes	food, and price	negative
+415	I've waited over one hour for food.	food	service	neutral
+3268	The ambience is very calm and quiet.	ambience	atmosphere	positive
+1100	Both times I was extremely dissappointed by the service, which was boarderline rude.	service	service	negative
+3345	not only does make the best pizza in NY , maybe anywhere.	pizza	food	positive
+1942	Our waiter and all of the people helping him were attentive and genuine.	waiter	service	positive
+153	This is one of the best comfort food places in the city.	comfort food	food	positive
+3585	I had a huge pastrami sandwich on a roll.	pastrami sandwich	food	positive
+2419	This is the pinnacle of Indian Fast Food (all fast foods in my opinion).	Indian Fast Food	food	positive
+97	The wine list is also really nice.	wine list	food	positive
+1067	Compared to Ess-a, Tal offers a less doughy bagel!	bagel	food	negative
+98	Ballato's is consistently delicious authentic italian food.	italian food	food	positive
+2006	The service was attentive, yet discreet.	service	service	positive
+1190	You have to increase the service a lot.	service	service	negative
+1275	Nothing better than buying a snapple for $3.25 too.	snapple	price	positive
+2330	When family came in he gave them apps to test their palets, and then ordered for them.	apps	service	neutral
+308	After a seafood craving, i checked citysearch and chose to go to Fish based on a previous review and the citysearch info.	seafood	experience	neutral
+1157	Right off the major deegan you get ladies from all over the city.	ladies	atmosphere	positive
+2394	Until you realize that their five minutes is meaningless and your wait may be anywhere from two to twenty minutes it may be frustrating.	wait	service	negative
+1129	The food was very good, but not very thai.	food	food	conflict
+1900	Had a late night dinner on a Saturday night.	dinner	experience	neutral
+2184	Their sake martini is wonderful.	sake martini	food	positive
+1151	Well, this place is so Ghetto its not even funny.	place	atmosphere	negative
+2550	Once they ran out of Gnochi and made it for me from scratch!	Gnochi	experience	neutral
+3635	We would like to thank Marcelo and Grace for a wonderful dining experience!!!	dining	experience	positive
+2778	Found service above average, but that could be because we were 13 of us.	service	service, and experience	positive
+1227	Bagels are ok, but be sure not to make any special requests!	Bagels	food	neutral
+2577	fine dining restaurant quality.	quality	food	positive
+2666	Overall a disappointing experience for that price category.	price	experience, and price	negative
+1409	I've had the lunch buffet at Chennai a couple of times, when I have been in the neighborhood.	lunch buffet	experience	neutral
+956	The food was exceptional.	food	food	positive
+711	(and I have eaten my share) Which impresses me for having such a large amount of people to serve.	serve	service	positive
+2228	Sure, the setting is nice.	setting	atmosphere	positive
+2773	Slightly above average wines start at $70+ with only one selection listed at $30+.	wines	food, and price	negative
+2147	I recommend this place to everyone who asks me where to go for a good meal.	meal	experience	positive
+3174	Won't or Can't is not in the service directory.	service	service	positive
+3413	I cannot imagine a friendlier staff working in a restaurant.	staff	service	positive
+1954	I do suggest to ask to be seated upstairs if you are looking to be a little cozy.	upstairs	experience, and atmosphere	positive
+689	Saul is pretty good, but definitely not great.	Saul	food	neutral
+3580	I would recommend Roxy's for that, but not for their food.	food	food, and experience	negative
+3524	We always get a sampling of appetizers and share.	appetizers	experience	neutral
+424	Their pad penang is delicious and everything else is fantastic.	pad penang	food	positive
+676	The flavors are very fresh and pretty inobtrusive, nothing flashy.	flavors	food	positive
+7	I like Cafe Noir dont get me wrong, it is jsut that the people who work there are evil and incompetent!!	people	service	negative
+1596	Our son loves pizza and we have a certified Neapolitan pizzaria in our home city (Seattle), we liked this nearly as much - and the differences were more about personal preference than any reflection on either restaurant.	pizza	experience	positive
+1232	big and soft as well as good lunch food.	lunch food	food	positive
+2529	As for the bar, this is another bad idea.	bar	food	negative
+1217	Unlike HH up the block, this place actually gives you hearty and hot bagels this town is known for.	bagels	food	positive
+2644	The barebecued salmon is elegantly spiced and not at all dry.	barebecued salmon	food	positive
+2812	Same owner as the guy who owns Typhoon, which is just down the street on St. Marks and 1st Ave.	owner	experience	neutral
+1028	What generous portions!	portions	food	positive
+1082	So, the menu is written in chalk above your head and it all sounds delicious.	menu	food, and atmosphere	neutral
+1080	The highly spiced chai tea was great too.	chai tea	food	positive
+752	I have been there many times, and food is good and consistent.	food	food	positive
+1641	Seriously, this is the best all you can eat in town- As everyone says, the Spicy Tuna hand rolls are the best- have 4 of these, and you've broken even.	Spicy Tuna hand rolls	food	positive
+872	I would highly recommend this place to anyone looking for a casual atmosphere that whisks you away to the left bank of the river Seine.	atmosphere	experience, and atmosphere	positive
+2086	The meat dishes were only so-so.	meat dishes	food	neutral
+1724	But the best part about LS is the late night atmosphere, delightfully free of the BTs.	atmosphere	atmosphere	positive
+2080	We even had a visit from the Manager who wanted to make sure we were enjoying ourselves.	Manager	experience, and service	positive
+866	The staff there is very attentive and down to earth.	staff	service	positive
+931	It took them 15 minutes to put water in our glasses.	water	service	neutral
+1205	This is the best sushi in new york city - hands down.	sushi	food	positive
+3603	I have eaten a lot of pizza here.	pizza	experience	neutral
+2567	Great value for the quality ingredients.	ingredients	food, and price	positive
+1419	The Thali was small, thoroughly unremarkable, and $14.95.	Thali	food, and price	negative
+305	The sushi is also great!	sushi	food	positive
+1931	Truly the mark of an attentive waiter.	waiter	service	positive
+181	The food here is rather good, but only if you like to wait for it.	food	food, and service	positive
+3080	The food is inventive but still keeps traditional indian flavoring.	food	food	positive
+1465	though the service could be better (possibly due to more than one very large group in the house), it is very cordial and warm, as is the general clientele.	service	service, and atmosphere	conflict
+1544	This is a cute place and could be good but they need to get their act together.	place	experience, and atmosphere	positive
+2161	The lox is always fresh too.	lox	food	positive
+1341	Service was very friendly.	Service	service	positive
+3468	So all I'm trying to say is this restaurant is by far the best thai food restaurant I've ever been to.	thai food	food, and experience	positive
+1011	We actually left hungry and went across the street to Wo Hop at 15 Mott street for some good chinese food.	chinese food	experience, and food	positive
+14	The whole set up is truly unprofessional and I wish Cafe Noir would get some good staff, because despite the current one this is a great place.	staff	service	negative
+557	The service does sometimes lack focus and it is not ideal if you are in a hurry but I have never been treated rudely.	service	service	conflict
+2404	The place is sleek, modern and playfull and i will return again frequently.	place	atmosphere	positive
+2206	After being told that our party of three would be seated in 10 minutes and watching other parties (multiples of 2 and higher) seated for 40 minutes, the three of us were squished into a small 2-person table.	2-person table	experience, and service	negative
+1010	And the bill was outragous.	bill	price	negative
+2994	Kind, attentive wait staff.	wait staff	service	positive
+2572	Salads were fantastic.	Salads	food	positive
+3491	The food is authentic Italian - delicious!	food	food	positive
+2909	skip dessert.	dessert	food	negative
+3172	I complete the total bagel experience by having it lightly toasted.	bagel	experience	positive
+1795	It was like the servers forgot that they actually worked there and instead wanted to hang out and be cool.	servers	service	negative
+1276	A great way to make some money is to buy a case of snapple from Costco and sell it right outside for only $2.50.	case of snapple	experience	neutral
+730	It's all about the food !!	food	food	positive
+1870	Fast service.	service	service	positive
+1460	The decor is nice, but more casual than fine dining.	decor	atmosphere	conflict
+307	This restaurant is a wonderful place to go many times and it is reasonably priced.	priced	experience, and price	positive
+1625	The only thing the waiters don't do for you is wipe your chin when you leave.	waiters	service	positive
+3047	We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.	staff	service	negative
+3108	The food is good, but very expensive for the casualness of it.	food	food, and price	conflict
+3439	The only fallback on this restaurant is the prices.	prices	price	negative
+1604	I've been to Naples 45 for dinner twice.	dinner	experience	neutral
+351	Try sushimi cucumber roll.	sushimi cucumber roll	food	positive
+988	The food is delicious.	food	food	positive
