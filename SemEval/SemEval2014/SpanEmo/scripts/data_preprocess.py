@@ -14,7 +14,7 @@ with open('../predict.csv') as f:
         price.append(row[6])
 
 targets = []
-with open('../../semEval2014_test.tsv') as f:
+with open('../../semEval2014_test.tsvw') as f:
     reader = csv.reader(f, delimiter='\t')
     next(reader)
     for row in reader:

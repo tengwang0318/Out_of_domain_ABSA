@@ -153,8 +153,8 @@ class Trainer(object):
         """
         current_size = len(self.val_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 6]),
-            'y_pred': np.zeros([current_size, 6])
+            'y_true': np.zeros([current_size, 5]),
+            'y_pred': np.zeros([current_size, 5])
         }
         overall_val_loss = 0.0
         self.model.eval()
@@ -197,8 +197,8 @@ class EvaluateOnTest(object):
         self.model.eval()
         current_size = len(self.test_data_loader.dataset)
         preds_dict = {
-            'y_true': np.zeros([current_size, 6]),
-            'y_pred': np.zeros([current_size, 6])
+            'y_true': np.zeros([current_size, 5]),
+            'y_pred': np.zeros([current_size, 5])
         }
         start_time = time.time()
         with torch.no_grad():
@@ -214,7 +214,7 @@ class EvaluateOnTest(object):
                     preds_dict['y_pred'][current_index: current_index + num_rows, :] = y_pred
                     index_dict += num_rows
                     for i in range(num_rows):
-                        writer.writerow([ids[i], "", ] + y_pred[i].tolist())
+                        writer.writerow([ids[i].item(), "", ] + y_pred[i].tolist())
 
         y_true, y_pred = preds_dict['y_true'], preds_dict['y_pred']
         str_stats = []
