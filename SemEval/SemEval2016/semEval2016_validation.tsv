@@ -1,0 +1,151 @@
+ID	sentence	target	aspect	polarity
+NP#4:4	I showed it to the manager, and he smilingly apologized and brought us two free desserts (but did not ask us what we wanted and so brought the last two desserts we would have asked for).	manager	service, and service	neutral
+NP#4:5	When the bill came, nothing was comped, so I told the manager very politely that we were willing to pay for the wine, but I didn't think I should have to pay for food with a maggot in it.	NULL	service	negative
+NP#4:7	The manager finally said he would comp the two glasses of wine (which cost less than the food), and made it seem like a big concession.	manager	service	negative
+NP#4:8	We paid and left because we didn't feel like arguing any more.	NULL	service	negative
+NP#4:9	I have worked in restaurants and cook a lot, and there is no way a maggot should be able to get into well prepared food.	food	food	negative
+P#6:0	Unhygienic	NULL	food	negative
+P#6:1	I do not recommend.	NULL	restaurant	negative
+P#6:3	I got hair in my food 2 times of then !	food	food	negative
+BzG#2:0	Great place, great value.	place	restaurant, and restaurant	positive
+BzG#2:1	The food is flavorful, plentiful and reasonably priced.	food	food, food, and food	positive
+BzG#2:2	The atmosphere is relaxed and casual.	atmosphere	atmosphere	positive
+BzG#2:3	It's a great place to order from or sit-in.	place	restaurant	positive
+TVU#4:0	Awesome	NULL	restaurant	positive
+TVU#4:1	Inexpensive, unassuming, great time!	NULL	restaurant, and restaurant	positive
+Z#2:0	Sushi experience was unbelievable with my fiance.	Sushi	food	positive
+Z#2:1	Try it!	NULL	restaurant	positive
+Z#2:2	Very pleased	NULL	restaurant	positive
+Y#9:0	Good creative rolls!	rolls	food, and food	positive
+Y#9:1	Yamato is an excellent place to go if youre not into sashimi, or if you have friends who doesnt like sushi much.	Yamato	restaurant	positive
+Y#9:5	The appetizers are also delicious!	appetizers	food	positive
+Z#5:0	Amazing food.	food	food	positive
+Z#5:1	Mazing interior.	interior	atmosphere	negative
+Z#5:2	Great food!	food	food	positive
+Z#5:3	I've had my fair share of modern Japanese and this spot delivers.	modern Japanese	food	positive
+Z#5:5	If you're into being lost when you're just five feet from your table then hey, that's a good thing.	NULL	atmosphere	negative
+TM#4:0	Indo Chinese food, pretty good...	Indo Chinese food	food	positive
+TM#4:3	My mom originally introduced me to this place, but even she (being Indian) feels the food can be somewhat over the top spicy and far too oily.	food	food	negative
+TM#4:4	Still we keep going back :)	NULL	restaurant	positive
+TFS#11:0	I was speechless by the horrible food.	food	food	negative
+TFS#11:1	I attended a holiday dinner at the restaurant, and the food was majorly disappointing.	food	food	negative
+TFS#11:4	I was so stunned, and I left the dinner hungry and majorly disappointing.	NULL	restaurant	negative
+TFS#11:5	This place survives on reputation alone.	place	restaurant	negative
+TFS#11:6	I will NEVER return.	NULL	restaurant	negative
+ADLT#10:0	Best In ALL of NYC	NULL	restaurant	positive
+ADLT#10:1	This is the MOST wonderful restaurant in all of New York City, not just Brooklyn...	restaurant	restaurant	positive
+ADLT#10:2	for 7 years they have put out the most tasty, most delicious food and kept it that way...	food	food	positive
+ADLT#10:5	you should travel from the Bronx to try it...	NULL	restaurant	positive
+ADLT#10:7	so delicious!!!!!!	NULL	food	positive
+PP#3:0	Patsy's Pizza = true love	Patsy's Pizza	restaurant	positive
+PP#3:1	Hands down the best pizza on the planet.	pizza	food	positive
+PP#3:3	In about 12 minutes, the thing is gone.	NULL	food	positive
+BHD#6:0	great hot dogs..	hot dogs	food	positive
+BHD#6:1	the hot dogs were juicy and tender inside and had plenty of crunch and snap on the outside.	hot dogs	food	positive
+TM#5:0	great taste	NULL	food	positive
+TM#5:1	Great, original taste.	NULL	food	positive
+TM#5:4	The only thing that strikes you is the decor?(not very pleasant).	decor	atmosphere	negative
+TM#6:0	great food	food	food	positive
+TM#6:1	This place has great indian chinese food.	indian chinese food	food	positive
+TM#6:2	The flavors are amazing and the value is phenomenal.	NULL	food, and food	positive
+TM#6:3	Be prepared to wait, because the place is pretty tiny.	place	restaurant	negative
+TM#6:4	Also, they do not take credit card so come with cash!	NULL	restaurant	neutral
+TM#6:6	Best Indian Chinese in the city, by far!	Indian Chinese	food	positive
+TVU#6:0	AMAZING MY FAVORITE!!!	NULL	restaurant	positive
+TVU#6:2	I came across Village Underground by accident, now I go there all the time.	Village Underground	restaurant	positive
+TVU#6:3	The martinis are amazing and very fairly priced.	martinis	drinks, and drinks	positive
+TVU#6:6	You can get a table without a reservation if you get there early I they don't make you by bottles.	NULL	service	positive
+TVU#6:7	Which lets face it....at times it's a good thing.	NULL	service	positive
+TVU#6:8	In the end you end up with a fair tab and NOTHING BUT A GREAT TIME!!!	NULL	restaurant, and restaurant	positive
+TVU#6:9	Highly recommended!	NULL	restaurant	positive
+ADLT#3:0	One of the best, if not THE best, restaurants in Park Slope (and NY in general)	NULL	restaurant	positive
+ADLT#3:1	Everything on the menu is great. 	menu	food	positive
+ADLT#3:2	This establishment is the real deal. 	establishment	restaurant	positive
+TFS#5:2	But $500 for a dinner for two that didn't include Wine?	dinner for two	food	negative
+TFS#5:4	Look, the appetizers were really good.	appetizers	food	positive
+TFS#5:5	The entree was also very good.	entree	food	positive
+TFS#5:6	Can't argue about that, but they are clearly over priced.	NULL	food	negative
+TFS#5:8	Yes, the place is classy and beautiful, but they most certainly target the uber whealthy Not the common joe that wants to go all out every once in a while.	place	atmosphere, and restaurant	neutral
+TFS#5:12	Which of course is not real Kobe but Wagyu beef.	NULL	food	negative
+TFS#5:13	Surprised that a place of this caliber would advertise it as Kobe.	NULL	restaurant	negative
+TFS#5:16	Vanison was good but not amazing.	Vanison	food	neutral
+TFS#5:17	Bison was quite excellent however.	Bison	food	positive
+TFS#5:18	Dessert: pure disaster.	Dessert	food	negative
+TFS#5:19	Just not good at all.	NULL	food	negative
+TFS#5:20	Some Pineapple covered in a glaze of some kind and some pear tart thing Not impressive at all.	NULL	food, and food	negative
+TFS#5:21	I read reviews that called the restaurant too expensive and I thought to myself, but may be it is worth it.	restaurant	restaurant, and restaurant	negative
+TFS#5:23	"The Four Seasons has history and it is a sort of landmark of New York City restaurants, but trust me, they will charge you through the nose just so that you can say ""I've been to the four seasons restaurant""."	The Four Seasons	restaurant, and restaurant	negative
+TFS#5:24	I wanted to go there to see if it was worth it and sadly, curiousity got the best of me and I paid dearly for it.	NULL	restaurant, and restaurant	negative
+TFS#5:27	If you are going for the food, it will not be worth it.	food	food	negative
+TFS#5:29	You would think they would make up for it with service, sadly, no.	service	service	negative
+CLF#3:0	Terrible Waste of money.. scammers	NULL	restaurant, and restaurant	negative
+CLF#3:1	I agree that dining at Casa La Femme is like no other dining experience!	Casa La Femme	restaurant	negative
+CLF#3:3	I am actually offended to have spent so much money on such a bad experience.	NULL	restaurant, and restaurant	negative
+CLF#3:4	I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time.	Casa La Femme	restaurant, and restaurant	negative
+CLF#3:6	Our visit their to say the least, was an unpleasant and costly experience!	NULL	restaurant, and restaurant	negative
+CLF#3:7	And even more so unpleasant because it was so costly for such an unpleasant experience.	NULL	restaurant, and restaurant	negative
+CLF#3:8	We did arrive late for our reservation so I can not complain too much about the wait for a table.	wait	service	neutral
+CLF#3:9	Although we were told 10-15 minutes and it was more like 45 minutes.	NULL	service	negative
+CLF#3:10	We were ushered to the bar to wait momentarily and upon arrival were so excited.	NULL	restaurant	positive
+CLF#3:11	The place is beautiful!	place	atmosphere	positive
+CLF#3:12	The hostess was very pleasant.	hostess	service	positive
+CLF#3:13	However, our $14 drinks were were horrible!	drinks	drinks, and drinks	negative
+CLF#3:14	Once we finally got a table, despite indicating we wanted an alla carte menu we were pushed into a table that was only price fixed!	NULL	service	negative
+CLF#3:16	Our experience did not ever get any better.	NULL	restaurant	negative
+CLF#3:17	For each course we waited over 1/2 hour to 45 minutes and were never offered a drink.	NULL	service	negative
+CLF#3:18	We also asked for Hooka six times and the waiter kept telling us one minute and never returning with the Hooka.	waiter	service	negative
+CLF#3:19	After the 4th time i asked again and the waiter than said after our dinner.	waiter	service	negative
+CLF#3:20	We asked for beverages and never received them.	NULL	service	negative
+CLF#3:21	We asked for sides which the waiter than admitted that he forgot to put in that part of our order.	waiter	service	negative
+CLF#3:22	My chicken was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin.	chicken	food	negative
+CLF#3:23	I would not expect this for a $55 dinner.	dinner	food, and food	negative
+CLF#3:24	By the time we finished our dinner we still had not received one beverage NOR hooka!	NULL	service	negative
+CLF#3:25	What we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka.. some of which we never received!	NULL	service	negative
+CLF#3:26	The only beverage we did receive was water in dirty glasses!	NULL	service	negative
+CLF#3:27	To top it all off.. the main reason we came to your restaurant was for the belly dancers and missed the first show as we were not seated yet and the 2nd belly dancer only danced at two tables in the back of the restaurant and never made it around to the other half of the restaurant.	NULL	service, and restaurant	negative
+CLF#3:30	I have never left a restaurant feeling as if i was abused, and wasted my hard earned money.	restaurant	restaurant, and restaurant	negative
+CLF#3:31	MY husbands birthday and my sons was not as it was intended... and we drove two hours to spend too much money to be treated terribly!	NULL	restaurant, restaurant, and service	negative
+CLF#3:32	I wish I COULD be refunded!	NULL	restaurant	negative
+BFC#9:0	Don't go with a larger group than 4! 	NULL	restaurant	negative
+BFC#9:4	At first we were a little taken aback, as this seemed to present a problem, although the restaurant looked fairly empty, but they hastily put the table together for us.	NULL	service	positive
+BFC#9:5	The menu is fairly simple without much descriptions. 	menu	food	neutral
+BFC#9:6	There was no tap beer that evening, which was a disappointment. 	beer	drinks	negative
+BFC#9:7	Not much of a selection of bottled beer either, we went with Brahma. 	selection of bottled beer	drinks	negative
+BFC#9:9	The lobster knuckles (special of the day) were ok, but pretty tasteless.	lobster knuckles	food, and food	negative
+BFC#9:10	"I believe there were 2 shrimp in the ""salt encrusted shrimp"" appetizer. "	"""salt encrusted shrimp"" appetizer"	food	negative
+BFC#9:14	"She replied ""well it would be more convenient for us if you ordered now, since you are a larger party, and it might get crowded."" "	NULL	service	negative
+BFC#9:16	The food arrived in about 15 minutes. 	NULL	service	neutral
+BFC#9:17	I had the Thai style Fried Sea Bass...which was very good. 	Thai style Fried Sea Bass	food	positive
+BFC#9:19	I heard the lobster roll was excellent. 	lobster roll	food	positive
+BFC#9:20	They seemed to continue to rush us along, taking plates without asking if we were done (my sister still had her fork in hand). 	NULL	service	negative
+BFC#9:21	All in all the food was good - a little on the expensive side, but fresh. 	food	food, and food	neutral
+BFC#9:22	"Service not the friendliest to our ""large party""! "	Service	service	negative
+BFC#9:23	Probably would not go back here.	NULL	restaurant	negative
+BG#5:0	Great Indian food	Indian food	food	positive
+BG#5:2	Food was amazing - I love Indian food and eat it quite regularly, but I can say this is one of the best I've had.	Food	food	positive
+BG#5:3	"Very ""normal Indian food"", but done really well."	Indian food	food, and food	positive
+BG#5:5	Also, waiters try to push more food on you, like suggest things as if they are complimentary when they actually cost $.	waiters	service	negative
+BG#5:6	I don't appreciate places or people that try to drive up the bill without the patron's knowledge so that was a huge turnoff (more than the price).	NULL	service, and restaurant	negative
+BG#8:0	One of the BEST	NULL	restaurant	positive
+BG#8:1	"Bukhara Grill, the tagline says it all.. ""INDIAN SPICE RAVE"""	Bukhara Grill	restaurant	positive
+BG#8:3	The lunch buffet is expensive but is deff worth it.	lunch buffet	food, and food	neutral
+BG#8:6	Bukhara is on my top 5 Indian places in NYC	Bukhara	restaurant	positive
+DBG#2:0	Wretched and retching	NULL	restaurant	negative
+DBG#2:4	For starters they delivered us someone else's order.	NULL	service	negative
+DBG#2:9	None was made so i hung up.	NULL	service	negative
+DBG#2:10	Less than three minutes passed before I found myself doubled over the toilet.	NULL	food	negative
+DBG#2:14	It wasn't as if this restaurant had any major bragging points before hand, but now it's simply repulsive.	restaurant	restaurant	negative
+DBG#2:15	Eat at your own risk.	NULL	food	negative
+CLF#7:0	Gorgeous place ideal for a romantic dinner	place	atmosphere, and restaurant	positive
+CLF#7:4	I completely recommend Casa La Femme for any special occasion and to REALLY impress your date.	Casa La Femme	restaurant	positive
+DBG#7:0	More Williamsburg Garbage	NULL	restaurant	negative
+DBG#7:3	The dishes came out around 5 minutes apart.	NULL	service	negative
+DBG#7:5	Too bad I had paid an extra $2 for the stone bowl.	stone bowl	food	negative
+DBG#7:6	The nakgi-bokum was horrible.	nakgi-bokum	food	negative
+DBG#7:7	Easily the worst stir-fried squid I've ever tasted.	stir-fried squid	food	negative
+DBG#7:8	The sauce tasted more like Chinese fast food than decent Korean.	sauce	food	negative
+DBG#7:9	The side dishes were passable, and I did get a refill upon request.	side dishes	food, and food	neutral
+DBG#7:10	The real problem I had with this place was the complete lack of service.	service	service	negative
+DBG#7:12	She just nodded and walked off.	NULL	service	negative
+DBG#7:14	As to my comment about the food, no apology or acknowledgment was made.	NULL	service	negative
+DBG#7:15	My wife had barely touched that mess of a dish.	dish	food	negative

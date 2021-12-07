@@ -20,7 +20,7 @@ with open('../../semEval2015_test.tsv') as f:
     next(reader)
     for row in reader:
         targets.append(row[2])
-with open("../../data/fakerSemEval15.tsv", 'w') as f:
+with open("../../fakerSemEval15.tsv", 'w') as f:
     writer = csv.writer(f, delimiter='\t')
 
     writer.writerow(['ID', 'sentence', 'target', 'aspect', 'polarity'])

@@ -2,7 +2,7 @@ import csv
 from collections import defaultdict
 
 id_to_text = defaultdict(list)
-with open("../../aspect_test.csv", 'r') as f:
+with open("../SemEval16/SevEval2016SpanEmo.csv", 'r') as f:
     reader = csv.reader(f)
     next(reader)
     for row in reader:
@@ -20,11 +20,9 @@ with open('../predict.csv') as f:
         id_to_text[row[0]].append(row[6])
         id_to_text[row[0]].append(row[7])
 # print(id_to_text)
-# food,restaurant,service,atmosphere,drinks,location
 with open('../predict.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(
-        ['ID', 'text', 'food', 'restaurant', 'service', 'atmosphere', 'drinks', 'location'])
+        ['ID', 'text', 'food', 'restaurant', 'atmosphere', 'drinks', 'location', 'service'])
     for _id in id_to_text.keys():
         writer.writerow([_id] + id_to_text[_id])
-

@@ -1,0 +1,132 @@
+ID	sentence	target	aspect	polarity
+DBG#7:16	We were charged full price.	NULL	service	negative
+ADLT#9:0	Lives up to the hype	NULL	restaurant	positive
+ADLT#9:2	We've tried before but it always packed and doesn't take reservations.	NULL	restaurant	neutral
+ADLT#9:3	It was well worth the wait.	NULL	restaurant	positive
+ADLT#9:4	The wife had the risotto which was amazing.	risotto	food	positive
+ADLT#9:5	It doesn't look appetizing as it's covered in squid ink and it turns your lips and teeth black, but the taste was phenomenal.	NULL	food, and food	neutral
+EVPK#4:1	Love this place, every time we are in the city this is one of the places we always go.	place	restaurant	positive
+EVPK#4:2	A quintessential slice of NYC pizza.	slice of NYC pizza	food	neutral
+Z#6:0	Possibly the Most Romantic Restaurant in the City	Restaurant	atmosphere	positive
+Z#6:1	This is undoubtedly my favorite modern Japanese brasserie (that don’t serve sushi), and in my opinion, one of the most romantic restaurants in the city!	modern Japanese brasserie	restaurant, and atmosphere	positive
+Z#6:5	My party had the BBE $29 fixe prix menu, which was such a wonderful deal since it also came with a flight of sake!	BBE $29 fixe prix menu	food, and food	positive
+Z#6:7	We started off with a delightful sashimi amuse bouche.	sashimi amuse bouche	food	positive
+Z#6:11	The sake’s complimented the courses very well and is successfully easing me into the sake world.	sake’s	drinks	positive
+Z#6:13	Maybe it was the great company (I had friends visiting from Philly – yes, it was not a date this time) or the super reasonable price point, but I just can’t say enough good things about this brasserie.	brasserie	restaurant, and restaurant	positive
+Z#6:14	I don’t usually visit the same establishment more than once, what more twice, but I’ll come to Zenkichi anytime for a quiet, unhurried and memorable dinner.	Zenkichi	restaurant, and atmosphere	positive
+CLF#6:0	Terrible would be a compliment!	NULL	restaurant	negative
+CLF#6:1	The service leaves much to be desired, from feeling like you are rushed the place your order, to being ignored the rest of the night.	service	service	negative
+CLF#6:3	We paid a fixed pricce but got nothing!!	NULL	service	negative
+CLF#6:4	We never ate because by close to 2 in the monring we were not served and were too upset ad tired to start eating.	NULL	service	negative
+CLF#6:6	Stay away	NULL	restaurant	negative
+DBG#6:0	Great Shabu Shabu	Shabu Shabu	food	positive
+DBG#6:2	I love it.	NULL	restaurant	positive
+DBG#6:4	I tried a couple other dishes but wasn't too impressed.	dishes	food	neutral
+DBG#6:5	But for the Shabu Shabu, you won't find much better in NY.	Shabu Shabu	food	positive
+TR#5:0	Restaurant with a view	view	location	neutral
+TR#5:2	The food tasted very good.	food	food	positive
+TR#5:3	The family seafood entree was very good.	family seafood entree	food	positive
+TR#5:4	The main entree was also very good.	main entree	food	positive
+Z#7:0	This place doesn't make any sense	place	restaurant	negative
+Z#7:1	Just want to warn you all - don't waste your time and money.	NULL	restaurant	negative
+Z#7:4	The concept of japanese tapas is newly created and clearly doesn't work.	japanese tapas	food	negative
+Z#7:5	The food they serve is not comforting, not appetizing and uncooked.	food	food	negative
+Z#10:0	Good Food	Food	food	positive
+Z#10:3	Over all it was a very nice romantic place .	place	restaurant, and atmosphere	positive
+P#7:0	Loved it	NULL	restaurant	positive
+P#7:1	A coworker and I tried Pacifico after work a few Fridays and loved it.	Pacifico	restaurant	positive
+P#7:2	The atmosphere was great.	atmosphere	atmosphere	positive
+P#7:4	Our waitress wasn't mean, but not especially warm or attentive either.	waitress	service	neutral
+P#7:5	I must say I am surprised by the bad reviews of the restaurant earlier in the year, though.	restaurant	restaurant	positive
+FF#4:0	Dumbfoundingly Poor	NULL	restaurant	negative
+FF#4:1	This was, from start to finish, a mind-bogglingly uncomfortable experience.	NULL	restaurant	negative
+FF#4:2	Lexicographers take note: a new and fascinating definition of rudeness is alive and flourishing right here in Brooklyn.	NULL	service	negative
+FF#4:3	The servers at Flatbush Farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention.	servers	service	negative
+FF#4:4	Polite acknowledgement is out;	NULL	service	negative
+FF#4:5	supercilious scorn is in.	NULL	service	negative
+FF#4:6	And how many times can you pick up the same perfectly aligned set of napkins, inspect them vapidly and plonk them down in exactly the same place instead of venturing a glance at people who are there to help you make the rent?	NULL	service	negative
+FF#4:10	At $120 for two people, however, this in no way represents value, unless you're looking to pay by the hour for passive-aggressive torture.	NULL	restaurant, restaurant, and service	negative
+FF#4:11	On that scale, it's a world-beater.	NULL	restaurant	negative
+FF#3:0	How is this palce still open?	palce	restaurant	negative
+FF#3:1	I honestly don't even know where to begin.	NULL	restaurant	negative
+FF#3:3	We arrived and were seated immediately, which made us both happy.	NULL	service	positive
+FF#3:6	I took one look at the chicken and I was appalled.	chicken	food	negative
+FF#3:9	I took one bite from the $24 salmon, and I have never, in the 17 years I have been going to restaurants tasted salmon as fishy, as dry, and as bland as the one in Flatbush Farms.	salmon	food, and food	negative
+FF#3:10	At this point, the waitress comes over and asks us if everything was okay, I was literally so shocked that I was speechless and didn't say anything, and guess what, the waitress WALKED away.	waitress	service	negative
+FF#3:11	So, I switch with my boyfriend again to see if maybe I could stomach the meat and spinach again, but the spinach was so undercooked that I just could not bite through it.	spinach	food	negative
+FF#3:12	I couldn't even enjoy the mashed potatoes because it was hidden completely under the chicken and spinach.	NULL	food	negative
+FF#3:14	So I decide to report back to the waitress because it was completely inedible.	NULL	food	negative
+FF#3:15	"Guess what, I waited for TWENTY minutes before she came over and when she finally did, she says, ""oh well, I wish you would have said something earlier"" No apology, nothing."	NULL	service	negative
+FF#3:16	After that she simply took our plates, walked away, came back another TWENTY minutes later with the bill and the chicken on it!!!!!!!!!!!!	NULL	service	negative
+FF#3:17	No desert menu, no apology, nothing!!!!!!	NULL	service	negative
+FF#3:19	This is where it really really gets bad: the manager said, there is absolutely nothing we can do, it's a matter of taste that she didn't like it, and I cannot comp it.	manager	service	negative
+FF#3:20	Again, no apology, no is there anything else I can get you, no can I get you a drink to make up for it, nothing!!!!	NULL	service	negative
+FF#3:22	The level of rudeness was preposterous.	NULL	service	negative
+FF#3:24	I HAVE NEVER EVER HAD SUCH AN UNPLEASANT EXPERIENCE.	NULL	restaurant	negative
+FF#3:25	THIS STAFF SHOULD BE FIRED.	STAFF	service	negative
+EVPK#9:0	cirspy crust margherita pizza	margherita pizza	food	positive
+EVPK#9:2	it was really good pizza.	pizza	food	positive
+EVPK#9:4	you know what i mean all the positives things happening there made mw write this review.	NULL	restaurant	positive
+CLF#4:0	Single Worst Restaurant in Manhattan	Restaurant	restaurant	negative
+CLF#4:3	If I could give 0 stars I would do so for this place.	place	restaurant	negative
+CLF#4:5	The reason there are 4 different results on citysearch for the same place is because they keep trying to start a new thread so they can stock it with positive reviews.	NULL	restaurant	negative
+CLF#4:6	Well...they can run but they can't hide.	NULL	restaurant	negative
+CLF#4:10	This place...god where do i begin.	place	restaurant	negative
+CLF#4:11	It is quite a spectacular scene i'll give them that.	scene	atmosphere	positive
+CLF#4:13	How this place survives the competitive west village market in this economy, or any other for that matter, is beyond me.	place	restaurant	negative
+BHD#4:0	Great Hot Dogs!	Hot Dogs	food	positive
+BHD#4:5	Only complaint is the pricing--I believe it would be more reasonable to pay a dollar less on each item listed on the menu.	menu	food	negative
+BFC#7:2	It's a little out of our price range for dining there except on special occasions, but we've eaten there 6 times in the last 2 years. 	NULL	restaurant	negative
+BFC#7:5	The frizzy retro girl (with winged/ Dame Edna glasses) will yell at you if you try to order a drink. 	girl	service	negative
+BFC#7:6	"I was almost amused by the fact that she was turning away customers at 9pm on a Friday night because she ""had a BBQ to go to"" that night - WTF??"	NULL	service	negative
+BFC#7:7	I'd be horrified if my staff were turning away customers so early and so rudely!	staff	service	negative
+BFC#7:8	"There's another girl who I can't describe, she is about 5'6"" with brown hair, who eavesdrops on your conversation and chimes in - except she only hears the last part of what you said, so her uninvited opinions are often out of context and nothing to do with what you're *really* talking about. "	girl	service	negative
+BFC#7:9	I'm a friendly person, so I wouldn't mind had she not been so nasty and gotten so personal. 	NULL	service	negative
+BFC#7:10	Again, I'd be super upset if that were my employee.	NULL	service	negative
+BFC#7:12	So, if you're walking by and thinking about dining, you might want to see who's going to be seating you first...	NULL	service	negative
+ADLT#6:0	"Maitre-D-""Eat and get out"""	Maitre-D	service	negative
+ADLT#6:3	While finishing our meals which included a high-end bottle of wine, our son's fiance joined us for a glass of wine and dessert.	bottle of wine	drinks	positive
+ADLT#6:4	This guy refused to seat her and she left, followed shortly by the four of us, but not before I told him that in my 40 years of world travel, including Paris, that I had never seen such a display of bad behavior by a frontman in a restaurant.	frontman	service	negative
+ADLT#6:5	His response was smug, arrogant, and condescending, totally consistent with his deportment on display all evening.	NULL	service	negative
+ADLT#6:6	"A word to the wise: you can't dine here and disturb the maitre-D's sense of "" table turnover"", as whacked as it is, or else."	maitre-D	service	negative
+ADLT#6:7	If you go here, do it on his off-night.	NULL	service	negative
+NP#9:0	Best meal in a long time!	meal	food	positive
+NP#9:2	I had the Lamb special which was perfect.	Lamb special	food	positive
+NP#9:3	My father had the flank steak which was very good, and my mother had the swordfish.	flank steak	food	positive
+TFS#2:0	The Four Seasons restaurant is a great experience.	The Four Seasons restaurant	restaurant	positive
+TFS#2:2	Everyone must come here at least once.	NULL	restaurant	positive
+TFS#2:3	Highly recommend it!	NULL	restaurant	positive
+BHD#8:0	Taking Hot Dogs to the next level	Hot Dogs	food	positive
+BHD#8:2	Here the hot dog is elevated to the level of a real entree with numerous variations available.	hot dog	food, and food	positive
+P#3:0	Great Atmosphere	Atmosphere	atmosphere	positive
+CLF#8:1	Don’t go to this place!	place	restaurant	negative
+CLF#8:2	Had an awful experience at Casa la Femme on a Saturday dinner.	Casa la Femme	restaurant	negative
+CLF#8:3	Appetizers took nearly an hour.	NULL	service	negative
+CLF#8:4	When the main course finally arrived (another 45mins) half of our order was missing.	NULL	service	negative
+CLF#8:5	Never got an explanation as to what was going on.	NULL	service	negative
+CLF#8:6	The manager was rude and handled the situation extremely poorly.	manager	service	negative
+CLF#8:7	When we threatened to leave, we were offered a meager discount even though half the order was missing.	NULL	service	negative
+CLF#8:8	On the way out, we heard of other guests complaining about similar issues.	NULL	service	negative
+ADLT#11:0	What a hassle!	NULL	restaurant	negative
+ADLT#11:1	The food is very good, but not outstanding.	food	food	neutral
+ADLT#11:3	On our last visit, they skipped over our name on the list, leaving us waiting an extra hour for a table.	NULL	service	negative
+ADLT#11:4	Mistakes happen, but they are usually accompanied by an apology, perhaps even a glass of wine...but not the grunt that we received from the Al Di La staff.	staff	service	negative
+WE#1:0	Expensive	NULL	restaurant	negative
+WE#1:4	The pasta was well cooked, didn't have enough sauce though or flavor.	pasta	food, food, and food	neutral
+FF#6:0	So rude!!!	NULL	service	negative
+FF#6:3	I was one of the people that went for this horrible experience.	NULL	restaurant	negative
+FF#6:6	The only thing that my friend left out is that when we sat down at the bar the bartender disappeared.	bartender	service	negative
+FF#6:7	I asked for a menu and the same waitress looked at my like I was insane.	waitress	service	negative
+FF#6:8	"I was shocked that my friends wanted to stay after the waitress said, ""can I help you"" and ""how many are in your party."""	waitress	service	negative
+FF#6:10	The three of us standing in front of her should have been an indication of how many of us there were.	NULL	service	negative
+FF#6:11	We didn't look like the other patrons in there so unfortunately I think that may have been part of the problem.	NULL	restaurant	negative
+FF#10:0	bad staff	staff	service	negative
+FF#10:1	I generally like this place.	place	restaurant	positive
+FF#10:2	The food is good.	food	food	positive
+FF#10:3	The design of the space is good.	space	atmosphere	positive
+FF#10:4	But the service is HORRID!	service	service	negative
+FF#10:6	The waiter delivered our food while holding what appeared to be a plastic bag of garbage in one hand.	waiter	service	negative
+FF#10:7	I can't believe that it was, but please put the bag down before delivering food!	NULL	service	negative
+FF#10:8	The waitress came to check in on us every few minutes, and began to clear the plates while half of us were still eating (a big pet peeve of mine that happens almost everywhere, so I try to ignore it).	waitress	service	negative
+FF#10:9	I couldn't ignore the fact that she reach over the plate of one of my friends, who was in mid bite, to clear the table.	NULL	service	negative
+FF#10:10	She then put the check down without asking if we were done, and came to check on the bill every two minutes, even though we were one of three occupied tables.	NULL	service	negative
