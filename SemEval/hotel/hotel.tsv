@@ -1,0 +1,157 @@
+ID	sentence	target	aspect	polarity
+73821_30#0	Room Was Acceptable	Room	rooms	neutral
+73821_30#3	The internet access from the room was $9.95 for a 24 hour period.	internet access	rooms_amenities	negative
+73821_30#4	To check in for my flight using the business center cost me $4.59 which included three minutes use of the internet and printing seven pages for my boarding pass.	business center	facilities	negative
+73821_30#6	Staff was very pleasant and helpful.	Staff	service	positive
+73821_3#0	Great stay!	NULL	hotel	positive
+73821_3#2	What a wonderful choice.	NULL	hotel	positive
+73821_3#3	Check in was fast and courteous.	Check in	service	positive
+73821_3#5	Food was outstanding, for both the conference and on my own.	Food	food_drinks	positive
+73821_3#6	Pool was refreshing on the hot days.	Pool	facilities	positive
+73821_3#8	I will definitely stay here again conference or not.	NULL	hotel	positive
+73821_26#0	Good Business Hotel	Hotel	hotel	positive
+73821_26#1	Very nice hotel for business travelers - very few kids.	hotel	hotel	positive
+73821_26#4	I had excellent shuttle service.	shuttle service	facilities	positive
+73821_26#6	The only downside was a per minute charge to use the business center computers.	business center computers	facilities	negative
+73821_21#0	Perfectly Close to the Airport	NULL	location	positive
+73821_21#1	I booked this because of it's proximity to the airport for our departure.	NULL	location	positive
+73821_21#2	The staff was friendly and helpful, they upgraded our room to queen beds without us asking.	staff	service	positive
+73821_21#4	The 24 hour shuttle to the airport is very, very convenient and gets you there in about 4 minutes.	24 hour shuttle	facilities	positive
+73821_2#0	A Great Hotel	Hotel	hotel	positive
+73821_2#1	Our stay at this hotel was wonderful.	hotel	hotel	positive
+73821_2#2	The staff was very courteous upon check-in.	staff	service	positive
+73821_2#3	Our room was perfectly spotless.	room	rooms	positive
+73821_2#4	(I had to use an outlet behind the headboard, and expected to see some type of dirt when I pulled the bed out, but to my surprise, not even dust!)	NULL	rooms	positive
+73821_2#6	Some nice touches of southwest decor here and there.	NULL	rooms	positive
+73821_2#7	No problems whatsoever, and I would recommend this hotel to anybody.	hotel	hotel	positive
+73739_13#3	She immediately began to yell that if I wanted an upgrade I would have to pay for it.	NULL	service	negative
+73739_13#5	The same desk clerk started to yell again stating that she had told me when I called that I could upgrade for a charge and that was her rules.	desk clerk	service	negative
+73739_13#8	She completely ignored me and just kept on yelling.	NULL	service	negative
+73739_13#9	I asked to speak to the manager and she told me she was the manager when in fact the manager's name was clearly displayed on the wall.	NULL	service	negative
+73739_13#11	This incident was very humiliating as other guests were present.	NULL	service	negative
+73739_13#12	I am writing this review because this kind of behavior was totally unacceptable and hopefully no other guests will be treated in this manner.	NULL	service	negative
+73727_9#0	Not bad for one night	NULL	hotel	neutral
+73727_9#2	Front desk staff were friendly and helpful both with early check-in and an early check-out.	Front desk staff	service	positive
+73727_9#5	Ideal location.	location	location	positive
+73727_9#6	Very affordable rate at low $50s.	NULL	hotel	positive
+73727_15#0	Well below average	NULL	hotel	negative
+73727_15#2	Unfortunately, this is below average.	NULL	hotel	negative
+73727_15#4	The hotel shows its age and badly needs refurbishing.	hotel	hotel	negative
+73727_15#5	Bathroom sink was on a slight slant because it was pulling out of the wall.	Bathroom sink	rooms	negative
+73727_15#6	Nothing is especially terrible or unacceptable about this hotel.	hotel	hotel	neutral
+73727_15#7	It is just subpar.	NULL	hotel	negative
+73727_13#0	Don't do it!!	NULL	hotel	negative
+73727_13#2	The pictures they provide on the web do not tell the story so don't be fooled.	NULL	hotel	negative
+73718_2#0	Great Restaurant	Restaurant	facilities	positive
+73718_2#1	This property has really improved since our last stay.	property	hotel	positive
+73718_2#3	The restaurant downstairs is the best kept secret in the area!	restaurant	facilities	positive
+73718_2#5	Staff was courteous and efficient.	Staff	service	positive
+73727_17#0	I keep on coming back!	NULL	hotel	positive
+73727_17#1	I've been going to this place every year and I keep on coming back to this hotel.	hotel	hotel	positive
+73727_17#3	The breakfast is excellent!	breakfast	food_drinks	positive
+73727_17#4	It is rare that hotels in this class serve hot meals, yet they do!	meals	food_drinks	positive
+73727_17#5	Breakfast is fit for a king.	Breakfast	food_drinks	positive
+73727_17#6	Plus, the staff at the front desk are always courteous and friendly.	staff at the front desk	service	positive
+73727_17#8	And the hotel is right in the middle of everywhere.	hotel	location	positive
+73821_19#1	Got a great price of $64 per night.	NULL	hotel	positive
+73821_19#6	Close to Scottsdale and the University.	NULL	location	positive
+73718_1#0	Price was right	NULL	hotel	positive
+73718_1#1	Pleasantly surprised at $69 night.	NULL	hotel	positive
+73718_1#3	Stayed there because it was near Banner Hospital.	NULL	location	positive
+73718_17#0	Friendly Staff	Staff	service	positive
+73718_17#2	The staff was extremely helpful and friendly.	staff	service	positive
+73718_17#3	I would say they are the best part of the hotel!	NULL	service	positive
+73718_24#0	Administrative Issues	NULL	service	negative
+73718_24#2	I've tried to obtain a receipt for my stay to replace one I lost and have been ignored.	NULL	service	negative
+73718_24#4	It's not a recipe for another stay.	NULL	hotel	negative
+73718_4#0	Not impressed	NULL	hotel	negative
+73718_4#1	The desk person was in a rude mood.	desk person	service	negative
+73718_4#2	There was construction being done on the street in front of the hotel; which made it very difficult driving around.	NULL	hotel	negative
+73718_4#3	The air conditioner was very loud.	air conditioner	rooms_amenities	negative
+73718_4#4	Nothing told us that there was a free breakfast - the restaurant looked like it was closed.	restaurant	facilities	negative
+73727_1#1	Excellent service.	service	service	positive
+73727_1#3	The staff was friendly overall.	staff	service	positive
+73727_1#5	Airport shuttle service was convenient as I chose not to rent a car during this trip.	Airport shuttle service	facilities	positive
+73727_1#8	There was a few restaurants within walking distance to eat at as well.	NULL	location	positive
+73727_1#9	The conference/banquet room was great.	conference/banquet room	facilities	positive
+73727_1#11	Not sure where the location was in reference to tourist spots, etc....but for a local conference, it was perfect.	location	location	positive
+73821_17#4	I cant complain about this hotel stay.	hotel	hotel	positive
+73821_17#5	the location is in the central valley so getting to anywhere is easy with the easy access to the local freeways.	location	location	positive
+73821_17#7	I would absolutely stay here again!!	NULL	hotel	positive
+73821_24#1	I was pleasantly surprised.	NULL	hotel	positive
+73821_24#5	The continental breakfast was excellent.	continental breakfast	food_drinks	positive
+73821_24#7	They seem to have businesspeople in mind.	NULL	hotel	positive
+73739_3#0	Loved this hotel overall	hotel	hotel	positive
+73739_3#1	We loved this hotel.	hotel	hotel	positive
+73739_3#3	It was close to the airport.	NULL	location	positive
+73739_3#5	The rooms were quiet.	rooms	rooms	positive
+73739_3#10	Also 2 flat sceen tvs and lots of space in each room.	room	rooms	positive
+73739_3#11	The only complaint I had is that our suite smelled like smoke and it was a non smoking suite.	suite	rooms	negative
+73739_3#12	We turned on both air conditioners to get rid of the smell and it wouldn't go away.	NULL	rooms	negative
+73718_9#2	Understand the property is under new management and it really shows.	property	hotel	positive
+73718_9#5	Recommend this highly for the seasoned Pheonix road warrior or warriorette.	NULL	hotel	positive
+73727_12#3	No noise, though hotel was half empty I'm extremely sensitive to noise at hotels and was not disturbed both evenings or in the mornings.	hotel	hotel	positive
+73727_12#4	Is an older building but appeared to be well maintained.	building	hotel	positive
+73727_12#6	Exterior grounds well kept.	Exterior grounds	hotel	positive
+73727_12#7	Has elevators on both sides of the building.	building	hotel	positive
+73727_12#10	Hotel provides free pass to Golds Gym, a five minute walk from front door.	Hotel	hotel	positive
+73727_12#11	Staff was freindly and professional for the most part.	Staff	service	positive
+73727_12#12	Has good airport shuttle, ten minutes unless heavy traffic, then at worst 20 minutes.	airport shuttle	facilities	positive
+73727_12#13	Its convienently located in southeast phoenix, right next to Tempe.	NULL	location	positive
+73727_12#14	Nice neghborhood, safe.	neghborhood	location	positive
+73727_12#15	Would stay again.	NULL	hotel	positive
+73727_12#16	Good conference facilities too, set up well.	conference facilities	facilities	positive
+73727_16#0	"""best"" Best Western"	Best Western	hotel	positive
+73727_16#1	This hotel is the best Best Western I have stayed in.	Best Western	hotel	positive
+73727_16#4	Hotel desk staff was friendly.	Hotel desk staff	service	positive
+73727_16#7	Very comfortable room.	room	rooms	positive
+73727_16#9	Two dificulties I had were: One, the restaurant service was terrible!	restaurant service	service	negative
+73727_16#11	Then wait to give order, then wait for the food.	NULL	service	negative
+73727_16#12	The food selection was pretty good.	food selection	food_drinks	positive
+73727_16#13	One time the employee stopped to pick up dirty plates as he led me to my seat!	employee	service	negative
+73727_16#14	The other problem was the hotel manager - a young woman apparently somewhat new at her job.	hotel manager	service	negative
+73727_16#15	She tried to refuse my gold crown club points as payment for my stay.	NULL	service	negative
+73727_16#16	When I was persistent, she made a phone call and I heard her say well, i never heard of that.	NULL	service	negative
+73727_16#18	I would definitely stay here again when in the Phoenix area!	NULL	hotel	positive
+73739_12#4	- Comparatively inexpensive	NULL	hotel	positive
+73739_12#5	- Microwave, refrigerator, coffee maker in room	room	rooms	positive
+73739_12#8	- Nice staff	staff	service	positive
+73739_12#10	- Average room size.	room	rooms	neutral
+73739_12#11	- Very limited space to hang clothes	space	rooms	negative
+73739_12#12	My biggest problem was the location.	location	location	negative
+73739_12#13	It was far away from all the sites I wanted to see.	NULL	location	negative
+73821_13#0	Great airport location	location	location	positive
+73821_13#2	It was very quiet considering being so close to the airport.	NULL	hotel	positive
+73821_13#4	The food in the Bar and Grille was just ok.	food	food_drinks	neutral
+73821_13#6	You can print boarding passes at a kiosk near the front desk but it can be busy first thing in the morning so you might want to do it the day before.	kiosk	facilities	neutral
+73821_13#7	I left on the 7:00am shuttle and the ride to the airport was quick and hassle-free.	shuttle	facilities	positive
+73821_14#0	Excellent!	NULL	hotel	positive
+73821_14#1	Wow! What a great hotel!	hotel	hotel	positive
+73821_14#3	Beds were so comfortable!	Beds	rooms	positive
+73821_14#4	Staff was friendly.	Staff	service	positive
+73821_14#5	Pool was heated, had a great atmosphere with unlimited bottled water available while swimming/laying out.	Pool	facilities	positive
+73821_14#6	Offered food and drink service at the pool.	pool	facilities	positive
+73821_14#7	Room service was great!	Room service	service	positive
+73821_14#9	I had the southwestern ceasar - it was one of the best salads I've ever had!	southwestern ceasar	food_drinks	positive
+73821_14#10	I was very impressed and would come back to the HIlton Phoenix Airport again!	HIlton Phoenix Airport	hotel	positive
+73718_23#0	DO NOT STAY HERE	NULL	hotel	negative
+73718_23#4	All 4 lower rooms were 80 degrees and above.	rooms	rooms	negative
+73718_23#6	After the concert we had to change 4 of the rooms twice trying to find cooler floors.	rooms	rooms	negative
+73718_23#7	We finally gave up at 12:30 a.m. with a room that was 77 degrees - still too warm.	room	rooms	negative
+73718_23#8	And the room did not even have a shower curtain!	room	rooms	negative
+73718_23#9	I understand they are going through renovations, but they need to either do it floor by floor and close that floor or close the entire hotel until finished.	hotel	hotel	negative
+73718_16#0	Very disappointing	NULL	hotel	negative
+73718_16#1	Lots of services promised and not provided.	services	facilities	negative
+73718_16#5	Vending machines were out of everything except in the lobby.	Vending machines	facilities	negative
+73718_16#6	Staff was very friendly and a bit embarrassed about everything that wasn't available.	Staff	service	positive
+73718_16#7	The room itself was fine.	room	rooms	positive
+73727_6#0	Pay extra and stay somewhere else	NULL	hotel	negative
+73727_6#1	This has to be the worst hotel I have ever stayed in!	hotel	hotel	negative
+73727_6#3	Their was no HOT WATER!	NULL	rooms	negative
+73727_6#4	The beds are very hard.	beds	rooms	negative
+73727_6#5	The staff was friendly.	staff	service	positive
+73727_6#6	No wifi only in the hotel lobby.	NULL	rooms	negative
+73727_6#7	If you get a suite with a stove dont except dishes, pots and pans they do not provide them you have to buy your own.	suite	rooms	negative
+73727_6#8	Pay the 20 extra and stay somewhere's else	NULL	hotel	negative
+73718_19#1	I had a great time at this hotel and did not experience any of what the bad reviews are about.	hotel	hotel	positive
+73718_19#4	I would highly recommend this hotel to anyone wanting to stay in downtown Phoenix.	hotel	hotel	positive
