@@ -130,7 +130,7 @@ The input will be [CLS] + "what do you think of " + "NULL" + " of " + target  + 
 2. train and test sentimentPredictor with all aspect
 The input will be [CLS] + "what do you think of " + "all aspect"(like "food, restaurant, and drinks" ) + " of " + target + [SEP] + sentnece + [SEP].
 
-Here is the result.
+Here is the result(please ingore the last table): 
 
 
 ![image](https://user-images.githubusercontent.com/57594482/143766456-59bd0563-5bf8-4c98-9c5d-450f70921b68.png)
